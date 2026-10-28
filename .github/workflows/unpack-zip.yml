@@ -34,8 +34,8 @@ jobs:
           fi
           cp -a "$(dirname "$GRADLEW")"/. .
           rm -f "$ZIP_FILE"
-          find . -path ./.git -prune -o -type f \( -name "*.keystore" -o -name "*.jks" -o -name "*.apk" \) -print -delete
-          find . -path ./.git -prune -o -type d -name "__pycache__" -prune -exec rm -rf {} +
+          find . -type f \( -name "*.keystore" -o -name "*.jks" -o -name "*.apk" \) -not -path "./.git/*" -print -delete
+          find . -type d -name "__pycache__" -not -path "./.git/*" -prune -exec rm -rf {} +
 
       - name: Commit and push
         run: |
