@@ -90,13 +90,6 @@ jobs:
           cp "$APK" out/YourbitAI-debug.apk
           ls -lh out
 
-      - name: Upload build artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: YourbitAI-debug
-          path: out/YourbitAI-debug.apk
-          retention-days: 14
-
       - name: Publish to Releases
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -117,5 +110,4 @@ jobs:
               --generate-notes \
               $FLAGS
           fi
-          echo "APK: https://github.com/${{ github.repository }}/releases/tag/$TAG" >> "$GITHUB_
-          STEP_SUMMARY"
+          echo "APK: https://github.com/${{ github.repository }}/releases/tag/$TAG" >> "$GITHUB_STEP_SUMMARY"
