@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/app_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="24dp">
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_arrow_back"
+            android:tint="@color/app_text_primary"
+            android:contentDescription="Назад" />
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/vi_palette" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Кастомизация"
+            android:textColor="@color/app_text_primary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/bg_header_accent_divider" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:clipToPadding="false"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
+        android:paddingBottom="24dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UI"
+                android:textColor="@color/app_accent"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.08"
+                android:layout_marginBottom="8dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@drawable/bg_settings_card"
+                android:padding="18dp"
+                android:layout_marginBottom="12dp">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Тёмная тема"
+                        android:textColor="@color/app_text_primary"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:id="@+id/themeModeLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Авто: как в системе"
+                        android:textColor="@color/app_text_secondary"
+                        android:textSize="12sp"
+                        android:layout_marginTop="3dp" />
+                </LinearLayout>
+                <Switch
+                    android:id="@+id/switchTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/btnThemeAuto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:gravity="center"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="Авто"
+                    android:textColor="@color/app_accent"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bg_settings_card"
+                android:padding="18dp"
+                android:layout_marginBottom="12dp">
+                <TextView
+                    android:id="@+id/fontLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Размер текста: 100%"
+                    android:textColor="@color/app_text_primary"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="8dp" />
+                <SeekBar
+                    android:id="@+id/seekFont"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="20" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@drawable/bg_settings_card"
+                android:padding="18dp"
+                android:layout_marginBottom="12dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Анимация ответов"
+                    android:textColor="@color/app_text_primary"
+                    android:textSize="16sp" />
+                <Switch
+                    android:id="@+id/switchAnim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@drawable/bg_settings_card"
+                android:padding="18dp"
+                android:layout_marginBottom="12dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Компактный режим"
+                    android:textColor="@color/app_text_primary"
+                    android:textSize="16sp" />
+                <Switch
+                    android:id="@+id/switchCompact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@drawable/bg_settings_card"
+                android:padding="18dp"
+                android:layout_marginBottom="12dp">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Упрощённый интерфейс"
+                        android:textColor="@color/app_text_primary"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="Без подсказок на пустом чате, времени, лайков и «Поделиться» под сообщениями, размытия и кнопок прокрутки"
+                        android:textColor="@color/app_text_secondary"
+                        android:textSize="12sp" />
+                </LinearLayout>
+                <Switch
+                    android:id="@+id/switchSimple"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@drawable/bg_settings_card"
+                android:padding="18dp"
+                android:layout_marginBottom="12dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Кнопки быстрой прокрутки"
+                    android:textColor="@color/app_text_primary"
+                    android:textSize="16sp" />
+                <Switch
+                    android:id="@+id/switchJump"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@drawable/bg_settings_card"
+                android:padding="18dp"
+                android:layout_marginBottom="12dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Градиентный фон чата"
+                    android:textColor="@color/app_text_primary"
+                    android:textSize="16sp" />
+                <Switch
+                    android:id="@+id/switchLegacyBg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bg_settings_card"
+                android:padding="18dp"
+                android:layout_marginBottom="12dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Свой шрифт"
+                    android:textColor="@color/app_text_primary"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="4dp" />
+                <TextView
+                    android:id="@+id/fontFileLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Системный шрифт"
+                    android:textColor="@color/app_text_secondary"
+                    android:textSize="13sp"
+                    android:layout_marginBottom="12dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/btnPickFont"
+                        android:layout_width="0dp"
+                        android:layout_height="44dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Выбрать файл (.ttf/.otf)"
+                        android:textColor="@color/app_text_primary"
+                        android:textSize="14sp"
+                        android:background="@drawable/bg_btn_pill_grey"
+                        android:layout_marginEnd="8dp" />
+                    <TextView
+                        android:id="@+id/btnResetFont"
+                        android:layout_width="wrap_content"
+                        android:layout_height="44dp"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        android:gravity="center"
+                        android:text="Сбросить"
+                        android:textColor="@color/app_danger"
+                        android:textStyle="bold"
+                        android:textSize="14sp"
+                        android:background="@drawable/bg_btn_destructive" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Профиль"
+                android:textColor="@color/app_accent"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.08"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/btnEditUserProfile"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:gravity="center_vertical"
+                android:paddingStart="18dp"
+                android:paddingEnd="18dp"
+                android:text="Мой профиль — имя и аватар"
+                android:textColor="@color/app_text_primary"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:background="@drawable/bg_settings_card"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/btnEditAssistantProfile"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:gravity="center_vertical"
+                android:paddingStart="18dp"
+                android:paddingEnd="18dp"
+                android:text="Профиль YourAI — имя и аватар"
+                android:textColor="@color/app_text_primary"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:background="@drawable/bg_settings_card"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:id="@+id/btnThemeEditor"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:gravity="center_vertical"
+                android:paddingStart="18dp"
+                android:paddingEnd="18dp"
+                android:text="Расширенный редактор тем"
+                android:textColor="@color/app_text_primary"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:background="@drawable/bg_settings_card"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Характер"
+                android:textColor="@color/app_accent"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.08"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bg_settings_card"
+                android:padding="18dp"
+                android:layout_marginBottom="12dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Системный промпт Yourbit AI"
+                    android:textColor="@color/app_text_primary"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="4dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Добавьте свои инструкции для характера и стиля общения ИИ. Они добавляются к основному системному промпту Yourbit AI при каждом ответе."
+                    android:textColor="@color/app_text_secondary"
+                    android:textSize="13sp"
+                    android:layout_marginBottom="12dp" />
+                <EditText
+                    android:id="@+id/personaField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minLines="4"
+                    android:maxLines="10"
+                    android:gravity="top|start"
+                    android:hint="Например: отвечай с лёгкой иронией, используй меньше эмодзи, обращайся ко мне «капитан»…"
+                    android:textColorHint="@color/app_hint_dim"
+                    android:textColor="@color/app_text_primary"
+                    android:background="@drawable/bg_input_field"
+                    android:padding="14dp"
+                    android:inputType="textMultiLine|textCapSentences"
+                    android:layout_marginBottom="12dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/btnSavePersona"
+                        android:layout_width="0dp"
+                        android:layout_height="44dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Сохранить"
+                        android:textColor="@color/app_text_primary"
+                        android:textStyle="bold"
+                        android:textSize="14sp"
+                        android:background="@drawable/bg_settings_card"
+                        android:layout_marginEnd="8dp" />
+                    <TextView
+                        android:id="@+id/btnResetPersona"
+                        android:layout_width="wrap_content"
+                        android:layout_height="44dp"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        android:gravity="center"
+                        android:text="Сбросить"
+                        android:textColor="@color/app_danger"
+                        android:textStyle="bold"
+                        android:textSize="14sp"
+                        android:background="@drawable/bg_btn_destructive" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="О себе"
+                android:textColor="@color/app_accent"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.08"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bg_settings_card"
+                android:padding="18dp"
+                android:layout_marginBottom="12dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Расскажите о себе"
+                    android:textColor="@color/app_text_primary"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="4dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Имя, род занятий, интересы, как к вам обращаться — что угодно. ИИ будет учитывать это при ответах, чтобы лучше понимать вас как собеседника."
+                    android:textColor="@color/app_text_secondary"
+                    android:textSize="13sp"
+                    android:layout_marginBottom="12dp" />
+                <EditText
+                    android:id="@+id/userBioField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minLines="4"
+                    android:maxLines="10"
+                    android:gravity="top|start"
+                    android:hint="Например: меня зовут Макс, я разработчик, увлекаюсь синтезаторами, предпочитаю короткие ответы без воды…"
+                    android:textColorHint="@color/app_hint_dim"
+                    android:textColor="@color/app_text_primary"
+                    android:background="@drawable/bg_input_field"
+                    android:padding="14dp"
+                    android:inputType="textMultiLine|textCapSentences"
+                    android:layout_marginBottom="12dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/btnSaveUserBio"
+                        android:layout_width="0dp"
+                        android:layout_height="44dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Сохранить"
+                        android:textColor="@color/app_text_primary"
+                        android:textStyle="bold"
+                        android:textSize="14sp"
+                        android:background="@drawable/bg_settings_card"
+                        android:layout_marginEnd="8dp" />
+                    <TextView
+                        android:id="@+id/btnResetUserBio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="44dp"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        android:gravity="center"
+                        android:text="Сбросить"
+                        android:textColor="@color/app_danger"
+                        android:textStyle="bold"
+                        android:textSize="14sp"
+                        android:background="@drawable/bg_btn_destructive" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/btnReset"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:text="Сбросить всё"
+                android:textColor="@color/app_danger"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:background="@drawable/bg_btn_destructive"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

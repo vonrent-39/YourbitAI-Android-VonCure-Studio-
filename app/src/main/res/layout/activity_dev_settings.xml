@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="12dp">
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_arrow_back"
+            android:tint="@color/app_text_primary"
+            android:contentDescription="Назад" />
+            <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_dev_code" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Параметры для разработчиков"
+                android:textColor="@color/app_text_primary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rowApiKeys"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_settings_card"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp">
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="14dp"
+                android:src="@drawable/ic_key"
+                android:background="@drawable/bg_settings_icon"
+                android:contentDescription="API" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="API-Ключи"
+                android:textColor="@color/app_text_primary"
+                android:textSize="17sp"
+                android:layout_marginStart="14dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="@color/app_text_secondary"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rowModels"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_settings_card"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp">
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="16dp"
+                android:src="@drawable/ic_wifi_models"
+                android:background="@drawable/bg_settings_icon"
+                android:contentDescription="Модели" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Модели"
+                android:textColor="@color/app_text_primary"
+                android:textSize="17sp"
+                android:layout_marginStart="14dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="@color/app_text_secondary"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rowTerminal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_settings_card"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp">
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="16dp"
+                android:src="@drawable/ic_dev_code"
+                android:background="@drawable/bg_settings_icon"
+                android:contentDescription="Терминал" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Терминал"
+                android:textColor="@color/app_text_primary"
+                android:textSize="17sp"
+                android:layout_marginStart="14dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="@color/app_text_secondary"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+</FrameLayout>

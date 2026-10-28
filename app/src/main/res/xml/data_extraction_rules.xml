@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <include domain="sharedpref" path="." />
+        <include domain="file" path="NanoAI/agent_chats" />
+        <include domain="file" path="NanoAI/edited" />
+        <include domain="file" path="NanoAI/gifs" />
+        <include domain="file" path="NanoAI/arena_img" />
+        <include domain="file" path="fonts" />
+        <include domain="file" path="plugin_files" />
+        <exclude domain="sharedpref" path="nanoai_cloud.xml" />
+        <exclude domain="file" path="local_models" />
+        <exclude domain="file" path="NanoAI/Files" />
+        <exclude domain="file" path="app_webview" />
+    </cloud-backup>
+    <device-transfer>
+        <include domain="sharedpref" path="." />
+        <include domain="file" path="NanoAI/agent_chats" />
+        <include domain="file" path="NanoAI/edited" />
+        <include domain="file" path="NanoAI/gifs" />
+        <include domain="file" path="NanoAI/arena_img" />
+        <include domain="file" path="fonts" />
+        <include domain="file" path="plugin_files" />
+        <exclude domain="sharedpref" path="nanoai_cloud.xml" />
+        <exclude domain="file" path="local_models" />
+        <exclude domain="file" path="NanoAI/Files" />
+        <exclude domain="file" path="app_webview" />
+    </device-transfer>
+</data-extraction-rules>

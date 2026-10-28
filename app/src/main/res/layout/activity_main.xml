@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/bgImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg_main"
+        android:scaleType="centerCrop"
+        android:contentDescription="Фон" />
+
+    <LinearLayout
+        android:id="@+id/chatRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/transparent">
+
+        <LinearLayout
+            android:id="@+id/headerBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="12dp"
+            android:paddingEnd="8dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="8dp"
+            android:gravity="center_vertical">
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Yourbit AI"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/app_text_primary"
+                android:maxLines="1"
+                android:ellipsize="end" />
+            <TextView
+                android:id="@+id/newChatButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="+"
+                android:textSize="24sp"
+                android:textColor="@color/app_text_primary"
+                android:contentDescription="Новый чат"
+                android:background="@android:color/transparent" />
+            <ImageButton
+                android:id="@+id/chatsButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="6dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_chats_new"
+                android:contentDescription="Мои чаты"
+                android:background="@android:color/transparent" />
+            <ImageButton
+                android:id="@+id/settingsButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="6dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_settings"
+                android:contentDescription="Настройки"
+                android:background="@android:color/transparent" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:elevation="8dp"
+            android:translationZ="1dp"
+            android:background="@drawable/bg_header_accent_divider" />
+
+        <com.youraicqa.app.BlurZoneFrame
+            android:id="@+id/chatBodyFrame"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ScrollView
+                android:id="@+id/scroll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true"
+                android:clipToPadding="false">
+                <LinearLayout
+                    android:id="@+id/chatContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="12dp" />
+            </ScrollView>
+
+            <LinearLayout
+                android:id="@+id/bottomBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:id="@+id/imagePreviewScroll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="6dp"
+                android:scrollbars="none"
+                android:visibility="gone">
+                <LinearLayout
+                    android:id="@+id/imagePreviewRow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp" />
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:id="@+id/inputBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:minHeight="52dp"
+                android:background="@drawable/bg_input_pill"
+                android:paddingStart="12dp"
+                android:paddingEnd="8dp"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+            <TextView
+                android:id="@+id/attachButton"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="+"
+                android:textSize="22sp"
+                android:textColor="@color/app_text_primary"
+                android:contentDescription="Добавить"
+                android:background="@android:color/transparent" />
+            <ImageButton
+                android:id="@+id/webSearchToggle"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:padding="8dp"
+                android:layout_marginEnd="2dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_search"
+                android:background="@drawable/bg_web_search_toggle"
+                android:contentDescription="Расширенный поиск для этого сообщения" />
+            <com.youraicqa.app.RichContentEditText
+                android:id="@+id/input"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minHeight="40dp"
+                android:gravity="center_vertical"
+                android:hint="Введите сообщение..."
+                android:textColor="@color/app_text_primary"
+                android:textColorHint="@color/app_hint"
+                android:background="@android:color/transparent"
+                android:inputType="textCapSentences|textMultiLine"
+                android:maxLines="6"
+                android:imeOptions="flagNoExtractUi"
+                android:textSize="16sp" />
+            <ImageButton
+                android:id="@+id/imageQuickSend"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:padding="8dp"
+                android:layout_marginEnd="6dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_sparkles"
+                android:background="@drawable/bg_image_send_button"
+                android:contentDescription="Сгенерировать изображение" />
+            <ImageButton
+                android:id="@+id/send"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:padding="9dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_send_arrow"
+                android:tint="#FFFFFFFF"
+                android:contentDescription="Отправить"
+                android:background="@drawable/bg_send_button" />
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+            <LinearLayout
+                android:id="@+id/modelRow"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/pill_black"
+                android:paddingStart="14dp"
+                android:paddingEnd="14dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/modelIcon"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/ic_chat"
+                    android:layout_marginEnd="6dp"
+                    android:contentDescription="Режим чата" />
+                <TextView
+                    android:id="@+id/modelLabel"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:text="Nemotron 3N"
+                    android:textColor="@color/app_text_primary"
+                    android:textSize="14sp"
+                    android:layout_marginEnd="4dp" />
+                <ImageView
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:src="@drawable/ic_chevron_down"
+                    android:contentDescription="Выбрать модель" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/imageModelRow"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/pill_black"
+                android:paddingStart="14dp"
+                android:paddingEnd="14dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/imageModelIcon"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/ic_gallery"
+                    android:layout_marginEnd="6dp"
+                    android:contentDescription="Режим изображения" />
+                <TextView
+                    android:id="@+id/imageModelLabel"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:text="FLUX"
+                    android:textColor="@color/app_text_primary"
+                    android:textSize="14sp"
+                    android:layout_marginEnd="4dp" />
+                <ImageView
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:src="@drawable/ic_chevron_down"
+                    android:contentDescription="Выбрать модель изображений" />
+            </LinearLayout>
+            </LinearLayout>
+            </LinearLayout>
+        </com.youraicqa.app.BlurZoneFrame>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,9 @@
+{
+  "id": "openai-compatible-provider",
+  "name": "OpenAI-совместимый провайдер",
+  "description": "Модели любого OpenAI-совместимого API (адрес и ключ задаются в Настройки → Плагины)",
+  "author": "example",
+  "version": "1.0",
+  "capabilities": { "aiProvider": true },
+  "script": "nano.ai.registerProvider({ id: 'openai-compat', name: 'OpenAI-compatible', models: [{ id: 'gpt-4o-mini', name: 'GPT-4o mini' }, { id: 'llama-3.1-8b-instant', name: 'Llama 3.1 8B' }], settings: { baseUrl: { default: 'https://api.openai.com/v1', required: true }, apiKey: { required: true } }, timeoutMs: 90000, generate: async function (req) { var msgs = []; if (req.systemPrompt) msgs.push({ role: 'system', content: req.systemPrompt }); msgs = msgs.concat(req.messages); var r = await req.request({ url: req.settings.baseUrl + '/chat/completions', method: 'POST', timeout: 60000, headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + req.settings.apiKey }, body: JSON.stringify({ model: req.model.id, messages: msgs, max_tokens: req.params.maxTokens, temperature: req.params.temperature }), responseType: 'json' }); if (r.status >= 400) throw nano.ai.fail('http', typeof r.body === 'string' ? r.body : JSON.stringify(r.body), r.status); var c = r.body && r.body.choices && r.body.choices[0] && r.body.choices[0].message; if (!c || !c.content) throw nano.ai.fail('bad_reply', 'no choices in response'); return c.content; } });"
+}

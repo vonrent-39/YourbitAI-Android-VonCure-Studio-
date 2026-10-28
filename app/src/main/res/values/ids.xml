@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tagCapsuleBlur" type="id" />
+
+    <item name="tagReactionAnim" type="id" />
+
+    <item name="tagPressBaseAlpha" type="id" />
+    <item name="tagPressInstalled" type="id" />
+    <item name="tagPressDown" type="id" />
+    <item name="tagEntrancePending" type="id" />
+    <item name="tagFadeAnim" type="id" />
+    <item name="tagFadeTarget" type="id" />
+    <item name="tagPluginExtRow" type="id" />
+</resources>

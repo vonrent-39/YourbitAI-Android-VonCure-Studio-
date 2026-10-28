@@ -1,0 +1,86 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <supports-screens
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:anyDensity="true" />
+    <application
+        android:name=".NanoApp"
+        android:theme="@style/Theme.YourAI"
+        android:label="Yourbit AI"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:supportsRtl="true"
+        android:resizeableActivity="true"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".SplashActivity" android:exported="true" android:theme="@style/Theme.YourAI">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RestartActivity"
+            android:process=":restart"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity android:name=".MainActivity" android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".ChatsActivity" />
+        <activity android:name=".WelcomeActivity" />
+        <activity android:name=".FaqActivity" />
+        <activity android:name=".ApiKeysActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".DevSettingsActivity" />
+        <activity android:name=".DevMenuActivity" />
+        <activity android:name=".ModelsActivity" />
+        <activity android:name=".PluginsActivity" />
+        <activity android:name=".PluginPanelActivity" />
+        <activity android:name=".CustomizeActivity" />
+        <activity android:name=".EconomyActivity" />
+        <activity android:name=".LanguageActivity" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".ModelAuthorityActivity" />
+        <activity android:name=".AdvancedSettingsActivity" />
+        <activity android:name=".ResolveActivity" />
+        <activity android:name=".StatsActivity" />
+        <activity android:name=".ThemeEditorActivity" />
+        <activity android:name=".BackupActivity" />
+        <activity android:name=".ModesActivity" />
+        <activity android:name=".ArenaActivity" android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".AgentActivity" android:windowSoftInputMode="adjustResize" android:configChanges="orientation|screenSize|keyboardHidden|screenLayout|smallestScreenSize|uiMode" />
+        <activity android:name=".FilePreviewActivity" />
+        <activity android:name=".FilesActivity" />
+        <activity android:name=".AchievementsActivity" />
+        <activity android:name=".HtmlPreviewActivity" />
+        <activity android:name=".TextEditorActivity" />
+        <activity android:name=".ImageEditorActivity" android:configChanges="orientation|screenSize|keyboardHidden|screenLayout|smallestScreenSize|uiMode" />
+        <service
+            android:name=".local.LocalGenerationService"
+            android:exported="false"
+            android:foregroundServiceType="dataSync" />
+        <activity android:name=".TerminalActivity" android:windowSoftInputMode="adjustResize" />
+            <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+</manifest>

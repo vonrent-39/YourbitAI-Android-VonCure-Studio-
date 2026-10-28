@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="22dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Настройки"
+                android:textColor="@color/app_text_primary"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_accent_bar" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:clipToPadding="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="2dp">
+
+        <LinearLayout
+            android:id="@+id/rowDevSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_settings_card"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp">
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="18dp"
+                android:src="@drawable/vi_code"
+                android:background="@drawable/bg_settings_icon"
+                android:contentDescription="Параметры для разработчиков" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Параметры для разработчиков"
+                android:textColor="@color/app_text_primary"
+                android:textSize="17sp"
+                android:layout_marginStart="14dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="@color/app_text_secondary"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rowPlugins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_settings_card"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp">
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="16dp"
+                android:src="@drawable/vi_plug"
+                android:background="@drawable/bg_settings_icon"
+                android:contentDescription="Плагины" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Плагины"
+                android:textColor="@color/app_text_primary"
+                android:textSize="17sp"
+                android:layout_marginStart="14dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="@color/app_text_secondary"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rowAdvanced"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_settings_card"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp">
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="16dp"
+                android:src="@drawable/vi_layers"
+                android:background="@drawable/bg_settings_icon"
+                android:contentDescription="Дополнительные настройки" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Дополнительные настройки"
+                android:textColor="@color/app_text_primary"
+                android:textSize="17sp"
+                android:layout_marginStart="14dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="@color/app_text_secondary"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rowFaq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_settings_card"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp">
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:padding="12dp"
+                android:src="@drawable/vi_help"
+                android:background="@drawable/bg_settings_icon"
+                android:contentDescription="FAQ" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="FAQ"
+                android:textColor="@color/app_text_primary"
+                android:textSize="17sp"
+                android:layout_marginStart="14dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="@color/app_text_secondary"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rowCustomize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_settings_card"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp">
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="14dp"
+                android:src="@drawable/vi_palette"
+                android:background="@drawable/bg_settings_icon"
+                android:contentDescription="Кастомизация" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Кастомизация"
+                android:textColor="@color/app_text_primary"
+                android:textSize="17sp"
+                android:layout_marginStart="14dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="@color/app_text_secondary"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rowEconomy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_settings_card"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp">
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="16dp"
+                android:src="@drawable/vi_coin"
+                android:background="@drawable/bg_settings_icon"
+                android:contentDescription="Экономика" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Экономика"
+                android:textColor="@color/app_text_primary"
+                android:textSize="17sp"
+                android:layout_marginStart="14dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="@color/app_text_secondary"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rowStats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_settings_card"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp">
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="16dp"
+                android:src="@drawable/vi_chart"
+                android:background="@drawable/bg_settings_icon"
+                android:contentDescription="Статистика" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Статистика"
+                android:textColor="@color/app_text_primary"
+                android:textSize="17sp"
+                android:layout_marginStart="14dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="@color/app_text_secondary"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rowAuthority"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_settings_card"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp">
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="15dp"
+                android:src="@drawable/vi_crown"
+                android:background="@drawable/bg_settings_icon"
+                android:contentDescription="Авторитетность моделей в разных заданиях" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Авторитетность моделей в разных заданиях"
+                android:textColor="@color/app_text_primary"
+                android:textSize="17sp"
+                android:layout_marginStart="14dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="@color/app_text_secondary"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rowLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_settings_card"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp">
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="14dp"
+                android:src="@drawable/vi_language"
+                android:background="@drawable/bg_settings_icon"
+                android:contentDescription="Язык" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Язык"
+                android:textColor="@color/app_text_primary"
+                android:textSize="17sp"
+                android:layout_marginStart="14dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="@color/app_text_secondary"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rowModes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_settings_card"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp">
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="16dp"
+                android:src="@drawable/vi_fire"
+                android:background="@drawable/bg_settings_icon"
+                android:contentDescription="Режимы" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Режимы"
+                android:textColor="@color/app_text_primary"
+                android:textSize="17sp"
+                android:layout_marginStart="14dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="@color/app_text_secondary"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rowMathSymbols"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_settings_card"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp">
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="16dp"
+                android:src="@drawable/vi_bulb"
+                android:background="@drawable/bg_settings_icon"
+                android:contentDescription="Математические символы" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Математические символы"
+                android:textColor="@color/app_text_primary"
+                android:textSize="17sp"
+                android:layout_marginStart="14dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="@color/app_text_secondary"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rowBackup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_settings_card"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp">
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="16dp"
+                android:src="@drawable/vi_download"
+                android:background="@drawable/bg_settings_icon"
+                android:contentDescription="Экспорт и импорт" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Экспорт и импорт"
+                android:textColor="@color/app_text_primary"
+                android:textSize="17sp"
+                android:layout_marginStart="14dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="@color/app_text_secondary"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rowAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_settings_card"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp">
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="18dp"
+                android:src="@drawable/ic_shield"
+                android:tint="@color/app_text_primary"
+                android:background="@drawable/bg_settings_icon"
+                android:contentDescription="О приложении" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="О приложении"
+                android:textColor="@color/app_text_primary"
+                android:textSize="17sp"
+                android:layout_marginStart="14dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="@color/app_text_secondary"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rowBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_settings_card"
+            android:padding="16dp">
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:padding="20dp"
+                android:src="@drawable/ic_arrow_back"
+                android:tint="@color/app_text_primary"
+                android:background="@drawable/bg_settings_icon"
+                android:contentDescription="Назад" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Назад"
+                android:textColor="@color/app_text_primary"
+                android:textSize="17sp"
+                android:layout_marginStart="14dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yourbit AI v3.0.0"
+            android:textColor="@color/app_text_muted"
+            android:textSize="13sp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="by VonCure Studio"
+            android:textColor="@color/app_text_muted"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:paddingTop="2dp" />
+    </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+</FrameLayout>

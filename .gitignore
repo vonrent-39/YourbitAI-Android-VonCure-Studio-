@@ -1,0 +1,24 @@
+# Gradle / build
+.gradle/
+build/
+.cxx/
+.kotlin/
+*.apk
+*.aab
+
+# Signing
+*.keystore
+*.jks
+keystore.properties
+local.properties
+
+# Models and native sources fetched at build time
+*.gguf
+app/src/main/cpp/llama.cpp/
+
+# IDE / OS
+.idea/
+*.iml
+captures/
+.DS_Store
+Thumbs.db

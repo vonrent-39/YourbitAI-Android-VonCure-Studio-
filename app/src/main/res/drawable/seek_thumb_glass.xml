@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translucent glass bead used as slider thumb -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#26000000" />
+            <size android:width="28dp" android:height="28dp" />
+        </shape>
+    </item>
+    <item android:left="2dp" android:top="2dp" android:right="2dp" android:bottom="3dp">
+        <shape android:shape="oval">
+            <gradient
+                android:angle="270"
+                android:startColor="#1FFFFFFF"
+                android:endColor="#70FFFFFF" />
+            <stroke android:width="2dp" android:color="#E6FFFFFF" />
+        </shape>
+    </item>
+    <item android:left="7dp" android:top="6dp" android:right="12dp" android:bottom="14dp">
+        <shape android:shape="oval">
+            <solid android:color="#99FFFFFF" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,1772 @@
+# ru<TAB>en. «{}» in key = placeholder, {1},{2}… in value. \n = newline.
+Неизвестная ошибка	Unknown error
+Cloudflare не вернул изображение	Cloudflare returned no image
+Модель сейчас перегружена (лимит запросов). 	The model is overloaded right now (rate limit). 
+Подождите 10–30 секунд или выберите другую модель.	Wait 10–30 seconds or pick another model.
+Лимит Workers AI (neurons) исчерпан или модель перегружена. 	Workers AI limit (neurons) exhausted or the model is overloaded. 
+Подождите или выберите более лёгкую модель (GLM / FLUX.1).	Wait or pick a lighter model (GLM / FLUX.1).
+Попробуйте ещё раз или выберите GLM / Qwen.	Try again or pick GLM / Qwen.
+Пустой ответ	Empty response
+Пустой ответ от модели (не хватило max_tokens на reasoning)	Empty response from the model (max_tokens ran out on reasoning)
+Пустой ответ от модели	Empty response from the model
+своя модель	custom model
+локальная модель (на устройстве)	local model (on device)
+свой сервер	custom server
+текущая модель	current model
+Введите ваш API-ключ от OpenRouter	Enter your OpenRouter API key
+Введите ваш API-ключ от Hugging Face	Enter your Hugging Face API key
+Введите ваш API-ключ от Groq	Enter your Groq API key
+Введите ваш API-ключ от Google AI Studio	Enter your Google AI Studio API key
+ID аккаунта Cloudflare (для Workers AI)	Cloudflare account ID (for Workers AI)
+●  Ключ сохранён	●  Key saved
+○  Ключ не задан	○  Key not set
+Ответ не получен: приложение закрыли до завершения.	No reply: the app was closed before it finished.
+Арена	Arena
+Настройки Арены	Arena settings
+Сравни модели в одном чате	Compare models in one chat
+Можно слать одно сообщение всем или своё каждой модели.	Send one message to all models or a separate one to each.
+Выбрать модели	Choose models
+Настроить модели	Configure models
+ГИФ	GIF
+Изображение	Image
+Думает…	Thinking…
+Готовлю квиз…	Preparing the quiz…
+файл.txt	file.txt
+Архив создан нейросетью	Archive created by the AI
+Скопировать	Copy
+ZIP архив	ZIP archive
+Текст	Text
+Файл	File
+Скачать	Download
+Файл не найден	File not found
+Не удалось создать файл в Downloads	Could not create the file in Downloads
+Скопировано	Copied
+Хороший ответ	Good answer
+Плохой ответ	Bad answer
+Копировать	Copy
+Поделиться	Share
+Переработать	Regenerate
+Сначала выберите модели	Choose models first
+Сообщение всем моделям	Message to all models
+Прикрепить фото или ГИФ	Attach a photo or GIF
+Фото	Photo
+Дождитесь ответов моделей	Wait for the models to reply
+Добавьте минимум две модели	Add at least two models
+Не удалось проанализировать изображение	Could not analyze the image
+Не удалось разобрать изображение	Could not process the image
+Модель недоступна: её удалили или отключили сервер.	The model is unavailable: it was deleted or the server was disconnected.
+Отправка на сервер не подтверждена.	Sending to the server was not confirmed.
+Модель вернула пустой ответ	The model returned an empty reply
+Поток ответа оборван	The response stream was interrupted
+Не удалось получить ответ	Could not get a reply
+Сервер этой модели удалён.	This model's server was removed.
+Отправить на сервер?	Send to the server?
+Отмена	Cancel
+Отправлять	Send
+Пока пусто. Добавьте минимум две модели.	Nothing here yet. Add at least two models.
++ Добавить модель	+ Add model
+Своё сообщение для каждой модели	A separate message for each model
+Очистить диалог	Clear the dialog
+Очистить Арену?	Clear the Arena?
+Все сообщения и ответы Арены будут удалены.	All Arena messages and replies will be deleted.
+Очистить	Clear
+Настройка Арены	Arena setup
+Готово	Done
+Нет доступных моделей. Добавьте ключи или сервер в настройках.	No models available. Add keys or a server in settings.
+сервер	server
+своя	custom
+ (нет ключа)	 (no key)
+Добавить модель	Add model
+Экспорт	Export
+Экспортировать чаты	Export chats
+Вся история переписки, без ключей API	Entire chat history, without API keys
+Экспортировать аккаунт	Export account
+Импорт	Import
+Импортировать из файла	Import from file
+Чаты — добавятся к текущим. Аккаунт — заменит всё текущее	Chats are added to the current ones. Account replaces everything
+Сессии	Sessions
+Сохранение при удалении приложения	Saved when the app is uninstalled
+Чат	Chat
+Нет ни одного чата для экспорта	There are no chats to export
+Какие чаты экспортировать?	Which chats to export?
+Пароль для экспорта чатов	Password for chat export
+Экспортировать весь аккаунт?	Export the whole account?
+Продолжить	Continue
+Пароль для экспорта аккаунта	Password for account export
+Готовим файл экспорта…	Preparing the export file…
+Не удалось сохранить файл	Could not save the file
+Выбрать файл резервной копии	Choose a backup file
+Не удалось прочитать файл	Could not read the file
+Пароль от файла резервной копии	Backup file password
+Проверяем пароль и читаем файл…	Checking the password and reading the file…
+В файле нет ни одного чата	The file contains no chats
+Какие чаты импортировать?	Which chats to import?
+Доступ к аккаунту отключён	Account access disabled
+Импорт этого аккаунта на нём заблокирован.	Importing this account is blocked on it.
+Понятно	Got it
+Заменить весь аккаунт?	Replace the whole account?
+Заменить	Replace
+Восстанавливаем аккаунт…	Restoring the account…
+Аккаунт восстановлен. Перезапустите приложение	Account restored. Restart the app
+Неизвестный тип файла резервной копии	Unknown backup file type
+ (это устройство)	 (this device)
+Отключить устройство?	Disconnect the device?
+Отключить	Disconnect
+Устройство отключено	Device disconnected
+Пока нет ни одной известной сессии.	No known sessions yet.
+Все чаты	All chats
+Далее	Next
+Выберите хотя бы один чат	Select at least one chat
+Пароль (минимум 4 символа)	Password (at least 4 characters)
+Повторите пароль	Repeat password
+Создать	Create
+Пароль должен быть не короче 4 символов	The password must be at least 4 characters
+Пароли не совпадают	Passwords do not match
+Пароль	Password
+Импортировать	Import
+Введите пароль	Enter the password
+Неверный пароль или повреждённый файл	Wrong password or corrupted file
+Это не файл резервной копии Yourbit AI	This is not a Yourbit AI backup file
+Крупная open-source модель Groq	Large open-source model on Groq
+Google AI Studio — основная Flash	Google AI Studio — main Flash
+Google — лёгкая и быстрая	Google — light and fast
+Google AI Studio — стабильная 2.0	Google AI Studio — stable 2.0
+Google — самая лёгкая 2.0	Google — lightest 2.0
+Google — Flash-Lite нового поколения	Google — next-generation Flash-Lite
+Универсальная модель для любых задач	Versatile model for any task
+Баланс скорости и качества (Groq)	Balance of speed and quality (Groq)
+Быстрая open-source модель Groq	Fast open-source model on Groq
+Cloudflare Workers AI — быстрый чат	Cloudflare Workers AI — fast chat
+Генерация изображений (быстро)	Image generation (fast)
+Генерация изображений (качество)	Image generation (quality)
+Генерация изображений (детально)	Image generation (detailed)
+Быстрая генерация FLUX.1	Fast FLUX.1 generation
+Высокая производительность	High performance
+Высокая производительность и точность	High performance and accuracy
+Оптимальна для быстрых ответов	Great for quick replies
+Мультимодальная reasoning-модель	Multimodal reasoning model
+Легковесная модель для простых задач	Lightweight model for simple tasks
+Компактная модель Liquid	Compact Liquid model
+Не удалось открыть файл	Could not open the file
+Это не ГИФ-анимация	This is not a GIF animation
+Повреждённая ГИФ-анимация	Corrupted GIF animation
+Это не изображение	This is not an image
+Новый чат	New chat
+Вчера	Yesterday
+Ничего не найдено	Nothing found
+Пока нет чатов	No chats yet
+Удалить чаты?	Delete chats?
+Удалить	Delete
+Некорректный адрес сервера.	Invalid server address.
+Адрес сервера должен начинаться с https://.	The server address must start with https://.
+Авто: как в системе	Auto: follow system
+Вручную: тёмная	Manual: dark
+Вручную: светлая	Manual: light
+Выбрать файл шрифта	Choose a font file
+Шрифт сброшен. Перезапустите приложение, чтобы применить.	Font reset. Restart the app to apply.
+Характер сохранён	Persona saved
+Сбросить характер?	Reset the persona?
+Сбросить	Reset
+Инструкции характера сброшены	Persona instructions reset
+Информация о себе сохранена	About-you info saved
+Сбросить «О себе»?	Reset “About me”?
+Информация о себе сброшена	About-you info reset
+Сбросить оформление?	Reset the appearance?
+Размер текста: 100%	Text size: 100%
+Сброшено	Reset
+Аватар обновлён	Avatar updated
+Не удалось загрузить изображение	Could not load the image
+Выбрать аватар	Choose avatar
+Нажмите на аватар, чтобы выбрать изображение	Tap the avatar to pick an image
+Мой профиль	My profile
+Профиль YourAI	YourAI profile
+Сбросить аватар	Reset avatar
+Сохранить	Save
+Профиль сохранён	Profile saved
+Системный шрифт	System font
+Показывать токены	Show tokens
+Показывать оценку потраченных токенов над сообщениями ИИ.	Show the estimate of tokens spent above AI messages.
+Системный промпт	System prompt
+Шаблоны персоны	Persona templates
+Просмотреть логи	View logs
+Открыть последние записи работы клиента и ИИ	Open the latest client and AI log entries
+Очистить логи	Clear logs
+Удалить журнал client.log	Delete the client.log journal
+Очистить логи?	Clear the logs?
+Журнал client.log будет удалён без возможности восстановить.	The client.log journal will be deleted permanently.
+Логи очищены	Logs cleared
+Используется стандартный системный промпт.	The standard system prompt is used.
+Формальный	Formal
+Дружелюбный	Friendly
+Краткий	Brief
+Наставник	Mentor
+С лёгкой иронией	Slightly ironic
+Технарь	Techie
+Использовать мой системный промпт	Use my system prompt
+ПРОМПТ	PROMPT
+Введите полный системный промпт…	Enter the full system prompt…
+Сохранено	Saved
+Логи пока пусты.	No logs yet.
+Логи	Logs
+Закрыть	Close
+Экономика	Economy
+Экономный режим	Economy mode
+Разом включает самые весомые пункты из обеих вкладок ниже	Turns on the most impactful items from both tabs below at once
+Токены	Tokens
+Энергопотребляемые	Power-hungry
+Короткий контекст	Short context
+Один кадр из ГИФ	One GIF frame
+Характер в системном промпте	Persona in the system prompt
+Память о пользователе	Memory about the user
+Автоперебор моделей	Automatic model fallback
+Анимация печати ответа	Reply typing animation
+Анимации нажатий	Press animations
+Общий лимит токенов на ответ	Global token limit per reply
+напр. 4096	e.g. 4096
+токенов	tokens
+Введите целое число токенов больше нуля	Enter a whole number of tokens greater than zero
+Нужны ли свои API-ключи для работы?	Do I need my own API keys?
+Нужно ли указывать личные данные?	Do I need to provide personal data?
+Как получить API-ключ, и использовать его?	How do I get an API key and use it?
+Если есть проблемы, попробуйте другую модель или провайдера.	If there are problems, try another model or provider.
+Как получить Account ID для Cloudflare Workers AI?	How do I get the Account ID for Cloudflare Workers AI?
+Что такое Терминал и зачем он нужен?	What is the Terminal and why do I need it?
+ИИ может сам выполнять команды в Терминале?	Can the AI run commands in the Terminal itself?
+ПРОДОЛЖИТЬ	CONTINUE
+Просмотр изображения	Image viewer
+Просмотр файла	File viewer
+Редактировать	Edit
+Удалить файл?	Delete the file?
+Удалено	Deleted
+Нет доступа к файлу	No access to the file
+Не удалось декодировать изображение	Could not decode the image
+Нажмите на файл или на иконку карандаша — откроется редактор	Tap a file or the pencil icon to open the editor
+Пусто или нет доступа	Empty or no access
+Нет доступа	No access
+Пусто	Empty
+(пусто)	(empty)
+Информация	Info
+Библиотека	Library
+Импорт файла	Import file
+Папка приложения. Сюда попадают импорт и ZIP от нейросети.	App folder. Imports and ZIPs from the AI end up here.
+Ошибка	Error
+Не удалось открыть изображение	Could not open the image
+Редактор изображения	Image editor
+✂ Обрезать	✂ Crop
+🖌 Кисть	🖌 Brush
+↺ Отменить	↺ Undo
+✔ Применить обрезку	✔ Apply crop
+Область обрезки слишком мала	The crop area is too small
+Локальная модель — работает на устройстве, без интернета	Local model — runs on the device, offline
+Сервер этой модели удалён. Выберите другую модель.	This model's server was removed. Choose another model.
+Максимум 5 изображений	Maximum 5 images
+Автоподбор	Auto-select
+Расширенный поиск выключен в Настройки → Плагины	Extended search is turned off in Settings → Plugins
+Поиск в интернете включён для сообщений в этом чате	Web search is on for messages in this chat
+Поиск в интернете выключен	Web search is off
+Остановить	Stop
+Отправить	Send
+Остановить генерацию изображения	Stop image generation
+Сгенерировать изображение	Generate image
+⏹ Генерация остановлена.	⏹ Generation stopped.
+Нужен доступ к камере	Camera access is required
+Файлы и медиа	Files and media
+Камера	Camera
+Файлы	Files
+Файл для чата	File for the chat
+Размышлять глубже	Think deeper
+Уровень: 	Level: 
+Лёгкий	Light
+Средний	Medium
+Сложный	Hard
+Выключено	Off
+Более детальный анализ и обоснованные ответы	More detailed analysis and well-reasoned answers
+Обычные ответы без углублённого анализа	Regular answers without deep analysis
+Чуть внимательнее, без лишней длины	A bit more careful, without extra length
+Подробный пошаговый анализ	Detailed step-by-step analysis
+Максимально глубокий разбор и проверка выводов	The deepest possible breakdown with verification of conclusions
+неизвестный размер	unknown size
+1 кадр (середина)	1 frame (middle)
+Выберите модель	Choose a model
+Выберите модель для чата	Choose a chat model
+Поиск моделей…	Search models…
+Автоподбор моделей	Auto model selection
+На устройстве (GGUF)	On device (GGUF)
+Сервер: 	Server: 
+топ	top
+РЕКОМЕНДОВАННЫЕ	RECOMMENDED
+МОИ МОДЕЛИ	MY MODELS
+ВСЕ МОДЕЛИ	ALL MODELS
+Применить	Apply
+Модель для изображений	Image model
+Выберите модель для генерации изображений	Choose an image generation model
+Провайдер: Cloudflare Workers AI	Provider: Cloudflare Workers AI
+Ошибка:	Error:
+Внимание	Attention
+Нечего перерабатывать	Nothing to regenerate
+Поиск по сообщениям…	Search messages…
+Поиск в чате	Search in chat
+Введите слово или фразу.	Enter a word or phrase.
+Ничего не найдено.	Nothing found.
+Новый чат…	New chat…
+Объясни сложную тему простыми словами	Explain a complex topic in simple words
+Помоги написать текст	Help me write a text
+Сгенерируй идею для проекта	Generate a project idea
+Задай мне интересный вопрос	Ask me an interesting question
+Помоги разобраться с трудным решением	Help me think through a hard decision
+Составь план на день	Make a plan for my day
+Расскажи что-то интересное о мире	Tell me something interesting about the world
+Сгенерируй изображение по описанию	Generate an image from a description
+Помоги решить задачу	Help me solve a problem
+Расскажи шутку	Tell me a joke
+Доброе утро	Good morning
+Добрый день	Good afternoon
+Добрый вечер	Good evening
+Доброй ночи	Good night
+Чем могу помочь?	How can I help?
+Коротко: что не так с ответом? (обязательно)	Briefly: what is wrong with the answer? (required)
+Нужна причина	A reason is required
+Сначала напишите причину	Write the reason first
+Что именно понравилось в ответе? (необязательно)	What did you like about the answer? (optional)
+Что не так с ответом? (необязательно)	What is wrong with the answer? (optional)
+Оценка сохранена: нравится	Rating saved: like
+Оценка сохранена: не нравится	Rating saved: dislike
+Пропустить	Skip
+Думаю…	Thinking…
+Продолжить ответ	Continue the answer
+Отменить	Cancel
+Генерация изображения...	Generating image...
+Создаю изображение. Это может занять несколько секунд.	Creating the image. This may take a few seconds.
+Генерация кода...	Generating code...
+Пишу и проверяю код. Это может занять несколько секунд.	Writing and checking the code. This may take a few seconds.
+Ищу информацию...	Looking up information...
+Проверяю новости, Wiki и Fandom по вашему запросу.	Checking news, Wiki and Fandom for your request.
+Yourbit AI печатает...	Yourbit AI is typing...
+Формулирую ответ. Это может занять несколько секунд.	Composing a reply. This may take a few seconds.
+файл	file
+Вложение	Attachment
+Вопрос:	Question:
+Свой вариант…	My own option…
+Отправить свой вариант	Send my option
+Совет	Tip
+Выполнить в Терминале	Run in Terminal
+Таблица	Table
+Скопировать таблицу	Copy table
+Параметры для разработчиков → Модели	Developer options → Models
+[изображение]	[image]
+Нет доступных vision-моделей	No vision models available
+⏹ Генерация изображения остановлена.	⏹ Image generation stopped.
+Не удалось получить ответ ни от одной модели	Could not get a reply from any model
+Опиши изображение или прикрепи референс	Describe the image or attach a reference
+Добавьте API-ключ для этой модели или настройте провайдера	Add an API key for this model or set up the provider
+Свои модели	Custom models
+Добавить провайдера	Add provider
+Сохраните URL и один API-ключ для нескольких своих моделей	Save a URL and one API key for several of your models
+Добавить сервер	Add server
+Адрес своего сервера: модели подтянутся с него сами	Your server address: models are pulled from it automatically
+Добавить по ссылке	Add by link
+ID модели и провайдер; ключ модели можно оставить пустым	Model ID and provider; the model key can be left empty
+Импорт из архива	Import from archive
+Мои провайдеры	My providers
+Мои серверы	My servers
+Добавленные модели	Added models
+Пока нет своих моделей.	No custom models yet.
+ключ не задан	key not set
+ключ сохранён	key saved
+Удалить провайдера?	Delete the provider?
+Название провайдера	Provider name
+URL OpenAI-совместимого API (https://...)	OpenAI-compatible API URL (https://...)
+API-ключ провайдера	Provider API key
+Редактировать провайдера	Edit provider
+Добавить	Add
+Укажите URL провайдера	Enter the provider URL
+Провайдер сохранён	Provider saved
+отключён	disabled
+пока нет моделей	no models yet
+ключ не задан, введите заново	key not set, enter it again
+Включён	Enabled
+Сервер включён	Server enabled
+Сервер отключён: его модели скрыты	Server disabled: its models are hidden
+Удалить сервер?	Delete the server?
+Сервер отключён — сначала включите его	Server is disabled — enable it first
+Обновляю список моделей…	Refreshing the model list…
+Сертификат сервера	Server certificate
+Доверять	Trust
+Название сервера	Server name
+Адрес сервера (https://...)	Server address (https://...)
+Запасной адрес (необязательно)	Fallback address (optional)
+Ключ не задан — введите заново	Key not set — enter it again
+Ключ (необязательно)	Key (optional)
+Потоковый ответ	Streaming response
+Доверять самоподписанному сертификату	Trust a self-signed certificate
+Проверить	Check
+Запасной адрес: 	Fallback address: 
+Проверьте адрес	Check the address
+Проверяю…	Checking…
+Отпечаток сертификата не подтверждён.	The certificate fingerprint is not confirmed.
+ Отпечаток принят — нажмите «Сохранить», чтобы он запомнился.	 Fingerprint accepted — tap “Save” to remember it.
+Редактировать сервер	Edit server
+Нажмите «Проверить», чтобы подтвердить отпечаток сертификата	Tap “Check” to confirm the certificate fingerprint
+Не удалось сохранить сервер	Could not save the server
+Сервер сохранён	Server saved
+из архива	from archive
+файл (не GGUF)	file (not GGUF)
+на устройстве (GGUF)	on device (GGUF)
+по ссылке	by link
+Удалить модель?	Delete the model?
+Название модели	Model name
+Размер контекста (n_ctx)	Context size (n_ctx)
+Число потоков CPU	Number of CPU threads
+Слоёв на GPU (0 = только CPU)	GPU layers (0 = CPU only)
+Формат чат-разметки промпта:	Prompt chat-template format:
+Лимит токенов на ответ (необязательно)	Token limit per reply (optional)
+Локальная модель — настройки	Local model — settings
+Размер контекста (n_ctx), напр. 2048	Context size (n_ctx), e.g. 2048
+Слоёв на GPU (0 = только CPU — надёжнее)	GPU layers (0 = CPU only — more reliable)
+Локальная модель (GGUF)	Local model (GGUF)
+ID модели (например gpt-4o-mini)	Model ID (e.g. gpt-4o-mini)
+Провайдер — ссылка на API (https://...)	Provider — API link (https://...)
+API-ключ модели (необязательно)	Model API key (optional)
+Название (необязательно)	Name (optional)
+Оставьте пустым, если ограничивать не нужно.	Leave empty if no limit is needed.
+Редактировать модель	Edit model
+В архиве не найден model.json / manifest.json	model.json / manifest.json not found in the archive
+Плагины Yourbit AI	Yourbit AI plugins
+Уведомления от установленных плагинов	Notifications from installed plugins
+‹ Назад	‹ Back
+Плагин не предоставил панель.	The plugin did not provide a panel.
+Быстрые действия / кнопки в чате	Quick actions / buttons in chat
+Обработка текста сообщений перед отправкой	Processing message text before sending
+Обработка текста ответа модели перед показом	Processing the model's reply text before display
+Свой источник поиска	Custom search source
+Свой экран/панель (HTML внутри песочницы)	Custom screen/panel (HTML in a sandbox)
+Собственные параметры плагина (свой изолированный стор)	Plugin's own settings (its own isolated store)
+Сетевые запросы к разрешённым в манифесте доменам	Network requests to domains allowed in the manifest
+Скачивание файлов с разрешённых в манифесте доменов	Downloading files from domains allowed in the manifest
+Сохранение файлов в собственную папку плагина	Saving files to the plugin's own folder
+Фоновые задачи с прогрессом	Background tasks with progress
+Свои действия в интерфейсе и уведомления	Custom UI actions and notifications
+Файл превышает допустимый размер для .plugin	The file exceeds the allowed size for .plugin
+из коробки	built in
+Установить плагин	Install plugin
+Расширенный поиск	Extended search
+Установленные плагины	Installed plugins
+\nДоступ: 	\nAccess: 
+\nСеть: 	\nNetwork: 
+\nЗагрузка: 	\nDownload: 
+Выберите файл с расширением .plugin	Choose a file with the .plugin extension
+Неверный .plugin: нужен JSON с полем id	Invalid .plugin: a JSON with an id field is required
+Плагин заблокирован сканером	The plugin was blocked by the scanner
+Изменить название/описание/автора	Edit name/description/author
+Название	Name
+Описание	Description
+Автор	Author
+Удалить плагин?	Delete the plugin?
+Вы	You
+🗳️ Опрос	🗳️ Poll
+🧠 Квиз	🧠 Quiz
+А	A
+Б	B
+В	C
+Г	D
+Д	E
+Е	F
+Спасибо за ответ!	Thanks for your answer!
+Отпечаток сертификата не совпал с закреплённым	The certificate fingerprint does not match the pinned one
+Нет подключения к интернету.	No internet connection.
+Сервер не ответил вовремя.	The server did not respond in time.
+Сервер не принял ключ доступа. Проверьте ключ.	The server rejected the access key. Check the key.
+Сервер ограничил число запросов. Подождите немного и повторите.	The server limited the number of requests. Wait a bit and try again.
+Ответ оборван: соединение с сервером прервалось.	Reply interrupted: the connection to the server was lost.
+Сервер отклонил запрос из-за фильтра содержимого.	The server rejected the request because of the content filter.
+Сервер вернул пустой ответ.	The server returned an empty reply.
+Сервер вернул ответ в неожиданном формате.	The server returned a reply in an unexpected format.
+Укажите адрес сервера.	Enter the server address.
+В адресе не указан сервер.	No server specified in the address.
+Некорректное имя сервера в адресе.	Invalid server name in the address.
+Некорректный порт в адресе.	Invalid port in the address.
+устройство	device
+Устройство	Device
+Загрузка...	Loading...
+Проверка сети	Checking the network
+Нет сети	No network
+Безопасное соединение	Secure connection
+Подключение к интернету	Internet connection
+Сервер недоступен	Server unavailable
+Загрузка моделей	Loading models
+Всё готово	All set
+Успешно	Success
+Соединение восстановлено	Connection restored
+Запуск Yourbit AI	Starting Yourbit AI
+Ошибка загрузки	Loading error
+Повторная попытка...	Retrying...
+Повторное подключение	Reconnecting
+Повтор...	Retrying...
+Терминал	Terminal
+Сеансы	Sessions
+Очистить вывод?	Clear the output?
+команда…	command…
+🤖 Команда предложена из чата:	🤖 Command suggested from chat:
+Выполнить? (y/n)	Run? (y/n)
+Сеанс	Session
+Наберите /help для списка команд.	Type /help for the list of commands.
+Сеансы терминала	Terminal sessions
+Пока пусто	Empty for now
+Сеансов пока нет — создайте первый ниже.	No sessions yet — create the first one below.
++  Новый сеанс	+  New session
+текущий	current
+Удалить сеанс?	Delete the session?
+сеанс	session
+сеанса	sessions
+сеансов	sessions
+да	yes
+нет	no
+Отменено.	Cancelled.
+Введите y (выполнить) или n (отменить).	Enter y (run) or n (cancel).
+ls: путь за пределами песочницы	ls: path is outside the sandbox
+}: нет такого файла или папки	}: no such file or directory
+cd: путь за пределами песочницы	cd: path is outside the sandbox
+Использование: cat <файл>	Usage: cat <file>
+echo: путь за пределами песочницы	echo: path is outside the sandbox
+Использование: mkdir <папка>	Usage: mkdir <folder>
+Использование: touch <файл>	Usage: touch <file>
+Использование: rm [-r] <файл|папка>	Usage: rm [-r] <file|folder>
+rm: нельзя удалить корень песочницы	rm: cannot delete the sandbox root
+Использование: mv <откуда> <куда>	Usage: mv <from> <to>
+mv: путь за пределами песочницы	mv: path is outside the sandbox
+mv: не удалось переместить	mv: could not move
+Использование: cp <откуда> <куда>	Usage: cp <from> <to>
+cp: путь за пределами песочницы	cp: path is outside the sandbox
+Открываю меню разработчика…	Opening the developer menu…
+Статус API-ключей:	API key status:
+Можно задать несколько сразу:	You can set several at once:
+Ничего не изменено. Пример: /addapikeys groq=KEY hf=KEY	Nothing changed. Example: /addapikeys groq=KEY hf=KEY
+Сеансов пока нет.	No sessions yet.
+Сеансы (текущий отмечен ●):	Sessions (current is marked ●):
+Использование: /sessions load <id>	Usage: /sessions load <id>
+Использование: /sessions delete <id>	Usage: /sessions delete <id>
+✓ Логи очищены.	✓ Logs cleared.
+Лог пока пуст.	The log is empty.
+Использование:	Usage:
+Сначала получите список: /addmodels <providerUrl> [ключ]	First get the list: /addmodels <providerUrl> [key]
+Использование: /addmodels add <id|номер>	Usage: /addmodels add <id|number>
+Провайдер не вернул ни одной модели.	The provider returned no models.
+Добавить: /addmodels add <номер>	Add: /addmodels add <number>
+Использование: /ai <что нужно сделать>	Usage: /ai <what to do>
+🤖 Думаю над командой…	🤖 Thinking about the command…
+ИИ не смог подобрать подходящую команду для песочницы.	The AI could not pick a suitable sandbox command.
+Предложенная команда:	Suggested command:
+Файловая система ограничена внутренней папкой приложения. 	The file system is limited to the app's internal folder. 
+Редактор	Editor
+✎ Редактировать	✎ Edit
+Цвета	Colors
+Фон экрана	Screen background
+Скрыть декоративную картинку	Hide the decorative image
+Акцент (кнопка отправки)	Accent (send button)
+Фон карточек сообщений	Message card background
+Рамка карточек (пусто — без рамки)	Card border (empty — no border)
+Толщина рамки	Border width
+Скругление карточек	Card corner radius
+Шапка и поле ввода	Header and input field
+Фон шапки (пусто — прозрачный)	Header background (empty — transparent)
+Текст/иконки шапки	Header text/icons
+Эффект «матового стекла» на шапке	“Frosted glass” effect on the header
+Фон поля ввода	Input field background
+Текст поля ввода	Input field text
+Эффект «матового стекла» на поле ввода	“Frosted glass” effect on the input field
+Градиент фона	Background gradient
+Второй цвет градиента (пусто — выключен)	Second gradient color (empty — off)
+Угол градиента	Gradient angle
+Эффекты	Effects
+Свечение вокруг кнопки отправки	Glow around the send button
+Применить как тему	Apply as theme
+Экспортировать как .plugin	Export as .plugin
+Сбросить тему	Reset theme
+Моя тема	My theme
+Тема, собранная в расширенном редакторе тем	A theme built in the advanced theme editor
+Тема применена	Theme applied
+Тема, собранная в расширенном редакторе тем Yourbit AI	A theme built in the Yourbit AI advanced theme editor
+Сохранено в Загрузки: my-theme.plugin	Saved to Downloads: my-theme.plugin
+Сбросить тему?	Reset the theme?
+Анимация появления новых сообщений	New message appear animation
+Нет	None
+Плавно	Smooth
+Масштаб	Scale
+Панель	Panel
+Цвет	Color
+Генерация остановлена	Generation stopped
+Локальная модель формирует ответ…	The local model is composing a reply…
+Локальная модель работает	Local model is running
+Показывается, пока модель на устройстве формирует ответ	Shown while the on-device model composes a reply
+Ответ локальной модели готов	The local model's reply is ready
+Ответ дописан в чат, пока приложение было закрыто	The reply was added to the chat while the app was closed
+Локальная модель не загружена	The local model is not loaded
+Пользователь	User
+Ассистент	Assistant
+Ассистент:	Assistant:
+API-Ключи	API Keys
+Экспорт и импорт	Export & import
+Чаты	Chats
+Поиск	Search
+Поиск чатов	Search chats
+Выбрано: 0	Selected: 0
+Кастомизация	Customization
+Тёмная тема	Dark theme
+Авто	Auto
+Анимация ответов	Reply animation
+Компактный режим	Compact mode
+Градиентный фон чата	Chat background gradient
+Свой шрифт	Custom font
+Выбрать файл (.ttf/.otf)	Choose a file (.ttf/.otf)
+Профиль	Profile
+👤  Мой профиль — имя и аватар	👤  My profile — name and avatar
+🤖  Профиль YourAI — имя и аватар	🤖  YourAI profile — name and avatar
+🎨 Расширенный редактор тем	🎨 Advanced theme editor
+Характер	Persona
+Системный промпт Yourbit AI	Yourbit AI system prompt
+О себе	About me
+Расскажите о себе	Tell about yourself
+Сбросить всё	Reset all
+Параметры для разработчиков	Developer options
+Модели	Models
+Фон	Background
+Мои чаты	My chats
+Настройки	Settings
+Расширенный поиск для этого сообщения	Extended search for this message
+Введите сообщение...	Type a message...
+Режим чата	Chat mode
+Выбрать модель	Choose model
+Режим изображения	Image mode
+Выбрать модель изображений	Choose image model
+Режимы	Modes
+Плагины	Plugins
+Статистика	Statistics
+Авторитетность моделей	Model authority
+Язык	Language
+Назад	Back
+Подготавливаем всё для идеального опыта	Getting everything ready for the perfect experience
+Безопасное	Secure
+соединение	connection
+Подключение	Connecting
+к интернету	to the internet
+Загрузка	Loading
+моделей	models
+Редактор тем	Theme editor
+Добро пожаловать в Yourbit AI!	Welcome to Yourbit AI!
+Разговоры, задачи, поиски!	Conversations, tasks, searches!
+Ваш ИИ — такой, каким вы его хотите\nвидеть.	Your AI — the way you want to\nsee it.
+Начать разговор	Start a conversation
+Для этой модели не задан API-ключ. Добавьте свой ключ в настройках или настройте провайдера.	No API key is set for this model. Add your own key in settings or configure a provider.
+Для генерации изображений нужен собственный Cloudflare API Token и Account ID.	Image generation requires your own Cloudflare API Token and Account ID.
+Нет Account ID. Включите «собственный API-ключ» или укажите Cloudflare Account ID.	No Account ID. Turn on “own API key” or enter your Cloudflare Account ID.
+Новости · {}	News · {1}
+Yourbit AI работает только с вашими API-ключами. Ключи хранятся локально на устройстве и отправляются напрямую выбранному провайдеру. Для своих OpenAI-совместимых API можно один раз добавить провайдера и использовать его ключ для нескольких моделей.	Yourbit AI works only with your own API keys. Keys are stored locally on the device and sent directly to the selected provider. For your own OpenAI-compatible APIs you can add a provider once and use its key for several models.
+Выберите от 2 до {} моделей, отправьте сообщение — и переключайте ответы моделей над сообщением. Можно слать одно сообщение всем или своё каждой модели.	Choose 2 to {1} models, send a message — and switch between the models' replies above the message. You can send one message to all or a separate one to each model.
+Через сервер {}	Via server {1}
+Своя модель ({})	Custom model ({1})
+Модель сервера {}	Server model {1}
+⚠ Не удалось отобразить квиз: модель прислала повреждённые данные. Нажмите «Переработать».	⚠ Could not display the quiz: the model sent corrupted data. Tap “Regenerate”.
+{} Б	{1} B
+Сохранено в Загрузки: {}	Saved to Downloads: {1}
+Скачивание: {}	Download: {1}
+Максимум {} изображений	Maximum {1} images
+Не удалось загрузить изображение: {}	Could not load the image: {1}
+Сообщение для {}	Message for {1}
+Нет доступных vision-моделей (нужна модель с ключом: Gemini и т.п.) — не могу разобрать изображение.	No vision models available (a model with a key is needed: Gemini etc.) — I can't analyze the image.
+ИИ не может создать медиафайл «{}».	The AI cannot create the media file “{1}”.
+Сервер «{}» отключён.	Server “{1}” is disabled.
+Для провайдера «{}» не задан API-ключ.	No API key is set for provider “{1}”.
+Сообщения будут отправлены на {}. Продолжить?	Messages will be sent to {1}. Continue?
+Модели для сравнения ({}/{})	Models to compare ({1}/{2})
+Выкл — одно сообщение уходит всем моделям. Вкл — у каждой модели своё поле; пустые поля пропускаются.	Off — one message goes to all models. On — each model has its own field; empty fields are skipped.
+Автоматическое резервное копирование Android включено: если в настройках телефона (Настройки → Система → Резервное копирование) включена резервная копия и вы вошли в Google-аккаунт, при переустановке Yourbit AI чаты, ключи API, плагины и оформление восстановятся сами.\n\nЭто зависит от настроек телефона, поэтому перед удалением приложения надёжнее всего сделать ручной экспорт аккаунта выше — он гарантированно сработает на любом устройстве, если сохранить файл и пароль.	Android automatic backup is on: if phone backup is enabled in your phone settings (Settings → System → Backup) and you are signed in to a Google account, reinstalling Yourbit AI restores chats, API keys, plugins and appearance automatically.\n\nThis depends on your phone settings, so before uninstalling the app it is safest to make a manual account export above — it is guaranteed to work on any device if you keep the file and the password.
+Файл будет содержать чаты, ключи API, модели, плагины, оформление и файлы из «Библиотеки». Храните его и пароль так же бережно, как сами ключи API.	The file will contain chats, API keys, models, plugins, appearance and Library files. Keep it and the password as carefully as the API keys themselves.
+Владелец аккаунта отключил это устройство в разделе «Сессии». Импорт этого аккаунта на нём заблокирован.	The account owner disconnected this device in the “Sessions” section. Importing this account on it is blocked.
+Текущие чаты, ключи API, плагины, оформление и файлы Библиотеки будут заменены содержимым файла. Это действие необратимо.	Current chats, API keys, plugins, appearance and Library files will be replaced with the contents of the file. This action cannot be undone.
+«{}» будет отключено. Если на нём попробуют импортировать более новый бэкап этого аккаунта — импорт будет заблокирован. Уже открытые на нём данные это не стирает.	“{1}” will be disconnected. If it tries to import a newer backup of this account, the import will be blocked. Data already open on it is not erased.
+Список устройств, на которых открывали этот аккаунт (по экспорту/импорту аккаунта). У Yourbit AI нет сервера, поэтому «Отключить» не обрывает доступ мгновенно — оно помечает устройство как отозванное внутри самого аккаунта: если позже это устройство попробует импортировать бэкап с этой отметкой, импорт будет отклонён. Если аккаунт получил посторонний — отключите его устройство здесь и не пересылайте ему новые бэкапы.	A list of devices where this account was opened (via account export/import). Yourbit AI has no server, so “Disconnect” does not cut access instantly — it marks the device as revoked inside the account itself: if that device later tries to import a backup with this mark, the import will be rejected. If someone else got the account, disconnect their device here and do not send it new backups.
+Чаты + ключи API + модели + плагины + оформление + файлы Библиотеки	Chats + API keys + models + plugins + appearance + Library files
+Сохранено: {}. Не поместились в бэкап (слишком большие): {}	Saved: {1}. Did not fit in the backup (too large): {2}
+Экспорт: {}	Export: {1}
+Импорт: {}	Import: {1}
+Импортировано чатов: {}	Chats imported: {1}
+Импорт аккаунта: {}	Account import: {1}
+Последняя активность: {}	Last activity: {1}
+Файл: {}	File: {1}
+Выбрано: {}	Selected: {1}
+Будет удалено: {}	Will be deleted: {1}
+Сервер перенаправляет запрос на другой адрес (HTTP {}). Укажите итоговый адрес сервера в настройках.	The server redirects the request to another address (HTTP {1}). Enter the final server address in settings.
+Размер текста, анимации, компактный режим, инструкции характера и информация о себе вернутся к значениям по умолчанию.	Text size, animations, compact mode, persona instructions and about-you info will return to their defaults.
+Размер текста: {}%	Text size: {1}%
+Написанные инструкции характера будут удалены без возможности восстановить.	The written persona instructions will be deleted permanently.
+Написанная информация о себе будет удалена без возможности восстановить.	The written about-you information will be deleted permanently.
+Шрифт загружен. Перезапустите приложение, чтобы применить везде.	Font loaded. Restart the app to apply everywhere.
+Не удалось загрузить шрифт: похоже, файл повреждён или это не .ttf/.otf	Could not load the font: the file seems corrupted or is not a .ttf/.otf
+Кастомный системный промпт работает только при наличии вашего собственного API-ключа. Запрос идёт напрямую выбранному провайдеру, а сохранённый текст остаётся локально, если ключ не задан. Никаких проверок содержимого промпта на джейлбрейк или блокировок текста нет и не будет: это ваш промпт себе.	A custom system prompt works only when you have your own API key. The request goes directly to the selected provider, and the saved text stays local if no key is set. There are no jailbreak checks or text blocking of the prompt contents and never will be: it is your own prompt for yourself.
+Диагностика reasoning в логах не раскрывает скрытую цепочку рассуждений модели. В логах можно видеть только безопасные метаданные: что reasoning был получен/отфильтрован, длительность и размеры ответа.	Reasoning diagnostics in the logs do not reveal the model's hidden chain of thought. The logs show only safe metadata: that reasoning was received/filtered, the duration and the sizes of replies.
+Свой системный промпт полностью заменяет стандартный — если он пуст или выключен, используется обычный характер Yourbit AI. Он применяется только для запросов, которые идут через ваш собственный API-ключ.	Your own system prompt fully replaces the standard one — if it is empty or off, the usual Yourbit AI persona is used. It applies only to requests that go through your own API key.
+Продвинутые настройки Yourbit AI. Изменения применяются сразу.	Advanced Yourbit AI settings. Changes apply immediately.
+Готовые, безопасные настройки характера — работают всегда, ключ не нужен.	Ready-made safe persona settings — always work, no key needed.
+Активен — текущая модель ({}) идёт через ваш ключ.	Active — the current model ({1}) goes through your key.
+Сохранён, но сейчас не используется: для текущей модели нет своего API-ключа.	Saved, but not in use right now: the current model has no key of its own.
+Персона «{}» применена	Persona “{1}” applied
+Полностью заменяет стандартный характер Yourbit AI на текст ниже.	Fully replaces the standard Yourbit AI persona with the text below.
+{} символов	{1} characters
+Отправлять модели только последние {} сообщений вместо всей истории чата — меньше токенов на длинных диалогах, но модель хуже помнит начало разговора.	Send the model only the last {1} messages instead of the whole chat history — fewer tokens in long dialogs, but the model remembers the start of the conversation worse.
+Вместо трёх кадров анимации (начало/середина/конец) отправлять модели только средний — втрое меньше токенов на вложенную ГИФку.	Instead of three animation frames (start/middle/end), send the model only the middle one — three times fewer tokens for an attached GIF.
+Отключить отправку инструкций «Характера» (Кастомизация → Характер) в каждом запросе — экономит токены, если там написан длинный текст. Сами инструкции не удаляются, просто не отправляются.	Stop sending the “Persona” instructions (Customization → Persona) with every request — saves tokens if the text is long. The instructions are not deleted, just not sent.
+Отключить отправку того, что вы рассказали о себе (Кастомизация → «О себе»), в каждом запросе — независимо от тумблера «Характер» выше. Сами сведения не удаляются, просто не отправляются модели — на случай, если вдруг захочется временно скрыть их от конкретной модели/провайдера или просто сэкономить токены.	Stop sending what you told about yourself (Customization → “About me”) with every request — independent of the “Persona” switch above. The information is not deleted, just not sent to the model — in case you want to temporarily hide it from a specific model/provider or simply save tokens.
+Полностью не отправлять системный промпт — не только характер, а вообще всё: имя YourAI, описание клиента, защиту от подмены инструкций, правила форматирования и т.д. Экономит больше всего токенов на каждом запросе (особенно заметно для локальных моделей на устройстве), но модель превращается в «сырой» ассистент без своей идентичности и части защиты — включай осознанно. Свой системный промпт из «Параметры для разработчиков» при выключенном тумблере всё равно не отправится — тут приоритет выше.	Do not send the system prompt at all — not just the persona but everything: the YourAI name, the client description, protection against instruction spoofing, formatting rules, etc. Saves the most tokens on every request (especially noticeable for on-device local models), but the model turns into a “raw” assistant without its identity and some protections — enable consciously. Your own system prompt from “Developer options” will not be sent either while the switch is off — this has higher priority.
+При включённом «Автоподборе» в чате — пробовать другие модели, если основная перегружена. Каждая попытка — это отдельный запрос со своими токенами; выключите, чтобы платить только за одну попытку.	With “Auto-select” on in chat — try other models if the main one is overloaded. Each attempt is a separate request with its own tokens; turn off to pay for only one attempt.
+Показывать ответ ассистента печатающимся по буквам. То же самое, что переключатель в Кастомизация → Анимация ответов.	Show the assistant's reply typed letter by letter. Same as the switch in Customization → Reply animation.
+Пружинные/затемняющие эффекты на кнопках по всему приложению. Чисто декоративный слой — выключение не влияет на функциональность.	Spring/dimming effects on buttons across the whole app. A purely decorative layer — turning it off does not affect functionality.
+Одно значение max_tokens сразу для всех моделей, у которых не задан свой ручной лимит.	One max_tokens value for all models that have no manual limit of their own.
+Нужен лимит только у отдельных моделей? Настройте его вручную в форме модели →	Need a limit only for some models? Set it manually in the model form →
+Настройки → API-Ключи.\nYourbit AI поддерживает ключи различных провайдеров, включая OpenRouter, Hugging Face, Groq и Google AI Studio.\nЕсли у вас ещё нет API-ключа, создайте его на сайте выбранного провайдера, скопируйте и добавьте в Yourbit AI.\n\nПроверьте:\n1. действителен ли API-ключ.\n2. правильно ли он указан.\n3. не закончился ли доступ или баланс у провайдера.\n4. не превышен ли лимит запросов.\n\nЕсли есть проблемы, попробуйте другую модель или провайдера.	Settings → API Keys.\nYourbit AI supports keys from various providers, including OpenRouter, Hugging Face, Groq and Google AI Studio.\nIf you don't have an API key yet, create one on the chosen provider's site, copy it and add it to Yourbit AI.\n\nCheck:\n1. whether the API key is valid.\n2. whether it is entered correctly.\n3. whether access or balance at the provider has run out.\n4. whether the request limit has been exceeded.\n\nIf there are problems, try another model or provider.
+Для Cloudflare Workers AI (Настройки → API-Ключи → Cloudflare) нужны ДВА значения: API Token (Bearer-токен) и отдельно Account ID — без него запросы не пройдут, даже если токен верный.\n\nГде взять Account ID:\n1. Зайдите на dash.cloudflare.com и войдите в свой аккаунт.\n2. На главной странице панели (Overview) выберите нужный домен/сайт — либо, если домена нет, откройте любой раздел вроде «Workers & Pages».\n3. Account ID показан в правой боковой панели страницы Overview (в блоке «API» / «Account ID») — обычно это строка из букв и цифр длиной 32 символа. Там же рядом есть кнопка «Copy», чтобы скопировать его.\n4. Вставьте это значение в поле «Cloudflare Account ID» в Yourbit AI — рядом с самим API Token.\n\nAPI Token для Workers AI создаётся отдельно: profile → API Tokens → Create Token, с правом «Workers AI → Read/Edit» для вашего аккаунта.	Cloudflare Workers AI (Settings → API Keys → Cloudflare) needs TWO values: an API Token (Bearer token) and a separate Account ID — without it requests will not go through, even if the token is correct.\n\nWhere to get the Account ID:\n1. Go to dash.cloudflare.com and sign in to your account.\n2. On the dashboard's main page (Overview) choose the needed domain/site — or, if you have no domain, open any section such as “Workers & Pages”.\n3. The Account ID is shown in the right sidebar of the Overview page (in the “API” / “Account ID” block) — usually a 32-character string of letters and digits. There is also a “Copy” button next to it.\n4. Paste this value into the “Cloudflare Account ID” field in Yourbit AI — next to the API Token itself.\n\nThe API Token for Workers AI is created separately: profile → API Tokens → Create Token, with the “Workers AI → Read/Edit” permission for your account.
+Терминал (Настройки → Терминал) — встроенная консоль в духе Termux, работающая в песочнице приложения (своя папка, доступ к остальной системе не даётся). Поддерживает базовые команды: ls, cd, pwd, cat, echo, mkdir, touch, rm, mv, cp, clear и другие.\n\nОтдельно есть служебные команды с «/»:\n• /help — список всех команд.\n• /addapikeys <провайдер> <ключ> — добавляет API-ключ провайдера (openrouter, hf, groq, gemini, cloudflare, cloudflare_account). Запросы после этого идут напрямую через ваш ключ.\n• /addmodels <providerUrl> [ключ] — запрашивает у указанного OpenAI-совместимого провайдера список доступных моделей и позволяет добавить их в приложение как пользовательские.\n• /ai <запрос> — просит ИИ сгенерировать и сразу выполнить команду в этом же терминале (после вашего подтверждения).	The Terminal (Settings → Terminal) is a built-in Termux-style console that works in the app's sandbox (its own folder, no access to the rest of the system). It supports basic commands: ls, cd, pwd, cat, echo, mkdir, touch, rm, mv, cp, clear and others.\n\nThere are also service commands starting with “/”:\n• /help — list of all commands.\n• /addapikeys <provider> <key> — adds a provider API key (openrouter, hf, groq, gemini, cloudflare, cloudflare_account). Requests then go directly through your key.\n• /addmodels <providerUrl> [key] — asks the given OpenAI-compatible provider for its list of available models and lets you add them to the app as custom ones.\n• /ai <request> — asks the AI to generate a command and run it right away in this terminal (after your confirmation).
+Да. Если ИИ в чате предлагает код в блоке ```shell (или это результат команды /ai в Терминале), перед выполнением команда всегда показывается вам и требует подтверждения — автоматически, без вашего согласия, ничего не запускается. Выполнение происходит внутри песочницы приложения, поэтому доступ ограничен папкой Yourbit AI и не затрагивает остальную систему устройства.	Yes. If the AI in chat suggests code in a ```shell block (or it is the result of the /ai command in the Terminal), the command is always shown to you before running and requires confirmation — nothing is run automatically without your consent. Execution happens inside the app sandbox, so access is limited to the Yourbit AI folder and does not affect the rest of the device.
+Иногда провайдер ИИ отдаёт оборванные или пустые данные (сбой сети, перегруженная модель) — раньше такой файл всё равно сохранялся и показывался как готовый результат. Теперь Yourbit AI проверяет полученные данные перед сохранением и, если файл повреждён, сразу показывает ошибку вместо битого результата — просто попробуйте отправить запрос ещё раз или выбрать другую модель.	Sometimes an AI provider returns truncated or empty data (network failure, overloaded model) — previously such a file was still saved and shown as a finished result. Now Yourbit AI checks the received data before saving and, if the file is corrupted, immediately shows an error instead of a broken result — just try sending the request again or choose another model.
+Да. Yourbit AI не использует встроенные API-ключи и прокси. Добавьте собственный ключ для нужного провайдера в Настройки → API-Ключи. Для OpenAI-совместимого сервиса можно добавить провайдера один раз и затем подключать к нему несколько моделей.	Yes. Yourbit AI does not use built-in API keys or proxies. Add your own key for the provider you need in Settings → API Keys. For an OpenAI-compatible service you can add the provider once and then connect several models to it.
+Нет. Yourbit AI не требует регистрации для использования приложения. API-запросы выполняются с вашими ключами напрямую у выбранных провайдеров.	No. Yourbit AI does not require registration to use the app. API requests are made with your keys directly at the chosen providers.
+Почему иногда сгенерированная картинка или файл выходят битыми?	Why are generated images or files sometimes broken?
+ПРОДОЛЖИТЬ ({})	CONTINUE ({1})
+Не удалось открыть: {}	Could not open: {1}
+«{}» будет удалён без возможности восстановить.	“{1}” will be deleted permanently.
+(бинарный, {} байт)	(binary, {1} bytes)
+Тип: {}\nРазмер: {}\nИмя: {}	Type: {1}\nSize: {2}\nName: {3}
+\nПуть: {}	\nPath: {1}
+Пока пусто.\nНажмите ＋ чтобы добавить фото или документ.\nИли попросите нейросеть: «создайте zip с файлом …»	Empty for now.\nTap ＋ to add a photo or document.\nOr ask the AI: “create a zip with a file …”
+Сохранено: {}	Saved: {1}
+Не удалось сохранить: {}	Could not save: {1}
+DNGRS Не удалось получить ответ.\nПровайдер или его vision-модель при попытке анализа отправленного изображения вернула ошибку.	DNGRS Could not get a reply.\nThe provider or its vision model returned an error while analyzing the image you sent.
+DNGRS Не удалось получить ответ.\nПровайдер или выбранная модель вернули ошибку. Возможная причина — проблема с API-ключом, лимит запросов или временный сбой API провайдера.	DNGRS Could not get a reply.\nThe provider or the selected model returned an error. A possible cause is an API key problem, a rate limit or a temporary provider API failure.
+Сервер «{}» отключён. Включите его в Параметры для разработчиков → Модели или выберите другую модель.	Server “{1}” is disabled. Enable it in Developer options → Models or choose another model.
+Локальная модель «{}» не настроена — откройте «Свои модели» и добавьте её заново.	Local model “{1}” is not configured — open “Custom models” and add it again.
+Не удалось загрузить локальную модель «{}»: {}	Could not load local model “{1}”: {2}
+Камера недоступна: {}	Camera unavailable: {1}
+Уровень мышления: {}	Thinking level: {1}
+Файл создан: {} (Библиотека)	File created: {1} (Library)
+ZIP создан: {} (Библиотека)	ZIP created: {1} (Library)
+Архив прикреплён ({}, {})	Archive attached ({1}, {2})
+RAR прикреплён ({}, {})	RAR attached ({1}, {2})
+Файл прикреплён: {}	File attached: {1}
+Файл готов к отправке: {}	File ready to send: {1}
+Не удалось открыть файл: {}	Could not open the file: {1}
+{} кадра (начало, середина, конец)	{1} frames (start, middle, end)
+ГИФ добавлен ({} из {} кадров — достигнут лимит вложений)	GIF added ({1} of {2} frames — attachment limit reached)
+ГИФ добавлен: {}	GIF added: {1}
+Не удалось загрузить ГИФ: {}	Could not load the GIF: {1}
+Не удалось открыть редактор: {}	Could not open the editor: {1}
+Если модель перегружена — сам переключусь на следующую рекомендованную	If the model is overloaded — I'll switch to the next recommended one myself
+Провайдер: {}	Provider: {1}
+Добавьте API-ключ для модели или настройте провайдера в Параметрах для разработчиков → Модели	Add an API key for the model or set up the provider in Developer options → Models
+Не удалось продолжить: {}	Could not continue: {1}
+Слишком много дизлайков подряд — чтобы засчитать этот, опиши в двух словах, что не так. Без причины дизлайк не сохранится.	Too many dislikes in a row — to count this one, say in a few words what is wrong. Without a reason the dislike will not be saved.
+≈ {} токенов	≈ {1} tokens
+⚠ Не удалось отобразить квиз: модель прислала повреждённые данные. Попросите ещё раз или нажмите «Переработать».	⚠ Could not display the quiz: the model sent corrupted data. Ask again or tap “Regenerate”.
+Вложение · {}	Attachment · {1}
+ответ_{}.txt	reply_{1}.txt
+Не удалось применить изменения: {}	Could not apply the changes: {1}
+{}\n[изображение]	{1}\n[image]
+\n\nТехнически: {}	\n\nTechnical: {1}
+Модель вернула повреждённые данные изображения. Попробуйте ещё раз.	The model returned corrupted image data. Try again.
+Вот изображение, которое я сгенерировал по вашему запросу.\n\n```nanoimg:{}\n```	Here is the image I generated for your request.\n\n```nanoimg:{1}\n```
+Модель запустится прямо на телефоне через встроенный движок llama.cpp — без интернета и без своего сервера. Чем больше файл (параметров/квантование), тем больше ОЗУ и времени на ответ ей понадобится — на телефоне разумно начинать с моделей 1–4B параметров в Q4-квантовании.	The model will run right on the phone via the built-in llama.cpp engine — without internet and without your own server. The bigger the file (parameters/quantization), the more RAM and time it needs for a reply — on a phone it is reasonable to start with 1–4B-parameter models in Q4 quantization.
+Лимит токенов ограничивает длину ОДНОГО ответа именно этой модели (max_tokens в запросе) и имеет приоритет над общим лимитом из Экономики. Оставьте пустым, если ограничивать не нужно.	The token limit caps the length of ONE reply of this particular model (max_tokens in the request) and has priority over the global limit from Economy. Leave empty if no limit is needed.
+Подключите модель по своему провайдеру: укажите ID и URL API. API-ключ можно сохранить один раз у провайдера и использовать для нескольких моделей.	Connect a model through your own provider: enter the ID and the API URL. The API key can be saved once at the provider and used for several models.
+ZIP/RAR, model.json/manifest.json, или GGUF-файл с Hugging Face — запустится прямо на устройстве	ZIP/RAR, model.json/manifest.json, or a GGUF file from Hugging Face — runs right on the device
+Провайдеров пока нет. Можно хранить ключ прямо у модели или добавить общий провайдер.	No providers yet. You can store a key right in the model or add a shared provider.
+Серверов пока нет. Подключите свой сервер — его модели появятся в списке моделей.	No servers yet. Connect your own server — its models will appear in the model list.
+Модели останутся, но перестанут получать ключ этого провайдера.	The models will stay but will no longer receive this provider's key.
+моделей: {}	models: {1}
+Модели этого сервера пропадут из списка. Остальные модели, провайдеры и ключи не затронуты.	This server's models will disappear from the list. Other models, providers and keys are not affected.
+Сервер отвечает, но моделей не отдал — список остался прежним	The server responds but returned no models — the list stayed the same
+Сервер отвечает, моделей: {}	The server responds, models: {1}
+, на ключах сервера: {}	, on server keys: {1}
+ВНИМАНИЕ: раньше был закреплён другой отпечаток — сертификат сервера изменился.\n\n	WARNING: a different fingerprint was pinned before — the server certificate has changed.\n\n
+Принимается только сертификат с подтверждённым вами отпечатком SHA-256. Подтвердить его можно кнопкой «Проверить».	Only a certificate with the SHA-256 fingerprint you confirmed is accepted. You can confirm it with the “Check” button.
+Сервер отвечает, моделей: {}.	The server responds, models: {1}.
+ На ключах сервера: {} — они заменят встроенные модели с теми же названиями.	 On server keys: {1} — they will replace built-in models with the same names.
+Запасной адрес отвечает, моделей: {}.	The fallback address responds, models: {1}.
+на устройстве · ctx {} · {} поток(ов)	on device · ctx {1} · {2} thread(s)
+лимит: {} ток.	limit: {1} tok.
+«{}» будет удалена из списка без возможности восстановить.	“{1}” will be removed from the list permanently.
+Удалено: {}	Deleted: {1}
+Модель обновлена: {}	Model updated: {1}
+Число потоков CPU, напр. {}	Number of CPU threads, e.g. {1}
+Формат чат-разметки промпта — выберите, что ближе к семейству модели:	Prompt chat-template format — choose what is closest to the model's family:
+Не удалось закрепить доступ к файлу ({}). После перезапуска приложения модель может перестать открываться — тогда просто добавьте её заново.	Could not keep access to the file ({1}). After restarting the app the model may stop opening — then just add it again.
+Модель добавлена: {} (запускается на устройстве)	Model added: {1} (runs on the device)
+Нужны хотя бы ID модели и ссылка провайдера. Ключ можно оставить пустым, если он задан у провайдера.	At least the model ID and the provider link are required. The key can be left empty if it is set at the provider.
+Модель добавлена: {}	Model added: {1}
+Не удалось прочитать модели из manifest — проверьте поля id/providerUrl; apiKey теперь необязателен.	Could not read models from the manifest — check the id/providerUrl fields; apiKey is now optional.
+Импортировано моделей: {}	Models imported: {1}
+Оформление (цвета, градиенты, эффекты, рамки, анимации, шрифт)	Appearance (colors, gradients, effects, borders, animations, font)
+Небезопасные-для-данных параметры приложения (не ключи/прокси)	App settings that are unsafe for data (not keys/proxies)
+Подозрительная конструкция в скрипте: {}	Suspicious construct in the script: {1}
+Обнаружен крупный base64-блок — плагин должен быть читаемым JS, а не упакованным бинарником	A large base64 block was found — a plugin must be readable JS, not a packed binary
+Файл с таким хэшем помечен как вредоносный внешней базой сигнатур	A file with this hash is flagged as malicious by an external signature database
+Wikipedia, DuckDuckGo и Fandom — модель подтягивает свежие факты, когда вопрос похож на новостной или справочный запрос.	Wikipedia, DuckDuckGo and Fandom — the model pulls fresh facts when the question looks like a news or reference request.
+→ Открыть панель «{}»	→ Open panel “{1}”
+Установить .plugin можно через кнопку «+» вверху. Файл .plugin — JSON-манифест; исполняемый код из него не запускается.	You can install a .plugin with the “+” button at the top. A .plugin file is a JSON manifest; no executable code is run from it.
+Плагин установлен: {}	Plugin installed: {1}
+Установка плагина: {}	Plugin installation: {1}
+Запущено: {}	Started: {1}
+Плагин: {}	Plugin: {1}
+Результат: {} из {}	Result: {1} of {2}
+Не удалось установить защищённое соединение: сертификат сервера не принят системой. Если сертификат самоподписанный — включите в настройках сервера доверие самоподписанному сертификату и нажмите «Проверить».	Could not establish a secure connection: the server certificate was not accepted by the system. If the certificate is self-signed — enable trust for self-signed certificates in the server settings and tap “Check”.
+{}\nКод ошибки: {}	{1}\nError code: {2}
+Не удаётся подключиться к серверу. Проверьте адрес и доступность сервера.	Cannot connect to the server. Check the address and the server's availability.
+Сервер не нашёл адрес или модель. Проверьте адрес и название модели.	The server did not find the address or the model. Check the address and the model name.
+Сертификат сервера изменился. Откройте настройки сервера и нажмите «Проверить», чтобы увидеть и подтвердить новый отпечаток.	The server certificate has changed. Open the server settings and tap “Check” to see and confirm the new fingerprint.
+Для сервера включено доверие самоподписанному сертификату, но отпечаток ещё не подтверждён. Откройте настройки сервера и нажмите «Проверить».	Trust for a self-signed certificate is enabled for the server, but the fingerprint is not confirmed yet. Open the server settings and tap “Check”.
+\nНачало ответа: {}	\nStart of the reply: {1}
+Адрес должен начинаться с https:// — незащищённое соединение (http://) не поддерживается.	The address must start with https:// — an insecure connection (http://) is not supported.
+Адрес должен начинаться с https:// (например, https://example.com).	The address must start with https:// (for example, https://example.com).
+В адресе не должно быть параметров (? и #). Укажите только адрес сервера.	The address must not contain parameters (? and #). Enter only the server address.
+Не указывай логин и пароль в адресе. Ключ вводится отдельным полем.	Do not put a login and password in the address. The key is entered in a separate field.
+Не удалось зашифровать ключ: хранилище ключей Android недоступно	Could not encrypt the key: the Android keystore is unavailable
+Весь вывод текущего сеанса терминала будет удалён без возможности восстановить.	The entire output of the current terminal session will be deleted permanently.
+Yourbit AI Terminal — песочница приложения ({}).	Yourbit AI Terminal — app sandbox ({1}).
+bash: {}: команда не найдена (см. /help)	bash: {1}: command not found (see /help)
+Ошибка: {}	Error: {1}
+cd: {}: нет такой папки	cd: {1}: no such folder
+cat: {}: путь за пределами песочницы	cat: {1}: path is outside the sandbox
+cat: {}: нет такого файла	cat: {1}: no such file
+cat: {}: не удалось прочитать ({})	cat: {1}: could not read ({2})
+echo: не указан файл после {}	echo: no file specified after {1}
+echo: не удалось записать ({})	echo: could not write ({1})
+mkdir: {}: путь за пределами песочницы	mkdir: {1}: path is outside the sandbox
+mkdir: не удалось создать {}	mkdir: could not create {1}
+touch: {}: путь за пределами песочницы	touch: {1}: path is outside the sandbox
+rm: {}: путь за пределами песочницы	rm: {1}: path is outside the sandbox
+rm: {}: нет такого файла	rm: {1}: no such file
+rm: {}: это папка (нужен -r)	rm: {1}: is a folder (-r required)
+rm: не удалось удалить {}	rm: could not delete {1}
+mv: {}: нет такого файла	mv: {1}: no such file
+cp: {}: копирование поддерживается только для файлов	cp: {1}: copying is supported only for files
+cp: не удалось скопировать ({})	cp: could not copy ({1})
+Неизвестная команда: {} (см. /help)	Unknown command: {1} (see /help)
+Неизвестный провайдер: {}	Unknown provider: {1}
+Ожидался провайдер, например groq, hf, gemini: {}	A provider was expected, e.g. groq, hf, gemini: {1}
+{}: ключ не указан	{1}: no key specified
+✓ {}: ключ удалён	✓ {1}: key removed
+✓ {}: ключ сохранён	✓ {1}: key saved
+Готово. Изменений: {}.	Done. Changes: {1}.
+Откройте список кнопкой «Сеансы» вверху, либо: /sessions new [имя] · /sessions load <id> · /sessions delete <id>	Open the list with the “Sessions” button at the top, or: /sessions new [name] · /sessions load <id> · /sessions delete <id>
+Сеанс не найден: {}	Session not found: {1}
+✓ Переключено на сеанс {}	✓ Switched to session {1}
+✓ Сеанс удалён: {}	✓ Session deleted: {1}
+Использование: /sessions [list|new [имя]|load <id>|delete <id>]	Usage: /sessions [list|new [name]|load <id>|delete <id>]
+— Yourbit AI logs (последние {} строк) —	— Yourbit AI logs (last {1} lines) —
+✅ Модель "{}" добавлена. Она появится в списке моделей (Настройки → Параметры для разработчиков → Модели).	✅ Model "{1}" added. It will appear in the model list (Settings → Developer options → Models).
+Запрашиваю список моделей у {}…	Requesting the model list from {1}…
+Найдено моделей: {}	Models found: {1}
+Не удалось получить список моделей: {}	Could not get the model list: {1}
+Ошибка запроса к ИИ: {}	AI request error: {1}
+Тема устанавливается как обычный плагин с разрешением «Оформление» — её можно включить/выключить или удалить на экране «Плагины», как любую другую.	The theme is installed as a regular plugin with the “Appearance” permission — it can be turned on/off or deleted on the “Plugins” screen like any other.
+Плагин «Моя тема» будет удалён, приложение вернётся к фирменному оформлению.	The “My theme” plugin will be deleted and the app will return to its default appearance.
+Запрос не помещается в контекст модели «{}» даже без истории диалога (слишком длинное сообщение или системный промпт). Увеличьте размер контекста модели в «Своих моделях» или сократи сообщение.	The request does not fit into the context of model “{1}” even without the dialog history (the message or system prompt is too long). Increase the model's context size in “Custom models” or shorten the message.
+Локальная модель «{}» не сгенерировала ни одного токена ответа. Попробуйте начать новый чат покороче, увеличить контекст модели в «Своих моделях» или переключить пресет формата промпта.	The local model “{1}” did not generate a single reply token. Try starting a shorter new chat, increasing the model's context in “Custom models” or switching the prompt format preset.
+Ответ модели «{}» готов	The reply of model “{1}” is ready
+Добавьте свои инструкции для характера и стиля общения ИИ. Они добавляются к основному системному промпту Yourbit AI при каждом ответе.	Add your own instructions for the AI's persona and communication style. They are added to the main Yourbit AI system prompt on every reply.
+Например: отвечай с лёгкой иронией, используй меньше эмодзи, обращайся ко мне «капитан»…	For example: answer with light irony, use fewer emojis, address me as “captain”…
+Имя, род занятий, интересы, как к вам обращаться — что угодно. ИИ будет учитывать это при ответах, чтобы лучше понимать вас как собеседника.	Name, occupation, interests, how to address you — anything. The AI will take it into account in replies to understand you better as a conversation partner.
+Например: меня зовут Макс, я разработчик, увлекаюсь синтезаторами, предпочитаю короткие ответы без воды…	For example: my name is Max, I'm a developer, into synthesizers, I prefer short answers without fluff…
+Сравнение ИИ-моделей: одно сообщение — сразу несколько ответов	Compare AI models: one message — several replies at once
+Безопасное\nсоединение	Secure\nconnection
+Подключение\nк интернету	Connecting\nto the internet
+Загрузка\nмоделей	Loading\nmodels
+Подсказки-продолжения	Follow-up suggestions
+Просить модель дописывать под каждым ответом 2–3 варианта следующей реплики. Выключите — подсказок под ответами не будет, зато уйдёт кусок системного промпта и лишние токены в каждом ответе.	Ask the model to add 2–3 options for your next message under every reply. Turn off — no suggestions under replies, but a part of the system prompt and extra tokens in every reply are saved.
+Автоназвание чатов	Automatic chat titles
+Придумывать название чата отдельным запросом к модели. Выключите — название берётся из первого сообщения без обращения к модели.	Come up with the chat title with a separate request to the model. Turn off — the title is taken from the first message without calling the model.
+Усиление запроса для изображений	Image prompt boost
+Дописывать к описанию картинки длинную англоязычную инструкцию (точность, анатомия, качество). Выключите — в генерацию уходит только ваш текст как есть.	Append a long English instruction (accuracy, anatomy, quality) to the image description. Turn off — only your text is sent to generation as is.
+Короткая выдача поиска	Short search results
+Передавать модели из расширенного поиска только первые {} результата вместо всей выдачи — меньше токенов на вопросах с поиском.	Pass the model only the first {1} results of extended search instead of everything — fewer tokens on questions with search.
+Размытие	Blur
+Размытие зоны под капсулой ввода и фона за диалогами. Самый тяжёлый для видеочипа эффект — выключение заметно экономит батарею на слабых телефонах.	Blur of the area under the input capsule and behind dialogs. The heaviest effect for the GPU — turning it off noticeably saves battery on weak phones.
+Свечение кнопок	Button glow
+Цветная тень-подсветка вокруг кнопки отправки, кнопок выбора модели и иконки ассистента. Чисто декоративно.	Colored shadow glow around the send button, model selection buttons and the assistant icon. Purely decorative.
+Анимации переходов	Transition animations
+Плавные переходы между экранами и появление диалогов. Выключено — экраны и окна открываются мгновенно.	Smooth transitions between screens and dialog appearance. Off — screens and windows open instantly.
+Подсветка кода	Code highlighting
+Раскраска синтаксиса в блоках кода и просмотре файлов. На длинных листингах заметно грузит процессор.	Syntax coloring in code blocks and the file viewer. Noticeably loads the CPU on long listings.
+Все подходящие модели уже добавлены	All suitable models are already added
+
+# --- v3.0.0: терминал, режимы, авторитетность, язык ---
+Скоро будет	Coming soon
+ОК	OK
+Авторитетность моделей в разных заданиях	Model authority across tasks
+Генерация изображений	Image generation
+Видимость изображений	Image vision
+Испанский язык	Spanish
+Сеанс {}	Session {1}
+{} сеанс	{1} session
+{} сеанса	{1} sessions
+{} сеансов	{1} sessions
+Команды файловой системы (в песочнице Yourbit AI):	File system commands (in the Yourbit AI sandbox):
+  ls [-la] [путь]      cd <путь>          pwd	  ls [-la] [path]      cd <path>          pwd
+  cat <файл>           echo <текст> [> файл | >> файл]	  cat <file>           echo <text> [> file | >> file]
+  mkdir <папка>        touch <файл>       rm [-r] <путь>	  mkdir <folder>       touch <file>       rm [-r] <path>
+  mv <откуда> <куда>   cp <откуда> <куда> clear	  mv <from> <to>       cp <from> <to>     clear
+Служебные команды:	Service commands:
+  /help                          — эта справка	  /help                          — this help
+  /addapikeys                    — статус всех API-ключей	  /addapikeys                    — status of all API keys
+  /addapikeys <провайдер> <ключ>  — сохранить ключ (openrouter, hf, groq,	  /addapikeys <provider> <key>    — save a key (openrouter, hf, groq,
+                                     gemini, cloudflare, cloudflare_account);	                                     gemini, cloudflare, cloudflare_account);
+                                     сохраняет ваш ключ для прямых запросов	                                     stores your key for direct requests
+  /addapikeys <провайдер> clear   — удалить ключ провайдера	  /addapikeys <provider> clear    — remove the provider's key
+  /addapikeys p=KEY p2=KEY        — несколько ключей одной командой	  /addapikeys p=KEY p2=KEY        — several keys in one command
+  /addmodels <url> <ключ>         — получить список моделей провайдера	  /addmodels <url> <key>          — fetch the provider's model list
+  /addmodels add <id|номер>       — добавить модель из последнего списка	  /addmodels add <id|number>      — add a model from the last list
+  /logs [число]                   — показать последние логи; /logs clear — очистить	  /logs [number]                  — show the latest logs; /logs clear — clear them
+  /sessions                       — список сеансов терминала (или кнопка «Сеансы»)	  /sessions                       — list terminal sessions (or the “Sessions” button)
+  /sessions new [имя]             — новый сеанс	  /sessions new [name]            — new session
+  /sessions load <id>             — переключиться на сеанс	  /sessions load <id>             — switch to a session
+  /sessions delete <id>           — удалить сеанс	  /sessions delete <id>           — delete a session
+  /devmenu                        — открыть меню продвинутых настроек	  /devmenu                        — open the advanced settings menu
+  /ai <запрос>                    — ИИ предложит команду; выполнится только	  /ai <request>                   — the AI suggests a command; it runs only
+                                     после вашего подтверждения (y/n)	                                     after your confirmation (y/n)
+  /clear                          — очистить экран	  /clear                          — clear the screen
+  /addmodels <providerUrl> [ключ]   — получить список моделей	  /addmodels <providerUrl> [key]    — fetch the model list
+  /addmodels add <id|номер>         — добавить модель из списка	  /addmodels add <id|number>        — add a model from the list
+Ачивки	Achievements
+🏆 Ачивка получена:	🏆 Achievement unlocked:
+Начало экспериментов	The Experiments Begin
+Подготовьте хотя бы один API-Ключ для начала работы с ИИ.	Set up at least one API key to start working with AI.
+А вы точно умеете открывать дверь ключами?	Are you sure you know how to open a door with keys?
+Я умею открывать двери, это просто ключи не правильные какие-то...	I know how to open doors, it's just that the keys are somehow wrong...
+Новичок	Newbie
+Отправьте свой первый запрос.	Send your first request.
+Обычный	Regular
+Поздравляю, вы освоили базовые функции! Обычно это вкладки «Модели, API-Keys, FAQ, Кастомизация, Библиотека».	Congratulations, you've mastered the basics! Usually these are the tabs “Models, API-Keys, FAQ, Customization, Library”.
+Ларп термукса	Termux LARP
+Найдите терминал, и напишите там свою первую команду.	Find the terminal and type your first command there.
+Все системы включены!	All systems enabled!
+Включите сразу все параметры во вкладке экономики.	Turn on all the options in the Economy tab at once.
+Библиотекарь	Librarian
+Найдите библиотеку файлов.	Find the file library.
+Любопытство залог успеха!	Curiosity is the key to success!
+Найдите DevMenu.	Find the DevMenu.
+АЩИБКА	ERROOR
+Получите любую «АщИбКу».	Get any “ErRoR”.
+А у вас учатся медведи в школах?	Do bears go to school where you live?
+Ни один стереотип не постра-...	Not a single stereotype was hur-...
+Добавить модель к провайдеру	Add a model to a provider
+Свой или встроенный провайдер (OpenRouter, Groq, NVIDIA…) — ключ подставится сам, останется указать ID модели	Your own or a built-in provider (OpenRouter, Groq, NVIDIA…) — the key is filled in automatically, you only need the model ID
+Сначала добавьте провайдера	Add a provider first
+Выбор провайдера	Choose a provider
+Выберите провайдера, к которому подключить модель	Choose the provider to connect the model to
+Модель для провайдера	Model for provider
+Провайдер:	Provider:
+У этого провайдера не задан API-ключ — запросы пойдут без ключа. Ключ можно добавить, отредактировав провайдера.	This provider has no API key set — requests will be sent without a key. You can add one by editing the provider.
+Укажите ID модели	Enter the model ID
+Отправить плагину?	Send to the plugin?
+Некорректный адрес: нужен http(s)://…	Invalid address: an http(s)://… URL is required
+AI-провайдеры плагина загружаются…	The plugin's AI providers are loading…
+Плагин пока не зарегистрировал ни одного AI-провайдера.	The plugin has not registered any AI provider yet.
+Свои AI-провайдеры и модели (получают историю чата, когда выбрана их модель)	Own AI providers and models (they receive the chat history when their model is selected)
+ИИ сама решает, когда искать, и ищет по разным сайтам: веб, новости, форумы (Reddit, Hacker News, StackOverflow), Wikipedia, конкретный сайт — и может открывать страницы.	The AI decides on its own when to search, and looks across different sites: web, news, forums (Reddit, Hacker News, StackOverflow), Wikipedia, a specific site — and can open pages.
+Предпросмотр HTML	HTML preview
+Сеть: вкл	Network: on
+Сеть: выкл	Network: off
+Предпросмотр	Preview
+Что такое Автоподбор и как выбрать модель?	What is Auto-select and how do I choose a model?
+Автоподбор сам выбирает подходящую модель из доступных вам (по ключам и серверам) под ваш запрос. Если нужна конкретная модель, нажмите кнопку выбора модели в чате: там есть поиск и разделы «Рекомендованные», «Мои модели» и «Все модели».	Auto-select picks a suitable model from the ones available to you (by keys and servers) for your request. If you need a specific model, tap the model button in the chat: it has search and the sections “Recommended”, “My models” and “All models”.
+Как добавить свою модель или своего провайдера?	How do I add my own model or provider?
+Настройки → Модели → «Добавить». Для OpenAI-совместимого сервиса укажите адрес провайдера, ключ и ID модели. Провайдера достаточно добавить один раз — затем к нему можно подключать сколько угодно моделей. Свои модели появляются во всех списках: в чате, Арене и Авторитетности.	Settings → Models → “Add”. For an OpenAI-compatible service, enter the provider address, key and model ID. A provider only needs to be added once — then you can attach any number of models to it. Your models appear in all lists: in chat, Arena and Authority.
+Что умеют режимы модели: Чат, Vision и Генерация изображений?	What do the model modes Chat, Vision and Image generation do?
+При добавлении своей модели отметьте, что она умеет: Чат, Vision (понимает изображения) или Генерация изображений. Если включена «Отдельная копия для режима», каждый режим появится в списке отдельной записью (например, «Модель · Vision» и «Модель · Image»). Если выключить этот переключатель, режимы работают в одной записи. Режимы можно отключить в любой момент в настройках модели.	When adding your own model, mark what it can do: Chat, Vision (understands images) or Image generation. If “Separate copy for the mode” is on, each mode appears in lists as its own entry (for example, “Model · Vision” and “Model · Image”). If you turn this switch off, the modes work in a single entry. You can turn modes off at any time in the model settings.
+Можно ли подключить локальную модель?	Can I connect a local model?
+Да. Для локальных vision-моделей и генерации изображений укажите адрес вашего сервера (Ollama, LM Studio, Automatic1111 и т. п.) в качестве провайдера. Для генерации изображений выберите протокол: OpenAI-совместимый или Automatic1111. Модели GGUF, запускаемые прямо на устройстве, пока работают только как текстовые — vision и картинки у них недоступны.	Yes. For local vision models and image generation, enter the address of your server (Ollama, LM Studio, Automatic1111, etc.) as the provider. For image generation, choose the protocol: OpenAI-compatible or Automatic1111. GGUF models that run directly on the device currently work as text-only — vision and images are not available for them.
+Почему локальный сервер по адресу http:// не отвечает?	Why does my local server at http:// not respond?
+Проверьте, что сервер запущен и телефон находится в одной сети с ним. Адрес должен быть доступен с телефона: «localhost» на телефоне — это сам телефон, а не компьютер. Используйте IP-адрес компьютера в локальной сети, например http://192.168.1.10:11434. Также убедитесь, что сервер слушает не только 127.0.0.1.	Check that the server is running and your phone is on the same network. The address must be reachable from the phone: “localhost” on the phone is the phone itself, not your computer. Use your computer’s IP address on the local network, for example http://192.168.1.10:11434. Also make sure the server listens on more than just 127.0.0.1.
+Что такое Арена?	What is Arena?
+Арена — режим, в котором две модели отвечают на один и тот же запрос, а вы выбираете лучший ответ. В списке можно выбрать любые доступные модели, включая свои, подключённые через ключи или серверы. Список в окне выбора прокручивается и поддерживает поиск.	Arena is a mode where two models answer the same request and you pick the better answer. You can choose any available models in the list, including your own ones connected via keys or servers. The list in the picker window scrolls and supports search.
+Что такое Авторитетность?	What is Authority?
+Режим, в котором несколько моделей оценивают ответы друг друга, чтобы выбрать наиболее надёжный. Кнопка «Добавить модель» открывает такую же панель выбора, как в чате, — в неё входят и ваши собственные модели.	A mode in which several models rate each other’s answers to pick the most reliable one. The “Add model” button opens the same picker panel as in the chat — and it includes your own models too.
+Как работает генерация изображений?	How does image generation work?
+Выберите модель, умеющую создавать изображения (облачную или свою), и опишите, что нужно нарисовать. Готовую картинку можно сохранить или отправить. Если пришёл битый файл или ошибка, попробуйте ещё раз или выберите другую модель.	Choose a model that can create images (cloud or your own) and describe what to draw. You can save or send the finished picture. If you get a broken file or an error, try again or choose another model.
+Как отправить изображение модели (Vision)?	How do I send an image to a model (Vision)?
+Прикрепите изображение к сообщению. Если выбранная модель не понимает картинки, приложение подскажет выбрать модель с режимом Vision — свою или из списка.	Attach an image to your message. If the selected model does not understand images, the app will suggest choosing a model with the Vision mode — your own or one from the list.
+Как работает веб-поиск?	How does web search work?
+Если включён веб-поиск, модель может запросить свежие данные из интернета и использовать их в ответе. Источники отображаются под ответом. Результат зависит от качества поисковой выдачи и самой модели.	If web search is on, the model can request fresh data from the internet and use it in its answer. Sources are shown under the answer. The result depends on the quality of the search results and the model itself.
+Как работает предпросмотр HTML?	How does HTML preview work?
+Если ИИ написал HTML-код, под блоком кода появляется кнопка предпросмотра. Страница открывается во встроенном просмотрщике. Сетевые запросы страницы по умолчанию разрешены — их можно отключить в самом просмотрщике. Если страница пустая, проверьте, что код полный: от <html> до </html>.	If the AI wrote HTML code, a preview button appears under the code block. The page opens in the built-in viewer. The page’s network requests are allowed by default — you can turn them off in the viewer itself. If the page is blank, check that the code is complete: from <html> to </html>.
+Что такое Агентный режим?	What is Agent mode?
+Режим «Агент» (вкладка «Режимы») даёт ИИ управлять встроенным браузером: открывать сайты, нажимать на элементы, вводить текст, прокручивать страницы, делать скриншоты и показывать вам, что происходит. Опишите задачу — агент будет выполнять шаги по очереди и сообщать о ходе работы.	The “Agent” mode (the “Modes” tab) lets the AI control the built-in browser: open websites, click elements, type text, scroll pages, take screenshots and show you what is happening. Describe a task — the agent performs the steps one by one and reports progress.
+Безопасен ли Агентный режим?	Is Agent mode safe?
+Агент работает только во встроенном браузере с отдельными cookie и данными — ваш обычный браузер и его сессии ему недоступны. Адреса локальной сети и опасные схемы (javascript:, file:) блокируются. Перед действиями с оплатой, удалением и подобными приложение запрашивает подтверждение, а поля с паролями агент не заполняет — он попросит вас сделать это самостоятельно. Остановить агента можно в любой момент кнопкой «Стоп».	The agent works only in the built-in browser with separate cookies and data — your regular browser and its sessions are not accessible to it. Local-network addresses and dangerous schemes (javascript:, file:) are blocked. Before actions involving payment, deletion and the like, the app asks for confirmation, and the agent does not fill in password fields — it asks you to do that yourself. You can stop the agent at any moment with the “Stop” button.
+Какая модель нужна для Агента?	Which model do I need for the Agent?
+Подойдёт любая модель. Vision-модель видит скриншоты страницы и действует точнее. Текстовая модель получает список элементов и текст страницы — этого хватает для простых задач. За один запуск агент выполняет ограниченное число шагов, чтобы не зациклиться; если нужно, дайте команду продолжить.	Any model will do. A vision model sees page screenshots and acts more accurately. A text model receives the list of elements and the page text — that is enough for simple tasks. The agent performs a limited number of steps per run to avoid looping; if needed, tell it to continue.
+Где сохраняются скриншоты агента?	Where are the agent’s screenshots saved?
+Скриншоты сохраняются в папку приложения (раздел «Файлы»), показываются в журнале агента, и ими можно поделиться. Очистить данные встроенного браузера (cookie, кэш) можно в меню Агента.	Screenshots are saved to the app folder (the “Files” section), shown in the agent’s log, and can be shared. You can clear the built-in browser data (cookies, cache) in the Agent menu.
+Как поддерживаются формулы и математика?	How are formulas and math supported?
+Формулы в формате LaTeX ($…$, $$…$$, \(…\), \[…\]) превращаются в читаемый вид: дроби, корни, степени, индексы, интегралы, суммы и пределы, биномиальные коэффициенты, греческие буквы и сотни дополнительных символов.	LaTeX formulas ($…$, $$…$$, \(…\), \[…\]) are turned into a readable form: fractions, roots, powers, subscripts, integrals, sums and limits, binomial coefficients, Greek letters and hundreds of additional symbols.
+Как добавить свои математические символы?	How do I add my own math symbols?
+Настройки → Математические символы. Задайте имя латиницей и символ или текст: после этого \имя в формулах будет заменяться на ваш символ. Свои символы важнее встроенных, поэтому можно переопределить любой из них.	Settings → Math symbols. Set a name in Latin letters and a symbol or text: after that \\name in formulas will be replaced with your symbol. Your symbols take priority over built-in ones, so you can override any of them.
+Как работает код и предпросмотр SVG?	How do code and SVG preview work?
+Код выводится в блоках с подсветкой и кнопкой копирования. Для SVG доступен предпросмотр картинки, для HTML — просмотр страницы. Команды shell можно запускать в Терминале только после вашего подтверждения.	Code is shown in blocks with highlighting and a copy button. SVG has an image preview, HTML has a page view. Shell commands can be run in the Terminal only after your confirmation.
+Какие файлы можно прикреплять?	Which files can I attach?
+Изображения, текстовые файлы, документы и код. Модель получает содержимое файла как часть запроса. Большие файлы могут не поместиться в лимит контекста выбранной модели — в этом случае разбейте их на части.	Images, text files, documents and code. The model receives the file contents as part of the request. Large files may not fit into the context limit of the selected model — in that case split them into parts.
+Где лежат мои файлы?	Where are my files?
+В разделе «Файлы»: сгенерированные картинки, документы, скриншоты и другие результаты. Оттуда их можно открыть, переслать или удалить.	In the “Files” section: generated images, documents, screenshots and other results. From there you can open, forward or delete them.
+Как сделать резервную копию?	How do I make a backup?
+Настройки → Резервное копирование. Копия включает настройки и список моделей. Ключи API хранятся только на вашем устройстве и переносятся только если вы сами выберете это при экспорте — не передавайте такой файл другим людям.	Settings → Backup. The backup includes settings and the model list. API keys are stored only on your device and are transferred only if you choose so when exporting — do not give such a file to other people.
+Как сменить тему и язык?	How do I change the theme and language?
+Настройки → Тема и Настройки → Язык. Доступны русский, английский, испанский, португальский (Português), казахский (Қазақша), украинский (Українська) и белорусский (Беларуская). Часть названий для новых языков может временно отображаться по-английски.	Settings → Theme and Settings → Language. Russian, English, Spanish, Portuguese (Português), Kazakh (Қазақша), Ukrainian (Українська) and Belarusian (Беларуская) are available. Some names for the new languages may temporarily show in English.
+Что такое Экономия и Статистика?	What are Economy and Stats?
+Экономия помогает расходовать меньше токенов и запросов: например, короче ответы и меньше контекста. Статистика показывает, сколько запросов вы отправили и какие модели использовали — данные хранятся только на вашем устройстве.	Economy helps you spend fewer tokens and requests: for example, shorter answers and less context. Stats show how many requests you sent and which models you used — the data is stored only on your device.
+Что такое Достижения?	What are Achievements?
+Награды за использование приложения: открытие вкладок, режимов и функций. Это только развлечение — на работу моделей достижения не влияют.	Rewards for using the app: opening tabs, modes and features. It is just for fun — achievements do not affect how models work.
+Видят ли мои запросы разработчики приложения?	Can the app’s developers see my requests?
+Нет. Запросы отправляются напрямую выбранному вами провайдеру с вашим ключом, без промежуточных серверов. Какие данные обрабатывает провайдер — смотрите в его политике конфиденциальности. История чатов хранится на вашем устройстве.	No. Requests go directly to the provider you chose with your key, without intermediary servers. For what data the provider processes, see its privacy policy. Chat history is stored on your device.
+Что означают ошибки 401, 403, 429 и 5xx?	What do errors 401, 403, 429 and 5xx mean?
+401 и 403 — ключ неверный или у него нет доступа к модели. 429 — превышен лимит запросов или закончился бесплатный лимит: подождите или выберите другую модель. 5xx — проблема на стороне провайдера, повторите позже. Ошибка сети — проверьте интернет и адрес сервера.	401 and 403 — the key is wrong or has no access to the model. 429 — the request limit is exceeded or the free limit has run out: wait or choose another model. 5xx — a problem on the provider’s side, try again later. Network error — check the internet and the server address.
+Ответ не приходит, если свернуть приложение. Что делать?	The answer doesn’t arrive when I minimize the app. What should I do?
+Генерация ответа продолжается в фоне, но система Android может останавливать приложения при экономии энергии. Отключите ограничения батареи для Yourbit AI в настройках телефона, если ответы обрываются.	Answer generation continues in the background, but Android may stop apps to save power. Turn off battery restrictions for Yourbit AI in the phone settings if answers get cut off.
+Как остановить генерацию или повторить ответ?	How do I stop generation or regenerate an answer?
+Во время ответа вместо кнопки отправки показывается «Стоп». Для повторной генерации нажмите на сообщение модели и выберите повтор или смените модель.	During an answer, “Stop” is shown instead of the send button. To regenerate, tap the model’s message and choose regenerate, or switch the model.
+Что такое плагины?	What are plugins?
+Плагины расширяют возможности приложения дополнительными инструментами и источниками данных. Подключайте только те плагины, которым вы доверяете: они могут получать данные из ваших запросов.	Plugins extend the app with additional tools and data sources. Connect only plugins you trust: they can receive data from your requests.
+Какие ограничения у встроенного браузера?	What are the limitations of the built-in browser?
+Встроенный браузер не даёт сайтам доступ к геолокации, камере и микрофону, блокирует скачивание файлов и открывает только http(s)-страницы. Окна, открытые сайтом, загружаются в той же вкладке. Если нужно что-то из этого — откройте страницу во внешнем браузере через меню.	The built-in browser does not give sites access to location, camera or microphone, blocks file downloads and opens only http(s) pages. Windows opened by a site load in the same tab. If you need any of this, open the page in an external browser from the menu.
+Свои символы работают в формулах: напишите \имя — и оно заменится на заданный символ. Например, имя «mything» и символ «★» → \\mything даёт ★. Свои записи важнее встроенных.	Custom symbols work in formulas: write \\name and it will be replaced with the given symbol. For example, the name “mything” and the symbol “★” → \\mything gives ★. Your entries take priority over built-in ones.
+Пока пусто.	Nothing here yet.
+Новый символ	New symbol
+Имя (латиница, без «\»)	Name (Latin letters, without “\”)
+Символ или текст	Symbol or text
+Имя — только латинские буквы (до 32), символ не должен быть пустым	The name must be Latin letters only (up to 32), and the symbol must not be empty
+Математические символы	Math symbols
+Опишите задачу — модель сама откроет нужные страницы во встроенном браузере, будет нажимать, печатать, прокручивать и присылать скриншоты. Браузером можно пользоваться и вручную. Остановить агента можно кнопкой ■.	Describe a task — the model will open the pages it needs in the built-in browser, click, type, scroll and send screenshots. You can also use the browser manually. You can stop the agent with the ■ button.
+Агент	Agent
+Адрес или поисковый запрос	Address or search query
+● Агент работает	● Agent is working
+⌃  чат агента  ⌄	⌃  agent chat  ⌄
+Что сделать агенту?	What should the agent do?
+Загрузки файлов в браузере агента отключены	File downloads are disabled in the agent’s browser
+⚠ Ошибка сертификата сайта — загрузка отменена.	⚠ Site certificate error — loading cancelled.
+Страница: {}	Page: {1}
+Страница спрашивает: {} — отвечено «ОК»	The page asks: {1} — answered “OK”
+Этот тип адреса не поддерживается	This type of address is not supported
+Выбрать модель агента	Choose agent model
+Очистить журнал	Clear log
+Очистить данные браузера (куки, кэш)	Clear browser data (cookies, cache)
+Открыть страницу во внешнем браузере	Open page in external browser
+Сначала остановите агента	Stop the agent first
+Данные браузера очищены	Browser data cleared
+Модель агента	Agent model
+Лучше всего подходят модели с распознаванием изображений (👁)	Models with image recognition (👁) work best
+Скриншот	Screenshot
+нажмите, чтобы поделиться	tap to share
+Ваш ответ агенту…	Your reply to the agent…
+Не выбрана модель или для неё нет ключа. Нажмите на название модели вверху, чтобы выбрать.	No model selected or it has no key. Tap the model name at the top to choose one.
+⏹ Агент остановлен.	⏹ Agent stopped.
+● Шаг {}/{}: думаю…	● Step {1}/{2}: thinking…
+● Шаг {}/{}	● Step {1}/{2}
+Модель не смогла вернуть корректное действие (JSON). Попробуйте другую модель.	The model could not return a valid action (JSON). Try another model.
+Задача выполнена.	Task completed.
+Достигнут лимит шагов ({}). Напишите «продолжай», чтобы агент продолжил с текущей страницы.	Step limit reached ({1}). Write “continue” so the agent resumes from the current page.
+Подтвердите действие	Confirm action
+Агент хочет нажать «{}» на странице {}. Разрешить?	The agent wants to tap “{1}” on the page {2}. Allow?
+Это поле для секретных данных (пароль/карта/код). Введите их сами прямо в браузере и нажмите «Продолжить».	This field is for secret data (password/card/code). Enter it yourself directly in the browser and tap “Continue”.
+Нужна ваша помощь.	Your help is needed.
+Разрешить	Allow
+Открываю {}	Opening {1}
+Нажимаю [{}] «{}»	Tapping [{1}] “{2}”
+Нажимаю [{}]	Tapping [{1}]
+Касание ({}, {})	Tap ({1}, {2})
+Ввожу в [{}] «{}»: «{}» + Enter	Typing into [{1}] “{2}”: “{3}” + Enter
+Ввожу в [{}] «{}»: «{}»	Typing into [{1}] “{2}”: “{3}”
+Ввожу в [{}]: «{}» + Enter	Typing into [{1}]: “{2}” + Enter
+Ввожу в [{}]: «{}»	Typing into [{1}]: “{2}”
+Выбираю «{}» в [{}]	Selecting “{1}” in [{2}]
+Прокрутка: вверх	Scroll: up
+Прокрутка: в начало	Scroll: to top
+Прокрутка: в конец	Scroll: to bottom
+Прокрутка: вниз	Scroll: down
+Клавиша {}	Key {1}
+Вперёд	Forward
+Обновляю страницу	Reloading the page
+Жду {} мс	Waiting {1} ms
+Читаю текст страницы	Reading the page text
+Делаю скриншот и отправляю вам	Taking a screenshot and sending it to you
+Задаю вопрос	Asking a question
+Не удалось открыть предпросмотр	Could not open the preview
+Режимы модели	Model modes
+Отметьте, что умеет модель: облачная (по ссылке) или на локальном сервере (Ollama, LM Studio, Automatic1111). Любой режим можно выключить позже.	Mark what the model can do: cloud (by link) or on a local server (Ollama, LM Studio, Automatic1111). Any mode can be turned off later.
+Чат (текст)	Chat (text)
+Распознавание изображений (vision)	Image recognition (vision)
+Отдельная копия для режима	Separate copy for the mode
+Вкл — для vision и изображений в списках появится отдельная запись («Имя · Vision», «Имя · Image»), основная останется чатом. Выкл — режимы включаются прямо на этой модели.	On — vision and images get a separate entry in lists (“Name · Vision”, “Name · Image”), and the main one stays a chat. Off — the modes are enabled right on this model.
+Протокол картинок: 	Image protocol: 
+Automatic1111 / Forge (/sdapi/v1/txt2img) — нажмите, чтобы сменить	Automatic1111 / Forge (/sdapi/v1/txt2img) — tap to change
+OpenAI-совместимый (/images/generations) — нажмите, чтобы сменить	OpenAI-compatible (/images/generations) — tap to change
+Модели на самом устройстве (GGUF) пока работают только как чат.	On-device models (GGUF) currently work only as chat.
+Файл «{}» — это веса не в формате GGUF, приложение не может запустить их прямо на устройстве. Поднимите сервер с этой моделью (например, свой inference-сервис с OpenAI-совместимым API) и укажите его адрес ниже как ссылку провайдера. Если найдёте GGUF-версию этой модели (часто есть квантованные .gguf-сборки на Hugging Face) — импортируйте её вместо этого файла, тогда модель запустится прямо на телефоне.	The file “{1}” contains non-GGUF weights, so the app cannot run it directly on the device. Start a server with this model (for example, your own inference service with an OpenAI-compatible API) and enter its address below as a provider link. If you find a GGUF version of this model (quantized .gguf builds are often on Hugging Face), import it instead of this file, and the model will run right on the phone.
+Распознавание изображений ({})	Image recognition ({1})
+Генерация изображений ({})	Image generation ({1})
+Нативный движок GGUF (llama.cpp) не умеет рисовать картинки. Укажите адрес отдельного сервера изображений в сети или на этом устройстве (Automatic1111 / Forge / SD.Next, LM Studio, LocalAI): в списке изображений появится запись «Имя · Image».	The native GGUF engine (llama.cpp) cannot draw images. Enter the address of a separate image server on your network or on this device (Automatic1111 / Forge / SD.Next, LM Studio, LocalAI): an "Name · Image" entry will appear in the image list.
+Адрес сервера изображений (например http://192.168.1.5:7860)	Image server address (e.g. http://192.168.1.5:7860)
+Модель/чекпойнт на сервере (необязательно)	Model/checkpoint on the server (optional)
+Размер, например 512x512 (необязательно)	Size, e.g. 512x512 (optional)
+Шаги, Automatic1111 (необязательно, по умолчанию 20)	Steps, Automatic1111 (optional, default 20)
+Негативный промпт, Automatic1111 (необязательно)	Negative prompt, Automatic1111 (optional)
+Модели на самом устройстве (GGUF) поддерживают Чат и Vision; генерация изображений у них — через отдельный сервер изображений.	On-device models (GGUF) support Chat and Vision; their image generation goes through a separate image server.
+Адрес сервера изображений не указан — генерация изображений не включена (GGUF на устройстве сам картинки не рисует).	Image server address not set — image generation was not enabled (on-device GGUF cannot draw images by itself).
+Как сделать зачёркнутый текст?	How do I make strikethrough text?
+Оберните текст в ~~двойные тильды~~ (или в <s>…</s>, <del>…</del>) — он будет зачёркнут. В формулах работают \sout{…} и \cancel{…}.	Wrap text in ~~double tildes~~ (or <s>…</s>, <del>…</del>) to strike it through. In formulas, \sout{…} and \cancel{…} work.
+Украинский язык	Ukrainian
+Белорусский язык	Belarusian
+Ачивка получена:	Achievement unlocked:
+лайки / дизлайки	likes / dislikes
+ошибок 	errors 
+Опрос	Poll
+Квиз	Quiz
+Обрезать	Crop
+Кисть	Brush
+Применить обрезку	Apply crop
+Расширенный редактор тем	Advanced theme editor
+Включена · моделей: {}	On · models: {1}
+Выключена	Off
+Дополнительные настройки	Advanced settings
+Если модель упёрлась в лимит или ошибку, её ответ дописывает следующая модель — по кругу.	If a model hits a limit or an error, the next model finishes its answer — in a loop.
+Интерфейс	Interface
+К системному промпту добавляется жёсткий блок: ИИ обязан соблюдать ВСЕ правила, сверять черновик с ними перед ответом и не бросать ответ на полуслове.	A strict block is added to the system prompt: the AI must follow ALL rules, check its draft against them before replying, and never stop mid-sentence.
+Когда ответ дописывается («Продолжить», «Решимость»), повторённый моделью хвост, начало или блок кода убираются — текст не дублируется.	When an answer is continued (“Continue”, “Determination”), any tail, beginning or code block repeated by the model is removed — no duplicated text.
+Модификации	Modifications
+Мягкая вспышка поверх кнопки при нажатии — заметна и в светлой теме. Применяется при следующем открытии экрана.	A soft flash over the button when pressed — visible in the light theme too. Applies the next time the screen opens.
+Ответы	Answers
+Подсветка нажатий	Press highlight
+Решимость	Determination
+Склейка продолжений без повторов	Merge continuations without repeats
+Строгий режим правил	Strict rules mode
+Ближайшая рекомендованная модель с ключом	Nearest recommended model with a key
+Включить «Решимость»	Enable “Determination”
+Если и она споткнётся — модель №3, и так по кругу: после последней список начинается с первой. Модель №1 — всегда та, что выбрана в чате.	If that one stumbles too — model #3, and so on in a loop: after the last one the list restarts from the first. Model #1 is always the one selected in the chat.
+Если модель №1 упрётся в лимит длины или вернёт ошибку, уже написанная часть ответа передаётся модели №2, и она продолжает с того же места. 	If model #1 hits the length limit or returns an error, the part of the answer already written is passed to model #2, which continues from the same place. 
+Каждое переключение на следующую модель — ещё один запрос (и его токены).	Each switch to the next model is one more request (and its tokens).
+Количество моделей	Number of models
+Модель №{}	Model #{1}
+Модель, выбранная в чате	The model selected in the chat
+Отвечает первой	Answers first
+Подобрать автоматически	Pick automatically
+Продолжит ответ, если предыдущая споткнётся	Will continue the answer if the previous one stumbles
+Уже выбрано автоматически	Already picked automatically
+⚠ нет ключа — будет заменена автоматически	⚠ no key — will be replaced automatically
+Файл ещё не готов	The file is not ready yet
+Остановить генерацию	Stop generation
+Необязательно: без токена — анонимный доступ с малыми лимитами (dash.llm7.io)	Optional: without a token you get anonymous access with low limits (dash.llm7.io)
+Ключ с enter.pollinations.ai	Key from enter.pollinations.ai
+Введите ваш API-ключ от Mistral (console.mistral.ai)	Enter your Mistral API key (console.mistral.ai)
+Введите ваш API-ключ от Cohere (dashboard.cohere.com)	Enter your Cohere API key (dashboard.cohere.com)
+Встроенные провайдеры	Built-in providers
+Добавьте свою модель к провайдеру приложения — ключ берётся из «API-ключи».	Add your own model to an app provider — the key is taken from API keys.
+Своих провайдеров пока нет — добавьте через «Добавить провайдера».	No custom providers yet — add one via “Add a provider”.
+ключ необязателен	key is optional
+ключ не задан — добавьте в «API-ключи»	key not set — add it in API keys
+Модель понимает изображения (vision)	Model understands images (vision)
+Для этого провайдера не задан API-ключ — модель появится в списке, но запросы заработают после добавления ключа в «API-ключи».	No API key is set for this provider — the model will appear in the list, but requests will work once you add a key in API keys.
+Встроенный провайдер: {}	Built-in provider: {1}
+встроенный провайдер	built-in provider
+Модель не добавила новый текст — ответ, похоже, уже полный	The model added no new text — the reply seems complete
+# >>> v3.8 additions (generated)
+Ключи и приватность	Keys and privacy
+Нужны ли свои API-ключи?	Do I need my own API keys?
+Да. В Yourbit AI нет встроенных ключей и прокси: вы подключаете собственные ключи нужных провайдеров в Настройки → Параметры для разработчиков → API-Ключи. Для сервиса, совместимого с OpenAI, достаточно один раз добавить провайдера, а затем подключать к нему любое число моделей. Некоторые провайдеры (например, LLM7.io) работают и без ключа, но с малыми лимитами.	Yes. Yourbit AI has no built-in keys or proxies: you connect your own keys for the providers you need in Settings → Developer options → API Keys. For an OpenAI-compatible service, add the provider once and then attach as many models to it as you like. Some providers (for example, LLM7.io) also work without a key, but with small limits.
+Какие провайдеры поддерживаются?	Which providers are supported?
+Встроенно: OpenRouter, Hugging Face, Groq, Google AI Studio (Gemini), Cloudflare Workers AI, LLM7.io, Pollinations, Mistral AI, Cohere, OpenAI, Qwen (Alibaba Model Studio), DeepSeek, Anthropic и NVIDIA NIM. Кроме них можно добавить любой OpenAI-совместимый сервер, локальный сервер (Ollama, LM Studio, Automatic1111) или запустить модель GGUF прямо на устройстве.	Built in: OpenRouter, Hugging Face, Groq, Google AI Studio (Gemini), Cloudflare Workers AI, LLM7.io, Pollinations, Mistral AI, Cohere, OpenAI, Qwen (Alibaba Model Studio), DeepSeek, Anthropic and NVIDIA NIM. You can also add any OpenAI-compatible server, a local server (Ollama, LM Studio, Automatic1111), or run a GGUF model right on your device.
+Как получить API-ключ и подключить его?	How do I get an API key and connect it?
+Создайте ключ на сайте выбранного провайдера (раздел API или Keys), скопируйте его и вставьте в Настройки → Параметры для разработчиков → API-Ключи.\n\nЕсли ответы не приходят, проверьте:\n1. ключ действителен и вставлен без лишних пробелов;\n2. у провайдера не закончились доступ или баланс;\n3. не превышен лимит запросов;\n4. выбранная модель вам доступна.\n\nЕсли проблема осталась, попробуйте другую модель или другого провайдера.	Create a key on your provider's website (the API or Keys section), copy it and paste it into Settings → Developer options → API Keys.\n\nIf answers don't arrive, check that:\n1. the key is valid and was pasted without extra spaces;\n2. your access or balance with the provider hasn't run out;\n3. the request limit hasn't been exceeded;\n4. the selected model is available to you.\n\nIf the problem persists, try another model or provider.
+Для Cloudflare Workers AI нужны ДВА значения: API Token и отдельно Account ID. Без Account ID запросы не пройдут, даже если токен верный.\n\nГде взять Account ID:\n1. Откройте dash.cloudflare.com и войдите в аккаунт.\n2. На главной странице (Overview) выберите домен. Если домена нет, откройте любой раздел, например «Workers & Pages».\n3. Account ID указан в правой боковой панели страницы Overview — это строка из 32 букв и цифр. Рядом есть кнопка «Copy».\n4. Вставьте значение в поле «Cloudflare Account ID» рядом с API Token.\n\nAPI Token создаётся отдельно: profile → API Tokens → Create Token, с правом «Workers AI → Read/Edit» для вашего аккаунта.	Cloudflare Workers AI needs TWO values: an API Token and, separately, an Account ID. Without the Account ID requests will fail even if the token is correct.\n\nWhere to find the Account ID:\n1. Open dash.cloudflare.com and sign in.\n2. On the main page (Overview) pick a domain. If you have none, open any section, for example “Workers & Pages”.\n3. The Account ID is shown in the right sidebar of the Overview page — a string of 32 letters and digits. There is a “Copy” button next to it.\n4. Paste it into the “Cloudflare Account ID” field next to the API Token.\n\nThe API Token is created separately: profile → API Tokens → Create Token, with the “Workers AI → Read/Edit” permission for your account.
+Нет. Для работы с чатами не нужны ни регистрация, ни почта, ни телефон. Запросы уходят напрямую выбранному провайдеру с вашим ключом.	No. You don't need to register or provide an email or phone number to chat. Requests go directly to the provider you selected, using your key.
+Нет. Запросы идут напрямую провайдеру, без промежуточных серверов, а история чатов хранится только на вашем устройстве. Как провайдер обрабатывает данные, написано в его политике конфиденциальности. С облаком синхронизируются только идентификатор устройства и список сессий — без текста сообщений и без ключей.	No. Requests go straight to the provider with no intermediate servers, and your chat history is stored only on your device. How the provider handles data is described in its privacy policy. Only a device identifier and the list of sessions are synced with the cloud — never message text or keys.
+Как хранятся мои ключи?	How are my keys stored?
+Ключи лежат только на вашем устройстве и отправляются только тому провайдеру, для которого введены. В экспорт чатов они не попадают. В экспорт аккаунта попадают, но файл шифруется вашим паролем (AES-256), поэтому храните файл и пароль так же бережно, как сами ключи. Забытый пароль восстановить нельзя.	Keys stay on your device and are sent only to the provider they were entered for. They are not included in a chat export. They are included in an account export, but that file is encrypted with your password (AES-256), so keep the file and the password as safe as the keys themselves. A forgotten password cannot be recovered.
+Модели и режимы	Models and modes
+Автоподбор сам выбирает подходящую модель из доступных вам (по ключам и серверам) под ваш запрос. Нужна конкретная модель — нажмите кнопку выбора модели в чате: там есть поиск и разделы «Рекомендованные», «Мои модели», «Все модели», «Платные», «Нестабильные» и «Экспериментальные».	Auto-select picks a suitable model from those available to you (based on your keys and servers) for each request. If you need a specific model, tap the model button in the chat: it has search and the sections “Recommended”, “My models”, “All models”, “Paid”, “Unstable” and “Experimental”.
+Что означают разделы и метки у моделей?	What do the model sections and labels mean?
+«Платные» — модели, за которые провайдер берёт деньги. «Нестабильные» — часто перегружены или меняются. «Экспериментальные» — новые или нестандартные модели.\n\nМетки: «видео» — модель понимает видео, «мультимодальная» — работает с несколькими типами данных, «не проверена» — мы ещё не тестировали её в приложении, поэтому возможны сбои.	“Paid” models are charged by the provider. “Unstable” models are often overloaded or change. “Experimental” models are new or unconventional.\n\nLabels: “video” — the model understands video, “multimodal” — it works with several kinds of data, “unverified” — we haven't tested it in the app yet, so failures are possible.
+Откуда берётся список встроенных моделей?	Where does the built-in model list come from?
+Список загружается с сервера и сохраняется на устройстве. Пока приложение открыто, оно само проверяет обновления примерно раз в 15–20 секунд, поэтому новые модели появляются без перезапуска. Если сервер недоступен, используется последний сохранённый список или вшитые модели. Чтобы проверять реже, включите в «Экономике» пункт «Реже опрашивать сервер моделей». Проверить связь вручную можно командой /syncmodels в Терминале.	The list is downloaded from a server and saved on your device. While the app is open it checks for updates by itself roughly every 15–20 seconds, so new models appear without a restart. If the server is unavailable, the last saved list or the bundled models are used. To check less often, turn on “Poll the model server less often” in Economy. You can test the connection manually with the /syncmodels command in the Terminal.
+Настройки → Параметры для разработчиков → Модели → «Добавить». Для OpenAI-совместимого сервиса укажите адрес, ключ и ID модели. Провайдера достаточно добавить один раз — потом к нему можно подключать сколько угодно моделей. Свои модели появляются во всех списках: в чате, Арене и «Авторитетности».	Settings → Developer options → Models → “Add”. For an OpenAI-compatible service, enter the address, key and model ID. A provider only needs to be added once — after that you can attach as many models to it as you want. Your models appear in every list: in the chat, the Arena and Authority.
+При добавлении модели отметьте, что она умеет: Чат, Vision (понимает изображения) или Генерация изображений. Если включена «Отдельная копия для режима», каждый режим станет отдельной записью в списке (например, «Модель · Vision» и «Модель · Image»). Если выключить переключатель, режимы объединяются в одну запись. Режимы можно отключить в любой момент в настройках модели.	When adding a model, mark what it can do: Chat, Vision (understands images) or Image generation. If “Separate copy per mode” is on, each mode becomes its own entry in the list (for example, “Model · Vision” and “Model · Image”). If you turn the switch off, the modes are combined into one entry. You can turn modes off at any time in the model's settings.
+Как включить Vision у встроенной модели?	How do I enable Vision for a built-in model?
+Настройки → «Авторитетность моделей в разных заданиях» → вкладка «Видимость изображений» → «Режимы встроенных моделей». Включите Vision у нужной модели — она сможет разбирать изображения и появится в списке авторитетных. Модели Gemini, VL и Omni определяются автоматически.	Settings → “Model authority across tasks” → the “Image vision” tab → “Built-in model modes”. Turn on Vision for the model you need — it will be able to analyze images and will appear in the authoritative list. Gemini, VL and Omni models are detected automatically.
+Да. Для локальных vision-моделей и генерации изображений укажите адрес своего сервера (Ollama, LM Studio, Automatic1111 и т. п.) в качестве провайдера. Для картинок выберите протокол: OpenAI-совместимый или Automatic1111. Модели GGUF можно запускать прямо на устройстве в режимах «Чат» и «Vision» (изображения при этом разбирает vision-модель из «Авторитетности»). Генерации изображений на устройстве нет.	Yes. For local vision models and image generation, enter your own server's address (Ollama, LM Studio, Automatic1111, etc.) as the provider. For images, choose the protocol: OpenAI-compatible or Automatic1111. GGUF models can run directly on the device in “Chat” and “Vision” modes (images are then analyzed by the vision model from Authority). There is no on-device image generation.
+Проверьте, что сервер запущен и телефон находится в той же сети. «localhost» на телефоне — это сам телефон, а не компьютер, поэтому используйте IP компьютера в локальной сети, например http://192.168.1.10:11434. Убедитесь также, что сервер слушает не только 127.0.0.1.	Make sure the server is running and your phone is on the same network. “localhost” on a phone is the phone itself, not your computer, so use your computer's IP address on the local network, for example http://192.168.1.10:11434. Also make sure the server listens on more than just 127.0.0.1.
+Режим, в котором до 50 моделей отвечают на один и тот же запрос, а вы выбираете лучший ответ. Подойдут любые доступные модели, включая свои. К сообщению можно прикреплять фото и файлы, а само сообщение — изменить или удалить, как в обычном чате.	A mode where up to 50 models answer the same request and you pick the best answer. Any available models work, including your own. You can attach photos and files to a message, and edit or delete the message just like in a regular chat.
+Режим, в котором несколько моделей оценивают ответы друг друга, чтобы выбрать самый надёжный. Кнопка «Добавить модель» открывает ту же панель выбора, что и в чате, — в неё входят и ваши модели.	A mode where several models rate each other's answers to pick the most reliable one. The “Add model” button opens the same picker as in the chat — your own models are included.
+Чат и ответы	Chat and replies
+Во время ответа вместо кнопки отправки показывается «Стоп». Чтобы сгенерировать ответ заново, нажмите на сообщение модели и выберите повтор или смените модель.	While a reply is being generated, the send button turns into “Stop”. To regenerate a reply, tap the model's message and choose to retry or switch the model.
+Что делает кнопка «Продолжить ответ»?	What does the “Continue reply” button do?
+Она появляется, когда ответ оборвался из-за лимита длины или остался незакрытый блок кода. Новый текст присоединяется к прежнему без повторов. Если продолжение ничего не добавило, кнопка исчезает.	It appears when a reply was cut off by the length limit or a code block was left unclosed. The new text is joined to the old one without repetition. If the continuation adds nothing, the button disappears.
+Что такое «Память чата»?	What is “Chat memory”?
+Экономика → Токены → «Память чата» задаёт, сколько последних сообщений уходит модели вместе с новым. Чем больше, тем лучше модель помнит разговор, но тем больше токенов тратится. «Помнить начало чата» добавляет первое сообщение, когда оно уже не влезает в память. Старые длинные сообщения можно сокращать: настраиваются порог и число свежих сообщений, которые всегда уходят целиком.	Economy → Tokens → “Chat memory” sets how many of the latest messages are sent to the model along with the new one. The more, the better the model remembers the conversation, but the more tokens are used. “Remember the start of the chat” adds the first message once it no longer fits in memory. Old long messages can be shortened: you can set the threshold and the number of recent messages that are always sent in full.
+Как тратить меньше токенов и запросов?	How can I use fewer tokens and requests?
+В «Экономике» есть несколько переключателей: «Краткие ответы», «Ограничить рассуждение», «Лёгкие изображения», «Один раунд веб-поиска», «Сжимать старый код в истории», «Реже обновлять текст при печати», а для Агента — «Короткий прогон», «Короткое наблюдение» и «Агент без скриншотов». Чем больше включено, тем дешевле запросы, но тем меньше деталей в ответах.	Economy has several switches: “Short answers”, “Limit reasoning”, “Light images”, “One web search round”, “Compress old code in history”, “Update text less often while typing”, and for the Agent — “Short run”, “Short observation” and “Agent without screenshots”. The more you turn on, the cheaper the requests, but the less detail in the answers.
+Генерация продолжается в фоне, но Android может останавливать приложения при экономии энергии. Если ответы обрываются, отключите для Yourbit AI ограничения батареи в настройках телефона.	Generation continues in the background, but Android may stop apps to save power. If replies get cut off, turn off battery restrictions for Yourbit AI in your phone's settings.
+Формулы LaTeX ($…$, $$…$$, \\(…\\), \\[…\\]) отображаются в читаемом виде: дроби, корни, степени, индексы, интегралы, суммы, пределы, биномиальные коэффициенты, греческие буквы и сотни дополнительных символов.	LaTeX formulas ($…$, $$…$$, \\(…\\), \\[…\\]) are rendered in readable form: fractions, roots, powers, subscripts, integrals, sums, limits, binomial coefficients, Greek letters and hundreds of extra symbols.
+Настройки → Математические символы. Задайте имя латиницей и символ или текст: после этого \\имя в формулах будет заменяться вашим символом. Свои символы важнее встроенных, поэтому можно переопределить любой из них.	Settings → Math symbols. Enter a name in Latin letters and a symbol or text: after that \\name in formulas is replaced with your symbol. Your symbols take priority over built-in ones, so you can override any of them.
+Оберните текст в ~~двойные тильды~~ или в <s>…</s>, <del>…</del>. В формулах работают \\sout{…} и \\cancel{…}.	Wrap the text in ~~double tildes~~ or in <s>…</s>, <del>…</del>. In formulas, \\sout{…} and \\cancel{…} work.
+Как работают код и предпросмотр SVG?	How do code and SVG preview work?
+Код показывается в блоках с подсветкой и кнопкой копирования. Для SVG есть предпросмотр картинки, для HTML — просмотр страницы. Команды shell запускаются в Терминале только после вашего подтверждения.	Code is shown in highlighted blocks with a copy button. SVG has an image preview, and HTML has a page viewer. Shell commands run in the Terminal only after you confirm.
+Картинки, файлы и поиск	Images, files and search
+Можно ли отправить видео?	Can I send a video?
+Да: прикрепите видео через «Фото» или «Файлы». Приложение берёт из него 6 кадров (3 в экономном режиме) и описывает их одним запросом — сначала моделью, которая видит видео (метка «видео»), затем остальными vision-моделями.	Yes: attach a video via “Photo” or “Files”. The app takes 6 frames from it (3 in economy mode) and describes them in a single request — first by a model that can see video (the “video” label), then by the other vision models.
+Выберите модель, умеющую создавать изображения (облачную или свою), и опишите, что нарисовать. Готовую картинку можно сохранить или отправить. Иногда провайдер отдаёт оборванные данные — приложение проверяет файл перед сохранением и вместо битой картинки показывает ошибку. Просто повторите запрос или выберите другую модель.	Pick a model that can create images (cloud or your own) and describe what to draw. You can save or share the finished picture. Sometimes a provider returns truncated data — the app checks the file before saving and shows an error instead of a broken image. Just retry or choose another model.
+Изображения, видео, текстовые файлы, документы и код. Содержимое файла передаётся модели как часть запроса. Большие файлы могут не поместиться в лимит контекста модели — тогда разбейте их на части.	Images, videos, text files, documents and code. The file's contents are passed to the model as part of the request. Large files may not fit in the model's context limit — in that case split them into parts.
+Модель сама решает, когда искать, и может сделать до 3 раундов: по сайтам, новостям, форумам или Wikipedia. В «Экономике» можно оставить один раунд. Кнопка поиска в чате включает поиск принудительно. Источники показываются под ответом, а доступ к адресам локальной сети закрыт. Качество зависит от поисковой выдачи и самой модели.	The model decides when to search and can run up to 3 rounds: across websites, news, forums or Wikipedia. In Economy you can limit it to one round. The search button in the chat forces a search. Sources are shown below the answer, and local network addresses are blocked. Quality depends on the search results and the model itself.
+Если ИИ написал HTML-код, под блоком кода появляется кнопка предпросмотра. Страница открывается во встроенном просмотрщике. Сеть для страницы по умолчанию включена — её можно отключить кнопкой в просмотрщике. Если страница пустая, проверьте, что код полный: от <html> до </html>.	If the AI writes HTML code, a preview button appears under the code block. The page opens in the built-in viewer. Network access for the page is on by default — you can turn it off with the button in the viewer. If the page is blank, check that the code is complete: from <html> to </html>.
+Режим «Агент» (вкладка «Режимы») позволяет ИИ управлять встроенным браузером: открывать сайты, нажимать на элементы, вводить текст, прокручивать страницы и делать скриншоты. Опишите задачу — агент выполнит шаги по очереди и расскажет о ходе работы.	The “Agent” mode (the “Modes” tab) lets the AI control the built-in browser: open sites, tap elements, type text, scroll pages and take screenshots. Describe the task — the agent performs the steps one by one and reports its progress.
+Агент работает только во встроенном браузере с отдельными cookie и данными: ваш обычный браузер и его сессии ему недоступны. Адреса локальной сети и опасные схемы (javascript:, file:) блокируются. Перед оплатой, удалением и подобными действиями приложение просит подтверждение, а поля с паролями агент не заполняет — он попросит вас сделать это самостоятельно. Остановить агента можно в любой момент кнопкой «Стоп».	The agent works only in the built-in browser, which has its own cookies and data: your regular browser and its sessions are out of reach. Local network addresses and dangerous schemes (javascript:, file:) are blocked. Before payments, deletions and similar actions the app asks for confirmation, and the agent doesn't fill in password fields — it asks you to do that yourself. You can stop the agent at any time with the “Stop” button.
+Подойдёт любая. Vision-модель видит скриншоты и действует точнее. Текстовая получает список элементов и текст страницы — для простых задач хватает. За один запуск агент делает ограниченное число шагов, чтобы не зациклиться; при необходимости дайте команду продолжить.	Any model works. A vision model sees the screenshots and acts more accurately. A text model gets the list of elements and the page text, which is enough for simple tasks. The agent takes a limited number of steps per run so it doesn't loop; if needed, tell it to continue.
+В папке приложения (раздел «Файлы»). Они показываются в журнале агента, и ими можно поделиться. Очистить данные встроенного браузера (cookie, кэш) можно в меню Агента.	In the app folder (the “Files” section). They are shown in the agent's log and can be shared. You can clear the built-in browser's data (cookies, cache) in the Agent menu.
+Можно ли сохранить чат агента?	Can I save an agent chat?
+Да, чат агента сохраняется автоматически. В меню «⋯» есть «Новый чат», «Сохранённые чаты», копирование и экспорт всего чата, а под каждым сообщением — «Копировать», «Поделиться» и «Повторить». К задаче можно прикрепить файлы и картинки.	Yes, the agent chat is saved automatically. The “⋯” menu has “New chat”, “Saved chats”, and copying or exporting the whole chat, and under each message there are “Copy”, “Share” and “Retry”. You can attach files and images to the task.
+Он не даёт сайтам доступ к геолокации, камере и микрофону, блокирует скачивание файлов и открывает только http(s)-страницы. Окна, которые открывает сайт, загружаются в той же вкладке. Если нужно что-то из этого, откройте страницу во внешнем браузере через меню.	It doesn't give sites access to location, camera or microphone, blocks file downloads and opens only http(s) pages. Windows a site opens load in the same tab. If you need any of that, open the page in an external browser via the menu.
+Терминал и плагины	Terminal and plugins
+Терминал (Настройки → Параметры для разработчиков → Терминал) — встроенная консоль в духе Termux. Она работает в песочнице приложения: своя папка, остальная система недоступна. Есть базовые команды: ls, cd, pwd, cat, echo, mkdir, touch, rm, mv, cp, clear и другие.\n\nСлужебные команды начинаются с «/»:\n• /help — список команд.\n• /addapikeys <провайдер> <ключ> — добавляет API-ключ.\n• /addmodels <providerUrl> [ключ] — запрашивает у OpenAI-совместимого провайдера список моделей и добавляет их как свои.\n• /syncmodels — проверяет сервер встроенных моделей и показывает источник списка.\n• /ai <запрос> — ИИ придумывает команду и выполняет её после вашего подтверждения.	The Terminal (Settings → Developer options → Terminal) is a built-in console in the spirit of Termux. It runs in the app's sandbox: its own folder, with the rest of the system out of reach. Basic commands are supported: ls, cd, pwd, cat, echo, mkdir, touch, rm, mv, cp, clear and more.\n\nService commands start with “/”:\n• /help — list of commands.\n• /addapikeys <provider> <key> — adds an API key.\n• /addmodels <providerUrl> [key] — asks an OpenAI-compatible provider for its model list and adds them as your own.\n• /syncmodels — checks the built-in model server and shows where the list comes from.\n• /ai <request> — the AI comes up with a command and runs it after you confirm.
+Да, но только с вашего согласия. Если ИИ предлагает код в блоке ```shell (или это результат команды /ai), команда сначала показывается вам, и без подтверждения ничего не запускается. Выполнение идёт в песочнице приложения, поэтому доступ ограничен папкой Yourbit AI.	Yes, but only with your consent. If the AI suggests code in a ```shell block (or it is the result of the /ai command), the command is shown to you first, and nothing runs without confirmation. Execution happens in the app's sandbox, so access is limited to the Yourbit AI folder.
+Плагины добавляют приложению инструменты, источники данных и даже провайдеров ИИ. Подключайте только те, которым доверяете: плагин может получать данные из ваших запросов. Каждый плагин заранее объявляет, какие разрешения ему нужны.	Plugins give the app extra tools, data sources and even AI providers. Connect only those you trust: a plugin may receive data from your requests. Each plugin declares the permissions it needs in advance.
+Настройки и данные	Settings and data
+Как экспортировать и импортировать чаты?	How do I export and import chats?
+Настройки → «Экспорт и импорт». При экспорте выберите нужные чаты (есть поиск и кнопки «Все», «Сбросить», «Инвертировать»), затем формат: зашифрованный .nanobackup, читаемый текст .md (только для чтения) или .json без пароля. Можно взять только последние сообщения, задать имя файла и сразу поделиться файлом.\n\nИмпорт принимает .nanobackup и .json. Выберите чаты из файла и режим: добавить как новые, пропустить уже существующие или заменить их. Можно пометить импортированные чаты «(импорт)» и поставить их в начало списка.	Settings → “Export & import”. When exporting, pick the chats you want (there is search and the “All”, “Reset” and “Invert” buttons), then the format: encrypted .nanobackup, readable text .md (read-only) or .json without a password. You can take only the latest messages, set a file name and share the file right away.\n\nImport accepts .nanobackup and .json. Pick the chats from the file and a mode: add as new, skip those that already exist, or replace them. You can mark imported chats “(imported)” and put them at the top of the list.
+Как сделать полную резервную копию?	How do I make a full backup?
+Настройки → «Экспорт и импорт» → «Экспортировать аккаунт». В файл попадают чаты, ключи API, модели, плагины, оформление и файлы из «Библиотеки». Файл шифруется вашим паролем. Импорт аккаунта заменяет все текущие данные, поэтому используйте его при переносе на новое устройство.	Settings → “Export & import” → “Export account”. The file includes chats, API keys, models, plugins, appearance and files from the Library. It is encrypted with your password. Importing an account replaces all current data, so use it when moving to a new device.
+Что такое сессии и аккаунт в «Экспорте и импорте»?	What are sessions and the account in “Export & import”?
+Каждое устройство с вашими данными — это сессия. В списке видно, где и когда был вход, и любое устройство можно отключить. «Завершить все остальные сессии» отключает остальные устройства и делает недействительными все старые файлы экспорта аккаунта. Это нужно, если файл попал в чужие руки. «Удалить аккаунт» необратимо: его резервные копии больше не восстанавливаются.	Every device that holds your data is a session. The list shows where and when it was used, and you can disconnect any device. “End all other sessions” disconnects every other device and invalidates all old account export files. Use it if a file fell into the wrong hands. “Delete account” is irreversible: its backups can no longer be restored.
+Тема — Настройки → Кастомизация. Язык — Настройки → Язык. Доступны русский, английский, испанский, португальский, казахский, украинский, белорусский и китайский. Если для строки нет перевода, она показывается по-английски (для украинского, белорусского и казахского — по-русски).	Theme — Settings → Customization. Language — Settings → Language. Available: Russian, English, Spanish, Portuguese, Kazakh, Ukrainian, Belarusian and Chinese. If a string has no translation, it is shown in English (in Russian for Ukrainian, Belarusian and Kazakh).
+Что такое Экономика и Статистика?	What are Economy and Statistics?
+Экономика помогает тратить меньше токенов и запросов: настройка памяти чата, краткие ответы, облегчённые изображения и другое. Статистика показывает, сколько запросов вы отправили и какие модели использовали. Данные хранятся только на устройстве.	Economy helps you use fewer tokens and requests: chat memory settings, short answers, lighter images and more. Statistics shows how many requests you sent and which models you used. The data is stored only on your device.
+Награды за использование приложения: открытие разделов, режимов и функций. Это просто игра — на работу моделей достижения не влияют.	Rewards for using the app: opening sections, modes and features. It's just for fun — achievements don't affect how the models work.
+О приложении	About
+Telegram-канал VonCure Studio	VonCure Studio Telegram channel
+Возможности приложения	App features
+Политика конфиденциальности	Privacy Policy
+Правила использования	Terms of Use
+Связь и поддержка	Contact and support
+Спасибо этим людям!	Thanks to these people!
+тестер	tester
+Клиент для общения с ИИ: свои ключи, свои модели, без посредников.	A client for chatting with AI: your own keys, your own models, no middlemen.
+Чат с моделями 14 провайдеров, а также со своими и локальными моделями.	Chat with models from 14 providers, plus your own and local models.
+Арена и «Авторитетность»: сравнение моделей и их взаимная оценка.	Arena and “Authority”: compare models and have them rate each other.
+Агент во встроенном браузере: сам открывает сайты, нажимает и вводит текст.	An agent in a built-in browser: it opens sites, taps and types by itself.
+Изображения, видео, файлы и веб-поиск прямо в чате.	Images, video, files and web search right in the chat.
+Формулы, подсветка кода, предпросмотр HTML и SVG.	Formulas, code highlighting, HTML and SVG preview.
+Терминал, плагины и свои математические символы.	Terminal, plugins and your own math symbols.
+Экспорт и импорт чатов, резервные копии аккаунта и управление сессиями.	Chat export and import, account backups and session management.
+Экономия токенов: память чата, краткие ответы, лёгкие изображения.	Token saving: chat memory, short answers, light images.
+Темы, редактор оформления и 8 языков интерфейса.	Themes, an appearance editor and 8 interface languages.
+Клиент не собирает и не хранит ваши персональные данные. Исключение — идентификатор устройства и список сессий (без текста сообщений): они нужны разделу «Экспорт и импорт».	The client does not collect or store your personal data. The exception is a device identifier and the list of sessions (without message text): they are needed for “Export & import”.
+Ключи API хранятся только на вашем устройстве и отправляются лишь тому провайдеру, для которого введены.	API keys are stored only on your device and are sent only to the provider they were entered for.
+Ваши переписки хранятся только на вашем устройстве.	Your conversations are stored only on your device.
+Часть данных обрабатывают выбранные вами провайдеры, серверы, сервисы и плагины — по их собственным правилам.	Some data is processed by the providers, servers, services and plugins you choose — under their own rules.
+Политика может обновляться. Актуальная версия публикуется в нашем Telegram-канале.	The policy may be updated. The current version is published in our Telegram channel.
+Модификации приложения разрешены.	Modifying the app is allowed.
+Нельзя создавать вредоносное ПО на основе нашего кода: это прямое нарушение правил.	Creating malware based on our code is not allowed: it is a direct violation of the rules.
+Запрещено красть аккаунты и API-ключи.	Stealing accounts and API keys is prohibited.
+Плагины не должны скрыто отправлять чаты, ключи или другие данные на сторонние серверы и обязаны заранее объявлять запрашиваемые разрешения.	Plugins must not secretly send chats, keys or other data to third-party servers and must declare the permissions they request in advance.
+Запрещено распространять вредоносное ПО внутри плагинов.	Distributing malware inside plugins is prohibited.
+Ответственность за плагины несут их авторы.	Plugin authors are responsible for their plugins.
+За установку плагинов, подключение серверов и установку локальных моделей отвечаете вы — как и авторы этих плагинов, серверов и моделей.	You are responsible for installing plugins, connecting servers and installing local models — as are the authors of those plugins, servers and models.
+Продажа плагинов и серверов разрешена, но они обязаны заранее объявлять запрашиваемые разрешения, куда уходят запросы и какие данные собираются.	Selling plugins and servers is allowed, but they must declare in advance the permissions they request, where requests are sent and what data is collected.
+Приложение нельзя использовать в незаконных целях и для нарушения прав других людей. За ключи, расходы и соблюдение правил провайдеров ИИ отвечает пользователь.	The app must not be used for illegal purposes or to violate other people's rights. The user is responsible for keys, costs and compliance with AI providers' rules.
+Проект рассчитан на аудиторию старше 18 лет.	The project is intended for an audience over 18.
+Мы не отвечаем за ваши запросы и за установленный сторонний контент. Продукт предоставляется «как есть».	We are not responsible for your requests or for third-party content you install. The product is provided “as is”.
+Правила могут обновляться. Актуальная версия публикуется в нашем Telegram-канале.	The rules may be updated. The current version is published in our Telegram channel.
+Новости, обновления и обратная связь — в Telegram-канале VonCure Studio. Если что-то работает не так, опишите проблему, укажите версию приложения и модель, с которой она возникла. Раздел «FAQ» в настройках отвечает на самые частые вопросы.	News, updates and feedback are in the VonCure Studio Telegram channel. If something isn't working, describe the problem and include the app version and the model it happened with. The “FAQ” section in settings answers the most common questions.
+Выберите нужные чаты, формат (.nanobackup, .md, .json) и параметры. Без ключей API	Choose the chats, the format (.nanobackup, .md, .json) and the options. API keys are not included
+Принимает .nanobackup и .json. Чаты — выберите нужные и режим при совпадении. Аккаунт — заменит всё текущее	Accepts .nanobackup and .json. Chats — choose the ones you need and what to do on a match. Account — replaces everything current
+Выбрано чатов: {}	Chats selected: {1}
+Формат файла	File format
+Файл защищён паролем (AES-256).	The file is protected with a password (AES-256).
+Файл без шифрования: любой, у кого он окажется, сможет прочитать переписку.	Unencrypted file: anyone who gets it can read the conversation.
+Зашифрованный (.nanobackup) — можно импортировать обратно	Encrypted (.nanobackup) — can be imported back
+Читаемый текст (.md) — только для чтения	Readable text (.md) — read-only
+JSON (.json) — без пароля, можно импортировать обратно	JSON (.json) — no password, can be imported back
+Сколько сообщений брать из каждого чата	How many messages to take from each chat
+Все сообщения	All messages
+Последние 100	Last 100
+Последние 30	Last 30
+Последние 10	Last 10
+Дополнительно	Additional
+Время сообщений в читаемом тексте (.md)	Message times in readable text (.md)
+Открыть «Поделиться» вместо сохранения в Загрузки	Open “Share” instead of saving to Downloads
+Имя файла (необязательно)	File name (optional)
+Например: мои-чаты	For example: my-chats
+Параметры экспорта	Export options
+Экспортировать	Export
+Поделиться файлом экспорта	Share the export file
+Файл без шифрования может содержать только чаты	An unencrypted file can only contain chats
+Читаемый текст (.md) нельзя импортировать — выберите .nanobackup или .json	Readable text (.md) can't be imported — choose .nanobackup or .json
+Импорт чатов: добавлено {}, заменено {}, пропущено {}	Chat import: {1} added, {2} replaced, {3} skipped
+Если чат с таким ID уже есть	If a chat with the same ID already exists
+Добавить как новый чат	Add as a new chat
+Пропустить уже существующие	Skip existing ones
+Заменить существующие	Replace existing ones
+Существующим считается чат с тем же ID — например, при повторном импорте того же файла. «Заменить» перезаписывает его сообщения и название.	A chat counts as existing if it has the same ID — for example, when you import the same file again. “Replace” overwrites its messages and title.
+Добавить к названию пометку «(импорт)»	Add “(imported)” to the title
+Поставить импортированные чаты в начало списка	Put imported chats at the top of the list
+Параметры импорта	Import options
+Проверяем аккаунт…	Checking the account…
+Аккаунт удалён	Account deleted
+Этот аккаунт был удалён владельцем. Восстановить его из резервной копии нельзя.	This account was deleted by its owner. It can't be restored from a backup.
+Резервная копия устарела	Backup is out of date
+Владелец завершил все сессии этого аккаунта, поэтому эта копия больше не даёт доступа. Используйте более свежий экспорт.	The owner ended all sessions of this account, so this copy no longer grants access. Use a newer export.
+«{}» будет отключено сразу, как только оно выйдет в сеть: доступ к аккаунту закроется, а данные аккаунта на нём будут стёрты. Если у постороннего есть файл резервной копии — используйте «Завершить все остальные сессии».	“{1}” will be disconnected as soon as it goes online: access to the account will be closed and the account data on it will be erased. If someone else has a backup file, use “End all other sessions”.
+Отключаем…	Disconnecting…
+Синхронизация с облаком…	Syncing with the cloud…
+Облако: синхронизировано	Cloud: synced
+Нет связи с облаком — показаны последние известные данные	No connection to the cloud — showing the last known data
+Завершить все остальные сессии	End all other sessions
+Отключает все другие устройства и делает недействительными старые резервные копии	Disconnects all other devices and invalidates old backups
+Нужна связь с облаком	A cloud connection is required
+Завершить все остальные сессии?	End all other sessions?
+Все остальные устройства потеряют доступ и сотрут данные аккаунта при следующем выходе в сеть. Все ранее сделанные файлы экспорта аккаунта перестанут восстанавливаться — после этого сделайте новый экспорт.	All other devices will lose access and erase the account data the next time they go online. All previously made account export files will stop being restorable — make a new export afterwards.
+Завершить	End
+Завершаем сессии…	Ending sessions…
+Остальные сессии завершены	Other sessions ended
+Удалить аккаунт	Delete account
+Удаляет аккаунт в облаке, отключает все сессии и блокирует любые резервные копии	Deletes the cloud account, disconnects all sessions and blocks any backups
+Сессии хранятся в облаке (Supabase) и синхронизируются при каждом запуске приложения. «Отключить» закрывает доступ конкретному устройству. Если аккаунт получил посторонний (например, файл резервной копии) — «Завершить все остальные сессии»: это меняет ключ доступа, и старые файлы экспорта перестают работать. Удаление аккаунта необратимо: резервные копии удалённого аккаунта восстановить нельзя.	Sessions are stored in the cloud (Supabase) and synced every time the app starts. “Disconnect” closes access for a specific device. If someone else got hold of the account (for example, a backup file), use “End all other sessions”: it changes the access key, and old export files stop working. Deleting an account is irreversible: backups of a deleted account can't be restored.
+Нет связи с облаком	No connection to the cloud
+Доступ к аккаунту закрыт	Access to the account is closed
+Ошибка облака: {}	Cloud error: {1}
+Удалить аккаунт?	Delete account?
+Аккаунт будет удалён в облаке: все сессии (включая это устройство) завершатся, а резервные копии этого аккаунта больше нельзя будет восстановить. Данные на этом устройстве (чаты, ключи, модели, плагины, файлы) будут стёрты. Это действие необратимо.	The account will be deleted in the cloud: all sessions (including this device) will end, and backups of this account can no longer be restored. Data on this device (chats, keys, models, plugins, files) will be erased. This action is irreversible.
+Удаляем аккаунт…	Deleting the account…
+Не удалось удалить аккаунт: 	Couldn't delete the account: 
+Поиск по названию	Search by title
+Все	All
+Инвертировать	Invert
+{} сообщ.	{1} msgs
+[сгенерированное изображение] 	[generated image] 
+Yourbit AI — экспорт чатов	Yourbit AI — chat export
+Экспортировано	Exported
+Чатов	Chats
+ИИ	AI
+Система	System
+Файл повреждён или это не JSON Yourbit AI	The file is corrupted or is not a Yourbit AI JSON
+(импорт)	(imported)
+Частые вопросы	FAQ
+Коротко о ключах, моделях, чатах, Агенте, резервных копиях и других возможностях. Нажмите на вопрос, чтобы раскрыть ответ.	A quick guide to keys, models, chats, the Agent, backups and other features. Tap a question to reveal the answer.
+Поиск по вопросам	Search questions
+А вы кто?	And who are you?
+Напишите запрос «Yourbit AI» типа — «ты кто»	Send Yourbit AI a prompt like “who are you”
+*Звуки of the Freedom Motive*	*Sounds of the Freedom Motive*
+Я могу всё! Хаос хаос! (Спросите у Yourbit AI что она умеет).	I can do anything! Chaos, chaos! (Ask Yourbit AI what it can do).
+ТикТок против капли человечности	TikTok vs a drop of humanity
+Напишите в запросе слова «Коч братан, Пантера, Эль патрон, Голда».	Write the words “Koch bratan, Panther, El Patron, Golda” in a prompt.
+Кажется, я близок к разгадке.	I think I'm close to solving it.
+Напишите 228 сообщений.	Send 228 messages.
+Вентиляторы, быки!	Fans, bulls!
+Напишите уже 1[—][—][—] сообщений.	Send 1[—][—][—] messages already.
+Ядерка прикрывает мое сознание	The nuke shields my mind
+Снова трещит мотив свободы, гастер награждает вас званием «доходяги».	The freedom motive crackles again, and Gaster awards you the title “wimp”.
+ПРОБЕЛматик!	SPACEmatic!
+У нас всё завтра, за то речь красивая.	Everything's tomorrow with us, but the speech is beautiful.
+Сыр.	Cheese.
+Hello, Место... Имения!	Hello, Place... of Estates!
+Срачи в твиттерах это конечно бомба!	Twitter flame wars are a blast, of course!
+Бурмалда	Burmalda
+Вкусность.	Yumminess.
+Кд чд шд бд дд кд шд чд фр мб бтв бмв.	Kd chd shd bd dd kd shd chd fr mb btw bmw.
+Ну научись ты уже открывать дверь ключами, господи.	Just learn to open the door with keys already, for goodness' sake.
+Потрогайте траву.	Touch grass.
+Пробудьте в YourAI три часа!	Stay in YourAI for three hours!
+Артемзлой6769777	Artemzloy6769777
+Злюка, бяка забияка, вы кака*ка.	Grumpy, naughty bully, you are poopy.
+Напишите 67 сообщений.	Send 67 messages.
+Проклятый запрос.	The cursed prompt.
+Напишите 666 сообщений.	Send 666 messages.
+Опишите задачу — модель сама откроет нужные страницы во встроенном браузере, будет нажимать, печатать, прокручивать и присылать скриншоты. Браузером можно пользоваться и вручную. Остановить агента можно кнопкой ■. Можно прикреплять файлы (скрепка), чат сохраняется автоматически.	Describe the task — the model will open the pages it needs in the built-in browser, tap, type, scroll and send screenshots. You can also use the browser manually. Stop the agent with the ■ button. You can attach files (paperclip), and the chat is saved automatically.
+Сохранённых чатов пока нет	No saved chats yet
+Удалить все сохранённые чаты	Delete all saved chats
+Чаты агента	Agent chats
+Удалить все чаты агента?	Delete all agent chats?
+Сохранённые чаты будут удалены без возможности восстановления.	Saved chats will be deleted permanently.
+Модель агента не умеет видеть картинки — выберите vision-модель или включите Vision в «Авторитетности»	The agent's model can't see images — choose a vision model or turn on Vision in “Authority”
+Максимум 3 изображения	Maximum 3 images
+Ошибка сертификата сайта — загрузка отменена.	Site certificate error — loading cancelled.
+Страница: 	Page: 
+Страница спрашивает: 	The page asks: 
+ — отвечено «ОК»	 — answered “OK”
+Сохранённые чаты	Saved chats
+Скопировать весь чат	Copy the whole chat
+Поделиться чатом	Share the chat
+Удалить этот чат	Delete this chat
+Чат пуст	The chat is empty
+Лучше всего подходят модели с распознаванием изображений (со значком глаза)	Models with image recognition (with an eye icon) work best
+Повторить	Retry
+Изучи прикреплённые файлы и выполни задачу по ним.	Study the attached files and complete the task based on them.
+\nМодель: 	\nModel: 
+Модель не вернула ответ. Попробуйте другую модель или проверьте настройки сервера.	The model returned no answer. Try another model or check the server settings.
+Модель не смогла вернуть корректное действие (JSON). Начало её ответа: «	The model couldn't return a valid action (JSON). The start of its reply: “
+». Попробуйте другую модель.	”. Try another model.
+Агент хочет нажать «	The agent wants to tap “
+» на странице 	” on the page 
+. Разрешить?	. Allow?
+Не удалось сделать скриншот.	Couldn't take a screenshot.
+Отклонить	Decline
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>body{margin:0;background:#0b0b0e;color:#cfd0d6;font-family:sans-serif;display:flex;align-items:center;justify-content:center;height:100vh;text-align:center}div{padding:24px;max-width:320px}h1{font-size:22px;margin:0 0 10px;color:#fff}p{font-size:14px;line-height:1.5;color:#9a9aa5}</style></head><body><div><h1>Встроенный браузер</h1><p>Введите адрес сверху или поставьте задачу агенту внизу — он сам откроет нужные страницы.</p></div></body></html>	<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>body{margin:0;background:#0b0b0e;color:#cfd0d6;font-family:sans-serif;display:flex;align-items:center;justify-content:center;height:100vh;text-align:center}div{padding:24px;max-width:320px}h1{font-size:22px;margin:0 0 10px;color:#fff}p{font-size:14px;line-height:1.5;color:#9a9aa5}</style></head><body><div><h1>Built-in browser</h1><p>Enter an address at the top or give the agent a task below — it will open the pages it needs by itself.</p></div></body></html>
+причина остановки: 	stop reason: 
+весь лимит токенов ушёл на «рассуждение» модели	the whole token limit was spent on the model's “reasoning”
+Модель «	The model “
+» вернула пустой ответ	” returned an empty answer
+. Попробуйте другую модель или более лёгкий режим рассуждения.	. Try another model or a lighter reasoning mode.
+Открываю 	Opening 
+Нажимаю [	Tapping [
+Касание (	Touch (
+Ввожу в [	Typing into [
+Выбираю «	Selecting “
+» в [	” in [
+Прокрутка: 	Scroll: 
+вверх	up
+в начало	to the top
+в конец	to the bottom
+вниз	down
+Клавиша 	Key 
+Жду 	Waiting 
+ мс	 ms
+Сервер не вернул изображение	The server returned no image
+Модель сейчас перегружена (лимит запросов). Подождите 10–30 секунд или выберите другую модель.	The model is overloaded right now (rate limit). Wait 10–30 seconds or pick another model.
+Лимит Workers AI (neurons) исчерпан или модель перегружена. Подождите или выберите более лёгкую модель (GLM / FLUX.1).	The Workers AI limit (neurons) is exhausted or the model is overloaded. Wait or pick a lighter model (GLM / FLUX.1).
+Таймаут: модель слишком долго отвечает (часто у Gemma/Llama). Попробуйте ещё раз или выберите GLM / Qwen.	Timeout: the model is taking too long to answer (common with Gemma/Llama). Try again or pick GLM / Qwen.
+Ключ отклонён Cloudflare (ошибка авторизации). Проверьте, что API Token имеет право "Workers AI: Edit" и что Account ID указан верно.	The key was rejected by Cloudflare (authorization error). Check that the API Token has the "Workers AI: Edit" permission and that the Account ID is correct.
+Модель недоступна у провайдера. Выберите другую. {}	The model is unavailable at the provider. Pick another one. {1}
+Модель не справилась с генерацией (внутренняя ошибка провайдера) — часто происходит у FLUX на сложных/длинных промптах или необычных референс-картинках. Yourbit AI уже пробует один раз с упрощённым промптом автоматически; если не помогло — попробуйте сформулировать проще или выбрать другую модель. 	The model failed to generate (internal provider error) — this often happens with FLUX on complex/long prompts or unusual reference images. Yourbit AI already retries once automatically with a simplified prompt; if that didn't help, try wording it more simply or pick another model. 
+Clef / Clairic — не чат-модели: у них отдельный System One API (state + questions/fields). Для диалога выберите другую модель.	Clef / Clairic are not chat models: they use a separate System One API (state + questions/fields). Pick another model for a conversation.
+Ответ провайдера не похож на JSON: 	The provider's reply doesn't look like JSON: 
+Ошибка провайдера: 	Provider error: 
+что происходит	what's going on
+что случилось	what happened
+свежие новости	latest news
+сегодня в мире	today in the world
+{} forum OR обсуждение OR форум	{1} forum OR discussion OR forum
+провайдер плагина	plugin provider
+Платный ключ с platform.openai.com	Paid key from platform.openai.com
+Ключ Model Studio, международный регион (Сингапур)	Model Studio key, international region (Singapore)
+Ключ с platform.deepseek.com	Key from platform.deepseek.com
+Ключ Claude API с console.anthropic.com (через слой совместимости с OpenAI)	Claude API key from console.anthropic.com (via the OpenAI compatibility layer)
+Ключ с build.nvidia.com (NIM, начинается с nvapi-)	Key from build.nvidia.com (NIM, starts with nvapi-)
+Нет ключа	No key
+Добавьте API-ключ в настройках провайдера или выберите локальную модель/свой сервер.	Add an API key in the provider's settings or choose a local model / your own server.
+Неверный пароль аккаунта	Wrong account password
+Сервис отклонил данные входа. Проверьте логин и пароль в настройках сервиса.	The service rejected the sign-in details. Check the login and password in the service settings.
+Неверный ключ	Invalid key
+Провайдер отклонил ключ. Проверьте его значение и доступ к API.	The provider rejected the key. Check its value and API access.
+Анализ изображений недоступен	Image analysis unavailable
+Эта модель или провайдер не поддерживает входные изображения. Выберите vision-модель или отправьте текстовое описание.	This model or provider doesn't support image input. Choose a vision model or send a text description.
+Таймаут ответа	Response timeout
+Сервер не ответил за отведённое время. Попробуйте повторить запрос или выбрать другую модель.	The server didn't answer in time. Try repeating the request or choose another model.
+Лимит исчерпан	Limit exhausted
+У провайдера закончился доступный лимит или слишком много запросов. Подождите либо проверьте баланс.	The provider's available limit has run out or there are too many requests. Wait or check your balance.
+Некорректная модель	Invalid model
+Проверьте ID модели и то, что выбранный провайдер её поддерживает.	Check the model ID and that the selected provider supports it.
+Кастомный сервер недоступен	Custom server unavailable
+Не удалось подключиться к указанному серверу. Проверьте URL, сеть и доступность сервиса.	Couldn't connect to the specified server. Check the URL, the network and the service's availability.
+Плагин завершился с ошибкой. Отключите его и попробуйте снова; затем проверьте журнал плагинов.	The plugin ended with an error. Turn it off and try again; then check the plugin log.
+Ошибка системного промпта	System prompt error
+Системный промпт не удалось обработать. Проверьте его формат, размер и настройки режима разработчика.	The system prompt couldn't be processed. Check its format, size and the developer mode settings.
+Повреждённый архив или файл	Corrupted archive or file
+Не удалось прочитать файл. Убедитесь, что он не повреждён, не защищён паролем и имеет правильное расширение.	Couldn't read the file. Make sure it isn't corrupted, isn't password-protected and has the right extension.
+Ошибка поисковика	Search engine error
+Поиск временно недоступен. Проверьте подключение к интернету или повторите запрос позже.	Search is temporarily unavailable. Check your internet connection or try again later.
+Ошибка контекста	Context error
+История или вложение слишком велики для контекстного окна. Сократи запрос или начни новый чат.	The history or attachment is too large for the context window. Shorten the request or start a new chat.
+Ответ оборван	Reply cut off
+Соединение прервалось во время генерации. Продолжи ответ или повторите запрос.	The connection dropped during generation. Continue the reply or repeat the request.
+Модель не отвечает	The model isn't responding
+Сервер вернул пустой ответ или временно не отвечает. Попробуйте ещё раз или выберите другую модель.	The server returned an empty answer or is temporarily not responding. Try again or choose another model.
+Ошибка локальной модели	Local model error
+Локальная модель не смогла выполнить запрос. Проверьте файл модели, свободную память и совместимость формата.	The local model couldn't process the request. Check the model file, free memory and format compatibility.
+Не удалось получить ответ при обработке запроса с изображением. Проверьте доступность выбранной модели и повтори попытку.	Couldn't get a reply while processing the request with an image. Check that the selected model is available and try again.
+Не удалось получить ответ от выбранной модели. Проверьте подключение и попробуйте ещё раз.	Couldn't get a reply from the selected model. Check your connection and try again.
+Максимум 5 файлов	Maximum 5 files
+Выберите от 2 до {} моделей (хоть всё сразу), отправьте сообщение — и переключайте ответы моделей над сообщением. Можно слать одно сообщение всем или своё каждой модели.	Choose from 2 to {1} models (even all at once), send a message — and switch between the models' answers above the message. You can send one message to all or a separate one to each model.
+Изменить	Edit
+Удалить сообщение?	Delete the message?
+Сообщение и ответы всех моделей на него будут удалены.	The message and all models' answers to it will be deleted.
+Прикрепить файл	Attach a file
+⏹ Остановлено	⏹ Stopped
+\n\n⏹ Остановлено	\n\n⏹ Stopped
+\n\n⚠ Поток ответа оборван	\n\n⚠ The reply stream was cut off
+Выберите модель для сравнения	Choose a model to compare
+ещё не проверялось	not checked yet
+список загружен из локального файла (rev {})	list loaded from a local file (rev {1})
+ответ сервера не разобран (откройте <адрес>/models в браузере)	server reply could not be parsed (open <address>/models in a browser)
+сервер: нет изменений (rev {})	server: no changes (rev {1})
+сервер просит вшитые модели (режим обслуживания или список пуст)	the server asks for bundled models (maintenance mode or the list is empty)
+обновлено с сервера: rev {}, режим {}, моделей на сервере {}	updated from the server: rev {1}, mode {2}, models on the server {3}
+ошибка: {}: {}	error: {1}: {2}
+Сервер моделей: 	Model server: 
+НЕ ЗАДАН (приложение собрано без адреса)	NOT SET (the app was built without an address)
+Проверка: 	Check: 
+Источник списка: 	List source: 
+сервер (rev {}, режим {})	server (rev {1}, mode {2})
+вшитые модели	bundled models
+Моделей в приложении: 	Models in the app: 
+Вшитые модели → сервер: 	Bundled models → server: 
+есть, {} байт	present, {1} bytes
+сервер ответил HTTP {}	the server answered HTTP {1}
+нет связи: {}: {}	no connection: {1}: {2}
+Groq — текст и изображения, режим размышления (preview)	Groq — text and images, thinking mode (preview)
+Cloudflare — Llama 4 Scout (текст + изображения)	Cloudflare — Llama 4 Scout (text + images)
+Cloudflare — Llama 3.3 70B (FP8, быстрая)	Cloudflare — Llama 3.3 70B (FP8, fast)
+Cloudflare — reasoning-модель Qwen	Cloudflare — Qwen reasoning model
+Cloudflare — R1, дистиллированная в Qwen 32B	Cloudflare — R1 distilled into Qwen 32B
+Cloudflare — NVIDIA Nemotron 3 для агентных задач	Cloudflare — NVIDIA Nemotron 3 for agentic tasks
+Cloudflare — Mistral Small 3.1 (текст + изображения)	Cloudflare — Mistral Small 3.1 (text + images)
+Cloudflare — компактная Llama 3.2	Cloudflare — compact Llama 3.2
+Cloudflare — самая лёгкая Llama 3.2	Cloudflare — the lightest Llama 3.2
+Cloudflare — IBM Granite, вызов функций	Cloudflare — IBM Granite, function calling
+Cloudflare — Gemma для языков Юго-Восточной Азии	Cloudflare — Gemma for Southeast Asian languages
+Cloudflare — компактная диалоговая модель (alpha)	Cloudflare — compact conversational model (alpha)
+Не чат: модель решений Cloudflare (System One API)	Not a chat model: Cloudflare decision model (System One API)
+Не чат: быстрая модель решений Cloudflare	Not a chat model: fast Cloudflare decision model
+Не чат: модель решений (текст, изображения, аудио, видео)	Not a chat model: decision model (text, images, audio, video)
+Не чат: извлечение типизированных значений из текста/картинок	Not a chat model: extracting typed values from text/images
+Мультимодальная: текст, изображения, документы и видео	Multimodal: text, images, documents and video
+Флагманская reasoning-модель NVIDIA (MoE 55B активных)	NVIDIA's flagship reasoning model (MoE, 55B active)
+Агентные задачи и длинный контекст	Agentic tasks and long context
+Очень быстрая MoE-модель (3B активных)	Very fast MoE model (3B active)
+Быстрая мультимодальная модель MiniMax, контекст 1M	Fast multimodal MiniMax model, 1M context
+Мультимодальная reasoning-модель (изображения, видео, аудио)	Multimodal reasoning model (images, video, audio)
+сервер не просил	the server didn't ask
+отправлено на сервер: HTTP {} ({} шт.)	sent to the server: HTTP {1} ({2} pcs.)
+не отправлено: {}	not sent: {1}
+{} КБ	{1} KB
+%.1f МБ	%.1f MB
+Этот аккаунт был удалён. Данные на этом устройстве будут стёрты.	This account was deleted. The data on this device will be erased.
+Сессия завершена	Session ended
+Владелец аккаунта завершил все сессии (или сменил доступ). Данные аккаунта на этом устройстве будут стёрты.	The account owner ended all sessions (or changed access). The account data on this device will be erased.
+Владелец аккаунта отключил это устройство. Данные аккаунта на нём будут стёрты.	The account owner disconnected this device. The account data on it will be erased.
+Лёгкие изображения	Light images
+Вложенные картинки, кадры ГИФ и скриншоты Агента уходят модели меньше (до 640 px, JPEG 60% вместо 1024 px и 80%) — меньше токенов на запросах с картинками, но мелкий текст читается хуже.	Attached pictures, GIF frames and Agent screenshots are sent to the model smaller (up to 640 px, JPEG 60% instead of 1024 px and 80%) — fewer tokens on requests with images, but small text is harder to read.
+Один раунд веб-поиска	One web search round
+Если модель сама просит поиск по сайтам — делать не 3 раунда, а один: меньше повторных запросов со всей историей и выдачей.	If the model asks for a site search by itself, do one round instead of 3: fewer repeated requests carrying the whole history and results.
+Краткие ответы	Short answers
+Добавлять в системный промпт просьбу отвечать без вступлений и повторов вопроса. Ответы короче — меньше токенов на выходе; подробности модель даёт, только если попросить.	Adds a request to the system prompt to answer without introductions or repeating the question. Shorter answers mean fewer output tokens; the model gives details only if you ask.
+Ограничить рассуждение	Limit reasoning
+Просить модели «думать» поменьше (reasoning_effort = low) в чате и у Агента там, где API это поддерживает: Gemini 2.5/3, gpt-oss в Groq, OpenRouter. Скрытое рассуждение тоже тратит токены.	Asks models to “think” less (reasoning_effort = low) in the chat and in the Agent where the API supports it: Gemini 2.5/3, gpt-oss on Groq, OpenRouter. Hidden reasoning also spends tokens.
+Короткий прогон Агента	Short Agent run
+Агент делает не больше {} шагов вместо {}; каждый шаг — отдельный запрос к модели. Дальше можно написать «продолжай».	The Agent takes at most {1} steps instead of {2}; each step is a separate request to the model. You can then write “continue”.
+Короткое наблюдение Агента	Short Agent observation
+На каждом шаге Агент получает меньше текста страницы (1200 символов вместо 3000) и не больше 40 элементов вместо 70.	At each step the Agent gets less page text (1200 characters instead of 3000) and at most 40 elements instead of 70.
+Агент без скриншотов	Agent without screenshots
+Не прикладывать к шагам Агента скриншоты, даже если модель их видит: только текст страницы и список элементов. Самая сильная экономия, но Агент хуже ориентируется на сложных страницах. В «Экономный режим» не входит.	Don't attach screenshots to Agent steps even if the model can see them: only the page text and the list of elements. The biggest saving, but the Agent finds its way worse on complex pages. Not part of “Economy mode”.
+Сжимать старый код в истории	Compress old code in history
+Длинные блоки кода из старых ответов (кроме последних сообщений) заменяются короткой пометкой при отправке модели. В чате код остаётся; модель не увидит старый листинг.	Long code blocks from old replies (except the latest messages) are replaced with a short note when sent to the model. The code stays in the chat; the model won't see the old listing.
+Реже обновлять текст при печати	Update text less often while typing
+Растущий ответ при потоковой выдаче перерисовывается не чаще двух раз в секунду. Меньше нагрузка на процессор и батарею, текст появляется чуть более рывками.	A growing streamed reply is redrawn no more than twice a second. Less load on the processor and battery; the text appears a little more jerkily.
+Реже опрашивать сервер моделей	Poll the model server less often
+Пока приложение открыто, список моделей с сервера проверяется в 4 раза реже (обычно раз в 15–20 секунд). Меньше сетевой активности и батареи, но правки на сервере появляются с задержкой.	While the app is open, the model list is checked on the server 4 times less often (usually every 15–20 seconds). Less network activity and battery use, but changes on the server show up with a delay.
+Пульсация ожидания	Waiting pulse
+Бесконечно прыгающие точки на заставке и мигание индикаторов ожидания в Арене. Выключено — индикаторы стоят на месте.	Endlessly bouncing dots on the splash screen and blinking waiting indicators in the Arena. Off — the indicators stay still.
+сообщений	messages
+сообщение	message
+сообщения	messages
+Память чата	Chat memory
+Сколько последних сообщений уходит модели вместе с новым. Больше — лучше помнит разговор, но дороже каждый запрос. «Короткий контекст» ниже всё равно ограничивает это число.	How many of the latest messages are sent to the model with the new one. More — the model remembers the conversation better, but each request costs more. “Short context” below still limits this number.
+В текущем чате пока нет сообщений	There are no messages in the current chat yet
+≈ {} токенов истории в следующем запросе (текущий чат)	≈ {1} tokens of history in the next request (current chat)
+Весь	All
+Помнить начало чата	Remember the start of the chat
+Когда старые сообщения уже не влезают в память, первое сообщение пользователя (до 600 символов) всё равно передаётся модели через системный промпт — она не теряет исходную задачу в длинном диалоге.	When old messages no longer fit in memory, the user's first message (up to 600 characters) is still passed to the model through the system prompt — so it doesn't lose the original task in a long conversation.
+Порог сокращения	Shortening threshold
+Старое сообщение длиннее этого порога отправляется модели без середины: остаются начало и конец.	An old message longer than this threshold is sent to the model without its middle: the beginning and end remain.
+Сокращать длинные старые сообщения	Shorten long old messages
+Из старых длинных сообщений убирается середина перед отправкой модели. В самом чате текст остаётся целым.	The middle of old long messages is removed before sending to the model. The text stays intact in the chat itself.
+Свежие сообщения без сжатия	Recent messages without compression
+Сколько последних сообщений всегда уходят целыми: к ним не применяются сокращение и сжатие кода.	How many of the latest messages are always sent whole: shortening and code compression don't apply to them.
+Не удалось прочитать документ: {}	Couldn't read the document: {1}
+%.1f КБ	%.1f KB
+%.2f МБ	%.2f MB
+Страница слишком тяжёлая и была остановлена	The page was too heavy and was stopped
+Нет кода для предпросмотра	No code to preview
+Язык интерфейса приложения. Английский — язык по умолчанию. Ответы нейросети остаются на том языке, на котором вы с ней общаетесь.	The app's interface language. English is the default. The AI's replies stay in the language you talk to it in.
+По умолчанию	Default
+Португальский язык	Portuguese
+Казахский язык	Kazakh
+Китайский язык	Chinese
+Русский язык	Russian
+Модель плагина {} ({})	Plugin model {1} ({2})
+Плагин «{}» (провайдер «{}») получит историю этого чата, системный промпт и введённые для него адрес API и ключ — и сам решит, куда их отправить. Продолжай, только если доверяете этому плагину.	The plugin “{1}” (provider “{2}”) will receive this chat's history, the system prompt and the API address and key entered for it — and will decide for itself where to send them. Continue only if you trust this plugin.
+Локальный движок (llama.cpp) не собран в этой сборке приложения. См. app/src/main/cpp/CMakeLists.txt — нужно добавить llama.cpp как git-сабмодуль и пересобрать приложение в Android Studio.	The local engine (llama.cpp) is not built into this version of the app. See app/src/main/cpp/CMakeLists.txt — add llama.cpp as a git submodule and rebuild the app in Android Studio.
+Архив ZIP: {} ({})\nСодержимое:\n	ZIP archive: {1} ({2})\nContents:\n
+Архив повреждён или не содержит читаемых записей	The archive is corrupted or has no readable entries
+Архив RAR: {} ({})\nСодержимое:\n	RAR archive: {1} ({2})\nContents:\n
+PDF прикреплён: {}	PDF attached: {1}
+DOCX прикреплён: {}	DOCX attached: {1}
+ГИФ добавлен	GIF added
+Обрабатываю видео…	Processing the video…
+не удалось определить длительность	couldn't determine the duration
+кадры не извлечены	frames weren't extracted
+Видео добавлено	Video added
+Не удалось загрузить видео: {}	Couldn't load the video: {1}
+видео	video
+мультимодальная	multimodal
+не проверена	unverified
+ПЛАТНЫЕ МОДЕЛИ	PAID MODELS
+НЕСТАБИЛЬНЫЕ	UNSTABLE
+ЭКСПЕРИМЕНТАЛЬНЫЕ	EXPERIMENTAL
+Найди в интернете: 	Search the web: 
+Картинка	Image
+Нарисуй изображение: 	Draw an image: 
+Напиши код: 	Write code: 
+Напиши текст: 	Write text: 
+Попробуйте	Try
+В начало чата	To the start of the chat
+В конец чата	To the end of the chat
+SVG · Предпросмотр	SVG · Preview
+Копировать SVG-код	Copy SVG code
+{}\n\nОтвет получился длинным — сохранил его целиком в файл, чтобы не растягивать чат.\n\n```nanofile:{}\n{}\n```	{1}\n\nThe reply turned out long — I saved it whole to a file so as not to stretch the chat.\n\n```nanofile:{2}\n{3}\n```
+Техническая информация: {}	Technical info: {1}
+Ошибка E{} · {}	Error E{1} · {2}
+\n\n❔ Как решить проблему\n1. Проверьте API-ключ провайдера.\nДобавить или обновить ключ можно в Настройки → Параметры для разработчиков → API-Ключи. Для пользовательских OpenAI-совместимых API настройте провайдера в Параметры для разработчиков → Модели.\n\n2. Если ключ уже задан, проверьте:\n• действителен ли API-ключ;\n• правильно ли он указан;\n• не закончился ли доступ или баланс у провайдера;\n• не превышен ли лимит запросов.\nЕсли проблема сохраняется, попробуйте другую модель или провайдера.\n\n[[BULB]] Совет: собственный ключ отправляет запрос напрямую выбранному провайдеру и использует его лимиты. а также использовать собственные лимиты провайдера.	\n\n❔ How to fix it\n1. Check the provider's API key.\nYou can add or update a key in Settings → Developer options → API Keys. For custom OpenAI-compatible APIs, set up the provider in Developer options → Models.\n\n2. If the key is already set, check:\n• that the API key is valid;\n• that it was entered correctly;\n• that your access or balance with the provider hasn't run out;\n• that the request limit hasn't been exceeded.\nIf the problem persists, try another model or provider.\n\n[[BULB]] Tip: your own key sends the request directly to the chosen provider and uses its limits.
+Не удалось проанализировать видео	Couldn't analyze the video
+DNGRS Не удалось сгенерировать изображение.\n{}	DNGRS Couldn't generate the image.\n{1}
+Решимость: отвечает	Resolve: answering
+Ответ оборван лимитом длины ({})	The reply was cut off by the length limit ({1})
+Изображение {}: {}	Image {1}: {2}
+Видео {}: {}	Video {1}: {2}
+Видео: {}	Video: {1}
+Назначьте модели, которым приложение доверяет в каждой задаче (текст, код, генерация и видимость изображений). Первая в списке — самая авторитетная. Если для задачи что-то назначено, она используется вместо модели из панели чата.	Assign the models the app trusts for each task (text, code, generation and image vision). The first in the list is the most authoritative. If something is assigned for a task, it is used instead of the model from the chat panel.
+Код	Code
+Если самая авторитетная модель сломалась (ошибка, перегрузка, таймаут), запрос уйдёт следующей по списку. Выключено — всегда используется только первая.	If the most authoritative model fails (error, overload, timeout), the request goes to the next one in the list. Off — only the first one is always used.
+Для этой задачи модели не назначены — используется модель из панели чата.	No models are assigned for this task — the model from the chat panel is used.
+⚠ нет ключа — будет пропущена	⚠ no key — will be skipped
+Выберите модель для этой задачи	Choose a model for this task
+Режимы встроенных моделей	Built-in model modes
+Включите Vision у встроенной модели, если знаете, что она понимает картинки — она появится в списке выше и сможет разбирать изображения. Модели с Gemini/VL/Omni определяются автоматически.	Turn on Vision for a built-in model if you know it understands images — it will appear in the list above and be able to analyze images. Models with Gemini/VL/Omni are detected automatically.
+Vision определён автоматически	Vision detected automatically
+ID модели (например meta-llama/llama-3.3-70b-instruct:free)	Model ID (for example meta-llama/llama-3.3-70b-instruct:free)
+ID модели (например nvidia/llama-3.1-nemotron-70b-instruct)	Model ID (for example nvidia/llama-3.1-nemotron-70b-instruct)
+ID модели (например gemini-2.5-flash)	Model ID (for example gemini-2.5-flash)
+ID модели (например llama-3.3-70b-versatile)	Model ID (for example llama-3.3-70b-versatile)
+ID модели (например @cf/meta/llama-3.1-8b-instruct)	Model ID (for example @cf/meta/llama-3.1-8b-instruct)
+ID модели у провайдера	Model ID at the provider
+Сервер: {}\nСертификат: {}\nДействует до: {}\n\nSHA-256:\n{}\n\nСверьте отпечаток с тем, что показывает ваш сервер. Если не уверены — нажмите «Отмена».	Server: {1}\nCertificate: {2}\nValid until: {3}\n\nSHA-256:\n{4}\n\nCompare the fingerprint with the one your server shows. If you're not sure, tap “Cancel”.
+Встроенный провайдер: 	Built-in provider: 
+Своя модель — {}	Custom model — {1}
+Плагин	Plugin
+ · ⚠ нет ключа	 · ⚠ no key
+В DOCX отсутствует word/document.xml	The DOCX has no word/document.xml
+Адрес API не задан для провайдера «{}». Укажите его в Настройки → Плагины → {}.	No API address is set for the provider “{1}”. Set it in Settings → Plugins → {2}.
+Нет ключа API для провайдера «{}». Введите его в Настройки → Плагины → {}.	No API key for the provider “{1}”. Enter it in Settings → Plugins → {2}.
+Плагин «{}» обратился к локальному или внутреннему адресу — такие адреса заблокированы. Нужен публичный адрес API.	The plugin “{1}” tried to reach a local or internal address — such addresses are blocked. A public API address is required.
+У плагина «{}» нет разрешения на сетевые запросы.	The plugin “{1}” has no permission for network requests.
+Плагин «{}» не смог открыть адрес API ({}). Проверьте адрес в настройках плагина.	The plugin “{1}” couldn't open the API address ({2}). Check the address in the plugin settings.
+Плагин «{}» вернул ошибку: {}	The plugin “{1}” returned an error: {2}
+Плагин «{}» был остановлен или перезагружен во время генерации. Повторите запрос.	The plugin “{1}” was stopped or reloaded during generation. Repeat the request.
+Плагин «{}» не запустился. Проверьте, что он включён, и повторите запрос.	The plugin “{1}” didn't start. Check that it is enabled and repeat the request.
+Плагин, которому принадлежит модель «{}», выключен или удалён. Выберите другую модель.	The plugin that owns the model “{1}” is off or removed. Choose another model.
+Адрес API для провайдера «{}» некорректен: нужен адрес вида https://… Исправь его в Настройки → Плагины → {}.	The API address for the provider “{1}” is invalid: an address like https://… is required. Fix it in Settings → Plugins → {2}.
+Сетевые запросы к любым публичным серверам через nano.net	Network requests to any public servers via nano.net
+Скачивание файлов с любых публичных серверов через nano.download	Downloading files from any public servers via nano.download
+Встраивать кнопки, вкладки и блоки в интерфейс приложения	Embed buttons, tabs and blocks in the app's interface
+У плагина «{}» нет разрешения на AI-провайдеры.	The plugin “{1}” has no permission for AI providers.
+Плагин «{}» вернул пустой ответ.	The plugin “{1}” returned an empty reply.
+Похоже на обфусцированный/упакованный код (доля escape-последовательностей {}%)	Looks like obfuscated/packed code (share of escape sequences {1}%)
+все публичные серверы	all public servers
+Установить .plugin можно через кнопку «+» вверху — перед установкой предложим проверить файл на VirusTotal.	You can install a .plugin with the “+” button at the top — before installing we'll offer to check the file on VirusTotal.
+Не удалось импортировать .plugin	Couldn't import the .plugin
+В «{}» нашлись подозрительные признаки. Это не доказывает, что плагин вредоносный — но лучше проверить файл.	Suspicious signs were found in “{1}”. This doesn't prove the plugin is malicious, but it's better to check the file.
+Плагин «{}» перед установкой можно проверить на вирусы.	The plugin “{1}” can be checked for viruses before installing.
+\n\nПо кнопке «Проверить» откроется официальный сайт VirusTotal — загрузите туда выбранный .plugin-файл. Потом вернитесь сюда и нажмите «Установить».\n\nВажно: файл, загруженный на VirusTotal, может стать доступен аналитическим партнёрам и исследователям безопасности. Не отправляй туда плагины с секретами или приватным кодом.	\n\nThe “Check” button opens the official VirusTotal site — upload the selected .plugin file there. Then come back here and tap “Install”.\n\nImportant: a file uploaded to VirusTotal may become available to analysis partners and security researchers. Don't upload plugins with secrets or private code.
+Проверить плагин?	Check the plugin?
+Не удалось открыть VirusTotal	Couldn't open VirusTotal
+Установить	Install
+Ошибка плагина	Plugin error
+Не удалось установить плагин	Couldn't install the plugin
+→ Провайдер «{}»: адрес API и ключ · моделей: {}	→ Provider “{1}”: API address and key · models: {2}
+Провайдер «{}» · моделей: {} · настройки не нужны	Provider “{1}” · models: {2} · no setup needed
+Адрес API (по умолчанию {})	API address (default {1})
+Адрес API, например https://api.example.com/v1	API address, for example https://api.example.com/v1
+ — необязательно	 — optional
+API-ключ	API key
+API-ключ (если нужен серверу)	API key (if the server needs one)
+Адрес и ключ получит только код плагина «{}» — при генерации ответа моделью этого провайдера. Укажите ключ, только если доверяете плагину. Локальные и внутренние адреса (localhost, 192.168.*) плагинам недоступны.	Only the code of the plugin “{1}” will receive the address and key — when this provider's model generates a reply. Enter a key only if you trust the plugin. Local and internal addresses (localhost, 192.168.*) are not available to plugins.
+Если модель №1 упрётся в лимит длины или вернёт ошибку, уже написанная часть ответа передаётся модели №2, и она продолжает с того же места. Если и она споткнётся — модель №3, и так по кругу: после последней список начинается с первой. Модель №1 — всегда та, что выбрана в чате.	If model #1 hits the length limit or returns an error, the part of the answer already written is handed to model #2, which continues from the same place. If it stumbles too, model #3 takes over, and so on in a circle: after the last one the list starts again from the first. Model #1 is always the one selected in the chat.
+Сервер вернул пустой ответ ({}).	The server returned an empty reply ({1}).
+отказ модели: 	model refusal: 
+запрос заблокирован фильтром ({})	the request was blocked by a filter ({1})
+лимит токенов кончился на скрытом рассуждении модели	the token limit ran out on the model's hidden reasoning
+ответ обрезан по лимиту токенов	the reply was cut off by the token limit
+ответ заблокирован фильтром безопасности модели ({})	the reply was blocked by the model's safety filter ({1})
+модель вернула только рассуждение без ответа	the model returned only reasoning with no answer
+в ответе сервера нет вариантов ответа	the server reply has no answer options
+причина завершения: {}	finish reason: {1}
+Приложение упало в прошлый раз	The app crashed last time
+Сегодня	Today
+7 дней	7 days
+30 дней	30 days
+Всё время	All time
+потрачено токенов (оценка)	tokens spent (estimate)
+в запросах 	in requests 
+в ответах 	in replies 
+сообщений отправлено	messages sent
+ответов получено	replies received
+ошибок	errors
+изображений создано	images created
+ с	 s
+средний ответ	average reply
+запросов с поиском	requests with search
+запросов про код	code requests
+замен сломавшейся модели	failed-model replacements
+ошибок изображений	image errors
+Токены по дням	Tokens per day
+Столбцы	Bars
+Линия	Line
+Область	Area
+ зпр	 req
+с	s
+Статистика по моделям — за всё время.	Statistics by model — for all time.
+Сбросить статистику	Reset statistics
+Сбросить статистику?	Reset statistics?
+Все счётчики будут обнулены. Сами чаты не затрагиваются.	All counters will be zeroed. The chats themselves are not affected.
+Токены — приблизительная оценка (≈ 1 токен на 4 символа). Данные хранятся только на устройстве и содержат одни числа.	Tokens are a rough estimate (≈ 1 token per 4 characters). The data is stored only on your device and contains numbers only.
+ls: {}: нет такого файла или папки	ls: {1}: no such file or directory
+б	B
+Проверяю сервер моделей…	Checking the model server…
+Команды файловой системы (в песочнице Yourbit AI):\n  ls [-la] [путь]      cd <путь>          pwd\n  cat <файл>           echo <текст> [> файл | >> файл]\n  mkdir <папка>        touch <файл>       rm [-r] <путь>\n  mv <откуда> <куда>   cp <откуда> <куда> clear\n  date  whoami  uname  history\n\nСлужебные команды:\n  /help                          — эта справка\n  /addapikeys                    — статус всех API-ключей\n  /addapikeys <провайдер> <ключ>  — сохранить ключ (openrouter, hf, groq,\n                                     gemini, cloudflare, cloudflare_account,\n                                     llm7, pollinations, mistral, cohere, openai,\n                                     qwen, deepseek, anthropic, nvidia);\n                                     сохраняет ваш ключ для прямых запросов\n  /addapikeys <провайдер> clear   — удалить ключ провайдера\n  /addapikeys p=KEY p2=KEY        — несколько ключей одной командой\n  /addmodels <url> <ключ>         — получить список моделей провайдера\n  /addmodels add <id|номер>       — добавить модель из последнего списка\n  /syncmodels                     — обновить встроенные модели с сервера и показать диагностику\n  /logs [число]                   — показать последние логи; /logs clear — очистить\n  /sessions                       — список сеансов терминала (или кнопка «Сеансы»)\n  /sessions new [имя]             — новый сеанс\n  /sessions load <id>             — переключиться на сеанс\n  /sessions delete <id>           — удалить сеанс\n  /devmenu                        — открыть меню продвинутых настроек\n  /ai <запрос>                    — ИИ предложит команду; выполнится только\n                                     после вашего подтверждения (y/n)\n  /clear                          — очистить экран	File system commands (in the Yourbit AI sandbox):\n  ls [-la] [path]      cd <path>          pwd\n  cat <file>           echo <text> [> file | >> file]\n  mkdir <folder>       touch <file>       rm [-r] <path>\n  mv <from> <to>       cp <from> <to>     clear\n  date  whoami  uname  history\n\nService commands:\n  /help                          — this help\n  /addapikeys                    — status of all API keys\n  /addapikeys <provider> <key>   — save a key (openrouter, hf, groq,\n                                     gemini, cloudflare, cloudflare_account,\n                                     llm7, pollinations, mistral, cohere, openai,\n                                     qwen, deepseek, anthropic, nvidia);\n                                     saves your key for direct requests\n  /addapikeys <provider> clear   — delete the provider's key\n  /addapikeys p=KEY p2=KEY       — several keys in one command\n  /addmodels <url> <key>         — get the provider's model list\n  /addmodels add <id|number>     — add a model from the last list\n  /syncmodels                    — refresh built-in models from the server and show diagnostics\n  /logs [number]                 — show the latest logs; /logs clear — clear them\n  /sessions                      — list of terminal sessions (or the “Sessions” button)\n  /sessions new [name]           — new session\n  /sessions load <id>            — switch to a session\n  /sessions delete <id>          — delete a session\n  /devmenu                       — open the advanced settings menu\n  /ai <request>                  — the AI suggests a command; it runs only\n                                     after your confirmation (y/n)\n  /clear                         — clear the screen
+PDF редактируется как текст. При сохранении создаётся копия с новой вёрсткой; исходные изображения и оформление не переносятся.	The PDF is edited as text. Saving creates a copy with a new layout; the original images and styling are not carried over.
+DOCX редактируется как текст. При сохранении создаётся копия; исходное форматирование и встроенные изображения не переносятся.	The DOCX is edited as text. Saving creates a copy; the original formatting and embedded images are not carried over.
+Сохранено как {}	Saved as {1}
+{}: {}	{1}: {2}
+система вернула пустой поток для файла (openInputStream == null) — похоже, доступ к файлу потерян; удалите эту модель в «Своих моделях» и добавьте заново	the system returned an empty stream for the file (openInputStream == null) — file access seems lost; delete this model in “My models” and add it again
+копирование файла прервалось на {} байт ({}: {}) — источник (например, облачное хранилище) мог оборвать поток. Попробуйте ещё раз, или сначала сохраните файл в обычную локальную папку на телефоне и выберите его оттуда	the file copy stopped at {1} bytes ({2}: {3}) — the source (for example, cloud storage) may have cut the stream. Try again, or first save the file to a regular local folder on the phone and pick it from there
+файл скопирован не полностью: получено {} из {} байт. Обычно это значит, что источник (облачное хранилище/провайдер файла) отдал файл не целиком — сам GGUF-файл при этом может быть исправен. Попробуйте снова, или сначала сохраните его как обычный локальный файл (например, в папку «Загрузки») и выберите его оттуда	the file was not copied completely: got {1} of {2} bytes. This usually means the source (cloud storage / file provider) didn't deliver the whole file — the GGUF file itself may be fine. Try again, or first save it as a regular local file (for example, in the “Downloads” folder) and pick it from there
+скопированный файл не начинается с сигнатуры GGUF — это не GGUF-файл (или он повреждён/это не тот файл)	the copied file doesn't start with the GGUF signature — it is not a GGUF file (or it is corrupted / the wrong file)
+нет доступа к файлу (SecurityException: {}). Обычно значит, что доступ, выданный при добавлении модели, не сохранился между запусками приложения — удалите эту модель в «Своих моделях» и добавьте заново	no access to the file (SecurityException: {1}). This usually means the access granted when the model was added did not persist between app launches — delete this model in “My models” and add it again
+не удалось скопировать файл ({}: {})	couldn't copy the file ({1}: {2})
+нативный движок llama.cpp не собран в этой сборке приложения (LlamaNative.isAvailable == false) — см. app/src/main/cpp/CMakeLists.txt	the native llama.cpp engine is not built into this version of the app (LlamaNative.isAvailable == false) — see app/src/main/cpp/CMakeLists.txt
+неизвестная ошибка доступа к файлу	unknown file access error
+сам llama.cpp отклонил файл при загрузке (nativeLoadModel вернул 0) — возможно, файл повреждён, скачан не до конца, не в формате GGUF, или для контекста n_ctx={} не хватает памяти. Попробуйте уменьшить размер контекста в настройках модели или взять модель меньшего размера/квантования	llama.cpp itself rejected the file on load (nativeLoadModel returned 0) — the file may be corrupted, incompletely downloaded, not in GGUF format, or there isn't enough memory for the n_ctx={1} context. Try reducing the context size in the model settings or use a smaller model/quantization
+Мой профиль — имя и аватар	My profile — name and avatar
+Профиль YourAI — имя и аватар	YourAI profile — name and avatar
+ИИ сам работает во встроенном браузере: открывает страницы, нажимает, печатает, присылает скриншоты	The AI works in a built-in browser by itself: opens pages, taps, types, sends screenshots
+Запуск	Launch
+Продолжить без сети	Continue offline
+Ваш ИИ — такой, каким вы его хотите видеть.	Your AI — the way you want to see it.
+Разговоры	Conversations
+Общайтесь с десятками моделей	Chat with dozens of models
+ИИ сам ищет свежую информацию в сети	The AI looks up fresh information online by itself
+Настройка под себя	Make it your own
+Темы, режимы, плагины, свои модели	Themes, modes, plugins, your own models
+# <<< v3.8 additions
+Упрощённый интерфейс	Simplified interface
+Без подсказок на пустом чате, времени, лайков и «Поделиться» под сообщениями, размытия и кнопок прокрутки	No empty-chat shortcuts, timestamps, likes or Share under messages, blur or scroll buttons
+Кнопки быстрой прокрутки	Quick scroll buttons
+Для генерации нажмите кнопку ✨ рядом с вводом	Tap the ✨ button next to the input to generate
+Сообщение страницы	Page message
+Облако ответило ошибкой (код {})	The cloud responded with an error (code {1})
+Не удалось удалить аккаунт в облаке	Could not delete the account in the cloud
+Стереть данные аккаунта только на этом устройстве? В облаке аккаунт останется, пока удаление не удастся.	Erase the account data on this device only? The account will stay in the cloud until deletion succeeds.
+Стереть на устройстве	Erase on this device
+Похоже на обфусцированный/упакованный код (доля escape-последовательностей {}%)	Looks like obfuscated/packed code (share of escape sequences {1}%)
+Архив пуст или повреждён	Archive is empty or corrupted
