@@ -1,0 +1,52 @@
+name: Unpack ZIP
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: unpack-zip
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  unpack:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Unpack ZIP into repository
+        run: |
+          ZIP_FILE=$(find . -maxdepth 1 -name "*.zip" | head -n 1)
+          if [ -z "$ZIP_FILE" ]; then
+            echo "::error::ZIP не найден в корне репозитория, возможно он уже распакован"
+            exit 1
+          fi
+          unzip -oq "$ZIP_FILE" -d "$RUNNER_TEMP/unpacked"
+          GRADLEW=$(find "$RUNNER_TEMP/unpacked" -maxdepth 3 -name gradlew | head -n 1)
+          if [ -z "$GRADLEW" ]; then
+            echo "::error::В архиве не найден gradlew"
+            exit 1
+          fi
+          cp -a "$(dirname "$GRADLEW")"/. .
+          rm -f "$ZIP_FILE"
+          find . -path ./.git -prune -o -type f \( -name "*.keystore" -o -name "*.jks" -o -name "*.apk" \) -print -delete
+          find . -path ./.git -prune -o -type d -name "__pycache__" -prune -exec rm -rf {} +
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Unpack sources from ZIP"
+          git push
+
+      - name: Start APK build
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run build-apk.yml --ref "${{ github.ref_n
+        ame }}"
