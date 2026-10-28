@@ -23,13 +23,13 @@ jobs:
         run: |
           ZIP_FILE=$(find . -maxdepth 1 -name "*.zip" | head -n 1)
           if [ -z "$ZIP_FILE" ]; then
-            echo "::error::ZIP не найден в корне репозитория, возможно он уже распакован"
+            echo "::error::ZIP not found in the repository root, it may already be unpacked"
             exit 1
           fi
           unzip -oq "$ZIP_FILE" -d "$RUNNER_TEMP/unpacked"
           GRADLEW=$(find "$RUNNER_TEMP/unpacked" -maxdepth 3 -name gradlew | head -n 1)
           if [ -z "$GRADLEW" ]; then
-            echo "::error::В архиве не найден gradlew"
+            echo "::error::gradlew not found in the archive"
             exit 1
           fi
           cp -a "$(dirname "$GRADLEW")"/. .
